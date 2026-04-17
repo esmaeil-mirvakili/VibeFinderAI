@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vibefinder-ai"
+version = "0.1.0"
+description = "Agentic music recommendation system skeleton for the Spotify lyrics dataset."
+requires-python = ">=3.11"
+dependencies = [
+    "kagglehub",
+    "streamlit",
+    "pandas",
+    "numpy",
+    "loguru",
+    "pydantic",
+    "langgraph",
+    "faiss-cpu",
+    "sentence-transformers",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

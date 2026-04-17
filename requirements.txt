@@ -1,0 +1,10 @@
+kagglehub
+streamlit
+pandas
+numpy
+loguru
+pydantic
+pytest
+langgraph
+faiss-cpu
+sentence-transformers
