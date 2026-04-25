@@ -1,0 +1,22 @@
+flowchart LR
+    A["User enters a music request"] --> B["Preference Extraction"]
+    B --> C["Structured Preferences"]
+    C --> D["Retrieval Strategy Planning"]
+    D --> E["Choose Retrieval Modes"]
+    E --> F1["Lyric Retrieval"] & F2["Metadata Retrieval"] & F3["Feature Filtering"]
+    F1 --> G["Candidate Songs"]
+    F2 --> G
+    F3 --> G
+    G --> H["Candidate Scoring and Initial Ranking"]
+    H --> I{"Multi-step reasoning enabled?"}
+    I -- Yes --> J["Verification"]
+    J --> K["Critique"] & N["Final Ranking"]
+    K --> L{"Revision needed?"}
+    L -- Yes --> M["Revision Planning"]
+    M --> D
+    L -- No --> N
+    I -- No --> N
+    N --> O["Explanation Generation"]
+    O --> P["Reliability Assessment"]
+    P --> Q["Top Recommendations"]
+    Q --> R["Streamlit UI"]

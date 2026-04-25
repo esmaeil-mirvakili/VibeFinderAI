@@ -1,0 +1,10 @@
+flowchart TB
+    Q["Benchmark Query Set"] --> V1["Full System"] & V3["No Critic and Revision"] & V4["No Lyric RAG"]
+    J["Blinded Judge Tasks"] --> H["Human Evaluation"] & L["LLM-as-Judge Evaluation"]
+    H --> C["Comparison Report"]
+    L --> C
+    A["Automatic Metrics Report"] --> C
+    C --> VIZ["Visualizations and Analysis"]
+    V1 --> J & A
+    V3 --> J & A
+    V4 --> J & A

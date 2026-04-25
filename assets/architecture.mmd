@@ -1,0 +1,36 @@
+flowchart TB
+ subgraph AgenticSystem["Agentic Recommendation System"]
+        PEA["Preference Extraction Agent"]
+        RSA["Retrieval Strategy Agent"]
+        RET["Retrieval Layer"]
+        VA["Verifier Agent"]
+        CA["Critic Agent"]
+        RA["Revision Agent"]
+        FRA["Final Ranking Agent"]
+        EA["Explanation Agent"]
+        RL["Reliability Layer"]
+  end
+ subgraph RetrievalTools["Grounded Retrieval Tools"]
+        LR["Lyric RAG"]
+        MR["Metadata Retrieval"]
+        FR["Feature Filtering"]
+  end
+    U["User"] --> UI["Streamlit App"]
+    UI --> Q["English Music Query"] & U
+    Q --> PEA
+    PEA --> RSA
+    RSA --> RET
+    RET --> LR & MR & FR
+    DATA[("Spotify Songs Dataset")] --> LR & MR & FR
+    LR --> VA
+    MR --> VA
+    FR --> VA
+    VA --> CA & FRA
+    CA --> RA
+    RA -- Retry when needed --> RSA
+    CA -- No revision needed --> FRA
+    FRA --> EA
+    EA --> RL
+    RL --> O["Recommendations + Explanations + Confidence + Warnings"]
+    O --> UI
+    EVAL["Evaluation and Analysis"] -- Benchmarks and judged comparisons --> AgenticSystem
