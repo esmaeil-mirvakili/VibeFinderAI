@@ -1,0 +1,355 @@
+{
+  "metadata": {
+    "include_state": false,
+    "llm_model": "gemini-3.1-flash-lite-preview",
+    "llm_provider": "gemini",
+    "max_revision_count": 1,
+    "query": "Songs about being cheated on, but from the perspective of the person who did the cheating, in English",
+    "query_id": "eval_cheating_guilty_perspective",
+    "top_k": 10,
+    "variant": "full"
+  },
+  "result": {
+    "elapsed_seconds": 23.7428,
+    "error": null,
+    "group": "lyric_theme",
+    "metrics": {
+      "album_diversity": 1.0,
+      "artist_diversity": 1.0,
+      "automatic_constraint_score": 0.8511,
+      "evaluated_candidate_count": 10,
+      "expected_retrieval_mode_recall": 1.0,
+      "feature_exclusion_pass_rate": null,
+      "feature_fit_score": 0.4044,
+      "genre_match_rate": null,
+      "language_match_rate": 1.0,
+      "lyric_evidence_rate": 1.0,
+      "lyric_intent_expected": true,
+      "lyric_intent_retrieval_match": true,
+      "lyric_retrieval_used": true,
+      "metadata_text_match_rate": null,
+      "missing_dataset_count": 0,
+      "subgenre_diversity": 0.6,
+      "subgenre_match_rate": null,
+      "unexpected_retrieval_mode_count": 0,
+      "unique_album_count": 10,
+      "unique_artist_count": 10,
+      "unique_subgenre_count": 6
+    },
+    "query": "Songs about being cheated on, but from the perspective of the person who did the cheating, in English",
+    "query_id": "eval_cheating_guilty_perspective",
+    "state": null,
+    "success": true,
+    "summary": {
+      "candidate_count": 10,
+      "confidence_label": "low",
+      "confidence_score": 0.391005,
+      "failure_category": null,
+      "final_candidates": [
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.360398,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "classic rock",
+          "rank": 1,
+          "track_album_name": "Rumours (Super Deluxe)",
+          "track_artist": "Fleetwood Mac",
+          "track_id": "5e9TFTbltYBg2xThimr0rU",
+          "track_name": "The Chain - 2004 Remaster"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.358462,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "post-teen pop",
+          "rank": 2,
+          "track_album_name": "Alarm",
+          "track_artist": "Anne-Marie",
+          "track_id": "0OwX5aROoW1Iip8FV51Efg",
+          "track_name": "Alarm"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.357765,
+          "language": "en",
+          "playlist_genre": "r&b",
+          "playlist_subgenre": "neo soul",
+          "rank": 3,
+          "track_album_name": "I Never Loved a Man the Way I Love You",
+          "track_artist": "Aretha Franklin",
+          "track_id": "1hES47PrbU8GPTI5A9lsr0",
+          "track_name": "I Never Loved a Man (The Way I Love You)"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.357138,
+          "language": "en",
+          "playlist_genre": "r&b",
+          "playlist_subgenre": "neo soul",
+          "rank": 4,
+          "track_album_name": "No Cryin (feat. Future)",
+          "track_artist": "dvsn",
+          "track_id": "2Ay0Vr9icpICeKkUDbBExd",
+          "track_name": "No Cryin (feat. Future)"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.35634,
+          "language": "en",
+          "playlist_genre": "r&b",
+          "playlist_subgenre": "urban contemporary",
+          "rank": 5,
+          "track_album_name": "Diana",
+          "track_artist": "Diana Ross",
+          "track_id": "57Y3UccJEJqT8w8RWkUAz0",
+          "track_name": "Upside Down"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.356188,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "electropop",
+          "rank": 6,
+          "track_album_name": "True",
+          "track_artist": "Avicii",
+          "track_id": "5GayeBzzXIEl6fY0cP42Z1",
+          "track_name": "Addicted To You"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.35602,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "post-teen pop",
+          "rank": 7,
+          "track_album_name": "Rise And Fall, Rage And Grace",
+          "track_artist": "The Offspring",
+          "track_id": "6TfBA04WJ3X1d1wXhaCFVT",
+          "track_name": "You're Gonna Go Far, Kid"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.355124,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "classic rock",
+          "rank": 8,
+          "track_album_name": "Frontiers",
+          "track_artist": "Journey",
+          "track_id": "57ebBLITHpRgRKGrlbxMZS",
+          "track_name": "Faithfully"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.354602,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "electropop",
+          "rank": 9,
+          "track_album_name": "21",
+          "track_artist": "Adele",
+          "track_id": "1eq1wUnLVLg4pdEfx9kajC",
+          "track_name": "Rolling in the Deep"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.352801,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "permanent wave",
+          "rank": 10,
+          "track_album_name": "Don't Look Back Into The Sun",
+          "track_artist": "The Libertines",
+          "track_id": "38peLHRTxGZAd5TpEO3gB9",
+          "track_name": "Don't Look Back Into The Sun"
+        }
+      ],
+      "final_explanations": [
+        {
+          "explanation": "This track is a classic rock staple that explores complex relationship dynamics, though it focuses on the emotional fallout of a breakup.",
+          "rank": 1,
+          "track_id": "5e9TFTbltYBg2xThimr0rU",
+          "warnings": [
+            "Lyric perspective does not match the requested cheater's viewpoint."
+          ]
+        },
+        {
+          "explanation": "This pop song captures the tension of discovering infidelity, reflecting the intense emotional reaction of the betrayed partner.",
+          "rank": 2,
+          "track_id": "0OwX5aROoW1Iip8FV51Efg",
+          "warnings": [
+            "Lyric perspective does not match the requested cheater's viewpoint."
+          ]
+        },
+        {
+          "explanation": "A powerful soul track detailing the pain of being cheated on, highlighting the emotional betrayal experienced by the singer.",
+          "rank": 3,
+          "track_id": "1hES47PrbU8GPTI5A9lsr0",
+          "warnings": [
+            "Lyric perspective does not match the requested cheater's viewpoint."
+          ]
+        },
+        {
+          "explanation": "This neo-soul track addresses the aftermath of relationship issues, focusing on moving forward after betrayal.",
+          "rank": 4,
+          "track_id": "2Ay0Vr9icpICeKkUDbBExd",
+          "warnings": [
+            "Lyric perspective does not match the requested cheater's viewpoint."
+          ]
+        },
+        {
+          "explanation": "A classic R&B track that deals with the confusion and emotional upheaval caused by a partner's infidelity.",
+          "rank": 5,
+          "track_id": "57Y3UccJEJqT8w8RWkUAz0",
+          "warnings": [
+            "Lyric perspective does not match the requested cheater's viewpoint."
+          ]
+        },
+        {
+          "explanation": "This electropop song explores the intensity of being deeply attached to a partner, even amidst relationship turmoil.",
+          "rank": 6,
+          "track_id": "5GayeBzzXIEl6fY0cP42Z1",
+          "warnings": [
+            "Lyric perspective does not match the requested cheater's viewpoint."
+          ]
+        },
+        {
+          "explanation": "A high-energy pop-rock track that touches on themes of manipulation and betrayal within a relationship.",
+          "rank": 7,
+          "track_id": "6TfBA04WJ3X1d1wXhaCFVT",
+          "warnings": [
+            "Lyric perspective does not match the requested cheater's viewpoint."
+          ]
+        },
+        {
+          "explanation": "This classic rock ballad focuses on the challenges of maintaining loyalty and connection while being away from a partner.",
+          "rank": 8,
+          "track_id": "57ebBLITHpRgRKGrlbxMZS",
+          "warnings": [
+            "Lyric perspective does not match the requested cheater's viewpoint."
+          ]
+        },
+        {
+          "explanation": "A powerful pop anthem about the realization of betrayal and the decision to end a relationship.",
+          "rank": 9,
+          "track_id": "1eq1wUnLVLg4pdEfx9kajC",
+          "warnings": [
+            "Lyric perspective does not match the requested cheater's viewpoint."
+          ]
+        },
+        {
+          "explanation": "This rock track reflects on past relationship dynamics and the difficulty of moving on from previous experiences.",
+          "rank": 10,
+          "track_id": "38peLHRTxGZAd5TpEO3gB9",
+          "warnings": [
+            "Lyric perspective does not match the requested cheater's viewpoint."
+          ]
+        }
+      ],
+      "final_track_ids": [
+        "5e9TFTbltYBg2xThimr0rU",
+        "0OwX5aROoW1Iip8FV51Efg",
+        "1hES47PrbU8GPTI5A9lsr0",
+        "2Ay0Vr9icpICeKkUDbBExd",
+        "57Y3UccJEJqT8w8RWkUAz0",
+        "5GayeBzzXIEl6fY0cP42Z1",
+        "6TfBA04WJ3X1d1wXhaCFVT",
+        "57ebBLITHpRgRKGrlbxMZS",
+        "1eq1wUnLVLg4pdEfx9kajC",
+        "38peLHRTxGZAd5TpEO3gB9"
+      ],
+      "raw_candidate_track_ids": [
+        "5e9TFTbltYBg2xThimr0rU",
+        "0OwX5aROoW1Iip8FV51Efg",
+        "1hES47PrbU8GPTI5A9lsr0",
+        "2Ay0Vr9icpICeKkUDbBExd",
+        "57Y3UccJEJqT8w8RWkUAz0",
+        "5GayeBzzXIEl6fY0cP42Z1",
+        "6TfBA04WJ3X1d1wXhaCFVT",
+        "57ebBLITHpRgRKGrlbxMZS",
+        "1eq1wUnLVLg4pdEfx9kajC",
+        "38peLHRTxGZAd5TpEO3gB9"
+      ],
+      "recommendation_count": 10,
+      "retrieval_modes_used": [
+        "lyric_retrieval",
+        "metadata_retrieval"
+      ],
+      "revision_count": 0,
+      "revision_used": false,
+      "scored_count": 10,
+      "scored_track_ids": [
+        "5e9TFTbltYBg2xThimr0rU",
+        "0OwX5aROoW1Iip8FV51Efg",
+        "1hES47PrbU8GPTI5A9lsr0",
+        "2Ay0Vr9icpICeKkUDbBExd",
+        "57Y3UccJEJqT8w8RWkUAz0",
+        "5GayeBzzXIEl6fY0cP42Z1",
+        "6TfBA04WJ3X1d1wXhaCFVT",
+        "57ebBLITHpRgRKGrlbxMZS",
+        "1eq1wUnLVLg4pdEfx9kajC",
+        "38peLHRTxGZAd5TpEO3gB9"
+      ],
+      "tool_error_count": 0,
+      "tool_errors": [],
+      "trace_stages": [
+        "received_query",
+        "extract_preferences",
+        "plan_retrieval",
+        "retrieve_candidates",
+        "retrieve_candidates",
+        "rank_candidates",
+        "verify_candidates",
+        "critique_results",
+        "build_reliability_report",
+        "explain_recommendations",
+        "finished"
+      ],
+      "warning_count": 15,
+      "warnings": [
+        "Returned top 50 of 15405 lyric-retrieved candidates.",
+        "Returned top 50 of 15405 metadata-matched candidates.",
+        "Returned top 10 of 100 scored candidates.",
+        "Kept 10 candidates with soft verifier concerns; only hard constraint mismatches are rejected.",
+        "The current retrieval strategy is consistently returning songs about being cheated on rather than songs from the cheater's perspective.",
+        "The thematic nuance of the request is not being captured by the current search queries.",
+        "Top final score 0.36 is below the minimum acceptable score 0.45.",
+        "Average final score 0.36 is below the minimum acceptable score 0.45.",
+        "10 final candidates have weak final scores.",
+        "10 final candidates failed verifier checks.",
+        "Prior tool warning: Returned top 50 of 15405 lyric-retrieved candidates.",
+        "Prior tool warning: Returned top 50 of 15405 metadata-matched candidates.",
+        "Prior tool warning: Returned top 10 of 100 scored candidates.",
+        "Verifier warning: Lyric perspective does not match the requested cheater's viewpoint.",
+        "Lyric perspective does not match the requested cheater's viewpoint for all candidates."
+      ]
+    },
+    "variant": "full"
+  },
+  "schema": "vibefinder_evaluation_run_v1",
+  "status": "completed",
+  "written_at": "2026-04-24T22:28:21.338948+00:00"
+}

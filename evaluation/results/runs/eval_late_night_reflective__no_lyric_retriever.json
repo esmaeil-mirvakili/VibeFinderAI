@@ -1,0 +1,364 @@
+{
+  "metadata": {
+    "include_state": false,
+    "llm_model": "gemini-3.1-flash-lite-preview",
+    "llm_provider": "gemini",
+    "max_revision_count": 1,
+    "query": "Songs similar to a late-night reflective mood, calm but not sleepy, with meaningful lyrics",
+    "query_id": "eval_late_night_reflective",
+    "top_k": 10,
+    "variant": "no_lyric_retriever"
+  },
+  "result": {
+    "elapsed_seconds": 18.0936,
+    "error": null,
+    "group": "mixed",
+    "metrics": {
+      "album_diversity": 1.0,
+      "artist_diversity": 1.0,
+      "automatic_constraint_score": 0.3423,
+      "evaluated_candidate_count": 10,
+      "expected_retrieval_mode_recall": 0.5,
+      "feature_exclusion_pass_rate": null,
+      "feature_fit_score": 0.5269,
+      "genre_match_rate": null,
+      "language_match_rate": null,
+      "lyric_evidence_rate": 0.0,
+      "lyric_intent_expected": true,
+      "lyric_intent_retrieval_match": false,
+      "lyric_retrieval_used": false,
+      "metadata_text_match_rate": null,
+      "missing_dataset_count": 0,
+      "subgenre_diversity": 0.6,
+      "subgenre_match_rate": null,
+      "unexpected_retrieval_mode_count": 0,
+      "unique_album_count": 10,
+      "unique_artist_count": 10,
+      "unique_subgenre_count": 6
+    },
+    "query": "Songs similar to a late-night reflective mood, calm but not sleepy, with meaningful lyrics",
+    "query_id": "eval_late_night_reflective",
+    "state": null,
+    "success": true,
+    "summary": {
+      "candidate_count": 10,
+      "confidence_label": "medium",
+      "confidence_score": 0.456475,
+      "failure_category": null,
+      "final_candidates": [
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.3745,
+          "language": "en",
+          "playlist_genre": "r&b",
+          "playlist_subgenre": "urban contemporary",
+          "rank": 1,
+          "track_album_name": "lovely (with Khalid)",
+          "track_artist": "Billie Eilish",
+          "track_id": "0u2P5u6lvoDfwTYjAADbn4",
+          "track_name": "lovely (with Khalid)"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.371,
+          "language": "en",
+          "playlist_genre": "latin",
+          "playlist_subgenre": "latin hip hop",
+          "rank": 2,
+          "track_album_name": "Unorthodox Jukebox",
+          "track_artist": "Bruno Mars",
+          "track_id": "0nJW01T7XtvILxQgC5J7Wh",
+          "track_name": "When I Was Your Man"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.369,
+          "language": "es",
+          "playlist_genre": "latin",
+          "playlist_subgenre": "latin pop",
+          "rank": 3,
+          "track_album_name": "mix pa llorar en tu cuarto",
+          "track_artist": "Ed Maverick",
+          "track_id": "0akyEssGRVHstqCSWXusJL",
+          "track_name": "Fuentes de Ortiz"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.367,
+          "language": "en",
+          "playlist_genre": "r&b",
+          "playlist_subgenre": "urban contemporary",
+          "rank": 4,
+          "track_album_name": "Cheers To The Fall",
+          "track_artist": "Andra Day",
+          "track_id": "0tV8pOpiNsKqUys0ilUcXz",
+          "track_name": "Rise Up"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.364,
+          "language": "es",
+          "playlist_genre": "latin",
+          "playlist_subgenre": "latin pop",
+          "rank": 5,
+          "track_album_name": "Peligro",
+          "track_artist": "Reik",
+          "track_id": "0FHNqVPxu14WivXR4Y2hFr",
+          "track_name": "Creo en Ti"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.364,
+          "language": "en",
+          "playlist_genre": "r&b",
+          "playlist_subgenre": "hip pop",
+          "rank": 6,
+          "track_album_name": "i,i",
+          "track_artist": "Bon Iver",
+          "track_id": "0d6bZwEAi1XblGRhnzPfgC",
+          "track_name": "Hey, Ma"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.3635,
+          "language": "en",
+          "playlist_genre": "r&b",
+          "playlist_subgenre": "urban contemporary",
+          "rank": 7,
+          "track_album_name": "Freudian",
+          "track_artist": "Daniel Caesar",
+          "track_id": "0KyzXQhY2yzcb1FYCHkZc2",
+          "track_name": "Blessed"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.363,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "permanent wave",
+          "rank": 8,
+          "track_album_name": "The Velvet Underground (45th Anniversary)",
+          "track_artist": "The Velvet Underground",
+          "track_id": "11VwZwNF29HrqwalYUMitb",
+          "track_name": "Pale Blue Eyes"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.3625,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "permanent wave",
+          "rank": 9,
+          "track_album_name": "Pieces Of You",
+          "track_artist": "Jewel",
+          "track_id": "14sVnTYvfzo9sQM4RkQTaq",
+          "track_name": "You Were Meant For Me"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.3615,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "dance pop",
+          "rank": 10,
+          "track_album_name": "Forever & A Few",
+          "track_artist": "Choker",
+          "track_id": "0mYslGmbnkbxuyr0ISIYtB",
+          "track_name": "Lucky"
+        }
+      ],
+      "final_explanations": [
+        {
+          "explanation": "This track features high acousticness and low energy, perfectly aligning with the requested late-night reflective mood.",
+          "rank": 1,
+          "track_id": "0u2P5u6lvoDfwTYjAADbn4",
+          "warnings": [
+            "Lyric retrieval was disabled, so meaningful lyrics preference was not explicitly verified."
+          ]
+        },
+        {
+          "explanation": "Selected for its low energy and high acousticness, providing a calm, reflective atmosphere.",
+          "rank": 2,
+          "track_id": "0nJW01T7XtvILxQgC5J7Wh",
+          "warnings": [
+            "Lyric retrieval was disabled, so meaningful lyrics preference was not explicitly verified."
+          ]
+        },
+        {
+          "explanation": "Matches the target profile with high acousticness and low energy for a reflective listening experience.",
+          "rank": 3,
+          "track_id": "0akyEssGRVHstqCSWXusJL",
+          "warnings": [
+            "Lyric retrieval was disabled, so meaningful lyrics preference was not explicitly verified."
+          ]
+        },
+        {
+          "explanation": "Provides a calm, reflective mood through its high acousticness and low energy characteristics.",
+          "rank": 4,
+          "track_id": "0tV8pOpiNsKqUys0ilUcXz",
+          "warnings": [
+            "Lyric retrieval was disabled, so meaningful lyrics preference was not explicitly verified."
+          ]
+        },
+        {
+          "explanation": "High acousticness and low energy make this track suitable for a late-night reflective mood.",
+          "rank": 5,
+          "track_id": "0FHNqVPxu14WivXR4Y2hFr",
+          "warnings": [
+            "Lyric retrieval was disabled, so meaningful lyrics preference was not explicitly verified."
+          ]
+        },
+        {
+          "explanation": "Fits the reflective mood criteria with high acousticness and low energy levels.",
+          "rank": 6,
+          "track_id": "0d6bZwEAi1XblGRhnzPfgC",
+          "warnings": [
+            "Lyric retrieval was disabled, so meaningful lyrics preference was not explicitly verified."
+          ]
+        },
+        {
+          "explanation": "Selected for its high acousticness and low energy, supporting the requested reflective mood.",
+          "rank": 7,
+          "track_id": "0KyzXQhY2yzcb1FYCHkZc2",
+          "warnings": [
+            "Lyric retrieval was disabled, so meaningful lyrics preference was not explicitly verified."
+          ]
+        },
+        {
+          "explanation": "Very low energy and high acousticness make this an ideal choice for a calm, reflective mood.",
+          "rank": 8,
+          "track_id": "11VwZwNF29HrqwalYUMitb",
+          "warnings": [
+            "Lyric retrieval was disabled, so meaningful lyrics preference was not explicitly verified."
+          ]
+        },
+        {
+          "explanation": "Aligns with the reflective mood preference through its high acousticness and low energy.",
+          "rank": 9,
+          "track_id": "14sVnTYvfzo9sQM4RkQTaq",
+          "warnings": [
+            "Lyric retrieval was disabled, so meaningful lyrics preference was not explicitly verified."
+          ]
+        },
+        {
+          "explanation": "High acousticness supports the reflective mood requirement.",
+          "rank": 10,
+          "track_id": "0mYslGmbnkbxuyr0ISIYtB",
+          "warnings": [
+            "Lyric retrieval was disabled, so meaningful lyrics preference was not explicitly verified."
+          ]
+        }
+      ],
+      "final_track_ids": [
+        "0u2P5u6lvoDfwTYjAADbn4",
+        "0nJW01T7XtvILxQgC5J7Wh",
+        "0akyEssGRVHstqCSWXusJL",
+        "0tV8pOpiNsKqUys0ilUcXz",
+        "0FHNqVPxu14WivXR4Y2hFr",
+        "0d6bZwEAi1XblGRhnzPfgC",
+        "0KyzXQhY2yzcb1FYCHkZc2",
+        "11VwZwNF29HrqwalYUMitb",
+        "14sVnTYvfzo9sQM4RkQTaq",
+        "0mYslGmbnkbxuyr0ISIYtB"
+      ],
+      "raw_candidate_track_ids": [
+        "0u2P5u6lvoDfwTYjAADbn4",
+        "0nJW01T7XtvILxQgC5J7Wh",
+        "0akyEssGRVHstqCSWXusJL",
+        "0tV8pOpiNsKqUys0ilUcXz",
+        "0FHNqVPxu14WivXR4Y2hFr",
+        "0d6bZwEAi1XblGRhnzPfgC",
+        "0KyzXQhY2yzcb1FYCHkZc2",
+        "11VwZwNF29HrqwalYUMitb",
+        "14sVnTYvfzo9sQM4RkQTaq",
+        "0mYslGmbnkbxuyr0ISIYtB"
+      ],
+      "recommendation_count": 10,
+      "retrieval_modes_used": [
+        "feature_filter"
+      ],
+      "revision_count": 1,
+      "revision_used": true,
+      "scored_count": 10,
+      "scored_track_ids": [
+        "0u2P5u6lvoDfwTYjAADbn4",
+        "0nJW01T7XtvILxQgC5J7Wh",
+        "0akyEssGRVHstqCSWXusJL",
+        "0tV8pOpiNsKqUys0ilUcXz",
+        "0FHNqVPxu14WivXR4Y2hFr",
+        "0d6bZwEAi1XblGRhnzPfgC",
+        "0KyzXQhY2yzcb1FYCHkZc2",
+        "11VwZwNF29HrqwalYUMitb",
+        "14sVnTYvfzo9sQM4RkQTaq",
+        "0mYslGmbnkbxuyr0ISIYtB"
+      ],
+      "tool_error_count": 0,
+      "tool_errors": [],
+      "trace_stages": [
+        "received_query",
+        "extract_preferences",
+        "plan_retrieval",
+        "retrieve_candidates",
+        "rank_candidates",
+        "verify_candidates",
+        "critique_results",
+        "revise_plan",
+        "retrieve_candidates",
+        "rank_candidates",
+        "verify_candidates",
+        "critique_results",
+        "build_reliability_report",
+        "explain_recommendations",
+        "finished"
+      ],
+      "warning_count": 21,
+      "warnings": [
+        "The term 'sleepy' is subjective; energy levels are used as a proxy for calmness.",
+        "Lyric retrieval is disabled, so the 'meaningful lyrics' preference cannot be directly addressed via RAG.",
+        "Returned top 50 of 18454 feature-matched candidates.",
+        "Returned top 10 of 50 scored candidates.",
+        "Lyric retrieval was disabled; meaningfulness of lyrics is assumed based on track popularity and genre context.",
+        "Energy levels are used as a proxy for calmness; subjective interpretation of 'sleepy' may vary.",
+        "Verifier returned no per-candidate judgments; kept ranked candidates.",
+        "Lyric retrieval was disabled, preventing direct verification of the 'meaningful lyrics' requirement.",
+        "The verifier did not provide individual candidate judgments, relying solely on the initial feature-based ranking.",
+        "Used deterministic revision trigger: low_lyric_evidence.",
+        "Lyric retrieval was disabled for all candidates, preventing verification of the 'meaningful lyrics' preference.",
+        "Lyric retrieval was disabled, preventing direct verification of the 'meaningful lyrics' preference.",
+        "Energy levels are used as a proxy for calmness, which may not perfectly capture the 'not sleepy' nuance.",
+        "Top final score 0.37 is below the minimum acceptable score 0.45.",
+        "Average final score 0.37 is below the minimum acceptable score 0.45.",
+        "10 final candidates have weak final scores.",
+        "Prior tool warning: The term 'sleepy' is subjective; energy levels are used as a proxy for calmness.",
+        "Prior tool warning: Lyric retrieval is disabled, so the 'meaningful lyrics' preference cannot be directly addressed via RAG.",
+        "Prior tool warning: Returned top 50 of 18454 feature-matched candidates.",
+        "Verifier warning: Lyric retrieval was disabled, so meaningful lyrics preference was not explicitly verified.",
+        "Lyric retrieval was disabled, so meaningful lyrics preference was not explicitly verified."
+      ]
+    },
+    "variant": "no_lyric_retriever"
+  },
+  "schema": "vibefinder_evaluation_run_v1",
+  "status": "completed",
+  "written_at": "2026-04-24T22:41:12.657522+00:00"
+}

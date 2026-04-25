@@ -1,0 +1,4 @@
+group,Query Group,Tasks,Full System Win %,Full System Win Count,Ablated System Win %,Ablated System Win Count,Tie %,Tie Count,Mean Judge Preference Delta,Mean Score Margin,Full System Win,Ablated System Win,Tie
+lyric_theme,Lyric Theme,6,83.33,5,0.0,0,16.67,1,2.0,1.6905,83.3% (5/6),0.0% (0/6),16.7% (1/6)
+hard_constraints,Hard Constraints,4,50.0,2,50.0,2,0.0,0,0.75,0.6071,50.0% (2/4),50.0% (2/4),0.0% (0/4)
+mixed,Mixed,10,70.0,7,30.0,3,0.0,0,0.7,0.5714,70.0% (7/10),30.0% (3/10),0.0% (0/10)

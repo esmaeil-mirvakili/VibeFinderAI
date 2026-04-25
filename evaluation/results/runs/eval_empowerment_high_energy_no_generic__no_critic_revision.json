@@ -1,0 +1,341 @@
+{
+  "metadata": {
+    "include_state": false,
+    "llm_model": "gemini-3.1-flash-lite-preview",
+    "llm_provider": "gemini",
+    "max_revision_count": 1,
+    "query": "High-energy songs about empowerment, but avoid repetitive or generic tracks",
+    "query_id": "eval_empowerment_high_energy_no_generic",
+    "top_k": 10,
+    "variant": "no_critic_revision"
+  },
+  "result": {
+    "elapsed_seconds": 13.5841,
+    "error": null,
+    "group": "mixed",
+    "metrics": {
+      "album_diversity": 1.0,
+      "artist_diversity": 1.0,
+      "automatic_constraint_score": 0.9012,
+      "evaluated_candidate_count": 10,
+      "expected_retrieval_mode_recall": 1.0,
+      "feature_exclusion_pass_rate": null,
+      "feature_fit_score": 0.7037,
+      "genre_match_rate": null,
+      "language_match_rate": null,
+      "lyric_evidence_rate": 1.0,
+      "lyric_intent_expected": true,
+      "lyric_intent_retrieval_match": true,
+      "lyric_retrieval_used": true,
+      "metadata_text_match_rate": null,
+      "missing_dataset_count": 0,
+      "subgenre_diversity": 0.8,
+      "subgenre_match_rate": null,
+      "unexpected_retrieval_mode_count": 0,
+      "unique_album_count": 10,
+      "unique_artist_count": 10,
+      "unique_subgenre_count": 8
+    },
+    "query": "High-energy songs about empowerment, but avoid repetitive or generic tracks",
+    "query_id": "eval_empowerment_high_energy_no_generic",
+    "state": null,
+    "success": true,
+    "summary": {
+      "candidate_count": 10,
+      "confidence_label": "medium",
+      "confidence_score": 0.478341,
+      "failure_category": null,
+      "final_candidates": [
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.526303,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "album rock",
+          "rank": 1,
+          "track_album_name": "Power To The People - The Hits",
+          "track_artist": "John Lennon",
+          "track_id": "1XT3v8CIGQ1pbbSOhv8sS4",
+          "track_name": "Power To The People"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.510873,
+          "language": "en",
+          "playlist_genre": "r&b",
+          "playlist_subgenre": "urban contemporary",
+          "rank": 2,
+          "track_album_name": "Express Yourself",
+          "track_artist": "Charles Wright & The Watts 103rd Street Rhythm Band",
+          "track_id": "4pW3aTX3kAmOaPJfc9UM12",
+          "track_name": "Express Yourself"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.495518,
+          "language": "en",
+          "playlist_genre": "r&b",
+          "playlist_subgenre": "hip pop",
+          "rank": 3,
+          "track_album_name": "SHE IS COMING",
+          "track_artist": "Miley Cyrus",
+          "track_id": "2WyRfGeHo97VC5mP1BBSzr",
+          "track_name": "Mother's Daughter"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.49477,
+          "language": "en",
+          "playlist_genre": "edm",
+          "playlist_subgenre": "progressive electro house",
+          "rank": 4,
+          "track_album_name": "We Appreciate Power (BloodPop\u00ae Remix)",
+          "track_artist": "Grimes",
+          "track_id": "2PHQr9JMiepZ1GRh4wWxpg",
+          "track_name": "We Appreciate Power - BloodPop\u00ae Remix"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.491385,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "permanent wave",
+          "rank": 5,
+          "track_album_name": "Blood Sugar Sex Magik (Deluxe Edition)",
+          "track_artist": "Red Hot Chili Peppers",
+          "track_id": "0uppYCG86ajpV2hSR3dJJ0",
+          "track_name": "Give It Away"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.450841,
+          "language": "en",
+          "playlist_genre": "r&b",
+          "playlist_subgenre": "hip pop",
+          "rank": 6,
+          "track_album_name": "The Life Of Pablo",
+          "track_artist": "Kanye West",
+          "track_id": "4KW1lqgSr8TKrvBII0Brf8",
+          "track_name": "Father Stretch My Hands Pt. 1"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.429322,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "hard rock",
+          "rank": 7,
+          "track_album_name": "Libertine",
+          "track_artist": "The Cult",
+          "track_id": "2pXIvOQ6D9caGsaMS05BpE",
+          "track_name": "Libertine"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.427295,
+          "language": "en",
+          "playlist_genre": "latin",
+          "playlist_subgenre": "latin hip hop",
+          "rank": 8,
+          "track_album_name": "Dangerous Woman",
+          "track_artist": "Ariana Grande",
+          "track_id": "7l94dyN2hX9c6wWcZQuOGJ",
+          "track_name": "Dangerous Woman"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.427117,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "permanent wave",
+          "rank": 9,
+          "track_album_name": "Into The Wild (Music For The Motion Picture)",
+          "track_artist": "Eddie Vedder",
+          "track_id": "3bHhUEOTIbezeZ856R0BX5",
+          "track_name": "Society"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.426416,
+          "language": "en",
+          "playlist_genre": "rap",
+          "playlist_subgenre": "gangster rap",
+          "rank": 10,
+          "track_album_name": "The Eminem Show",
+          "track_artist": "Eminem",
+          "track_id": "4xkOaSrkexMciUUogZKVTS",
+          "track_name": "'Till I Collapse"
+        }
+      ],
+      "final_explanations": [
+        {
+          "explanation": "This track is a high-energy anthem explicitly focused on empowerment, making it a perfect match for your request.",
+          "rank": 1,
+          "track_id": "1XT3v8CIGQ1pbbSOhv8sS4",
+          "warnings": []
+        },
+        {
+          "explanation": "A classic high-energy song that serves as a powerful message of self-expression and personal confidence.",
+          "rank": 2,
+          "track_id": "4pW3aTX3kAmOaPJfc9UM12",
+          "warnings": []
+        },
+        {
+          "explanation": "Features high energy and lyrics centered on personal freedom and empowerment.",
+          "rank": 3,
+          "track_id": "2WyRfGeHo97VC5mP1BBSzr",
+          "warnings": []
+        },
+        {
+          "explanation": "A high-energy remix that incorporates themes of power and human evolution.",
+          "rank": 4,
+          "track_id": "2PHQr9JMiepZ1GRh4wWxpg",
+          "warnings": []
+        },
+        {
+          "explanation": "This high-energy track encourages personal agency and giving back, aligning with the empowerment theme.",
+          "rank": 5,
+          "track_id": "0uppYCG86ajpV2hSR3dJJ0",
+          "warnings": []
+        },
+        {
+          "explanation": "While high-energy, the lyrics focus more on personal narrative than a direct empowerment theme.",
+          "rank": 6,
+          "track_id": "4KW1lqgSr8TKrvBII0Brf8",
+          "warnings": [
+            "Weak lyric evidence for empowerment theme"
+          ]
+        },
+        {
+          "explanation": "A high-energy rock track, though the lyrics are abstract and lack a clear empowerment focus.",
+          "rank": 7,
+          "track_id": "2pXIvOQ6D9caGsaMS05BpE",
+          "warnings": [
+            "Weak lyric evidence for empowerment theme"
+          ]
+        },
+        {
+          "explanation": "Contains themes of confidence, though the lyric alignment with empowerment is less direct.",
+          "rank": 8,
+          "track_id": "7l94dyN2hX9c6wWcZQuOGJ",
+          "warnings": [
+            "Weak lyric evidence for empowerment theme"
+          ]
+        },
+        {
+          "explanation": "Focuses on social critique rather than personal empowerment, despite the high-energy delivery.",
+          "rank": 9,
+          "track_id": "3bHhUEOTIbezeZ856R0BX5",
+          "warnings": [
+            "Weak lyric evidence for empowerment theme"
+          ]
+        },
+        {
+          "explanation": "A high-energy track about perseverance, though it is noted for being highly repetitive.",
+          "rank": 10,
+          "track_id": "4xkOaSrkexMciUUogZKVTS",
+          "warnings": [
+            "Potential violation of repetitive track exclusion"
+          ]
+        }
+      ],
+      "final_track_ids": [
+        "1XT3v8CIGQ1pbbSOhv8sS4",
+        "4pW3aTX3kAmOaPJfc9UM12",
+        "2WyRfGeHo97VC5mP1BBSzr",
+        "2PHQr9JMiepZ1GRh4wWxpg",
+        "0uppYCG86ajpV2hSR3dJJ0",
+        "4KW1lqgSr8TKrvBII0Brf8",
+        "2pXIvOQ6D9caGsaMS05BpE",
+        "7l94dyN2hX9c6wWcZQuOGJ",
+        "3bHhUEOTIbezeZ856R0BX5",
+        "4xkOaSrkexMciUUogZKVTS"
+      ],
+      "raw_candidate_track_ids": [
+        "1XT3v8CIGQ1pbbSOhv8sS4",
+        "4KW1lqgSr8TKrvBII0Brf8",
+        "4pW3aTX3kAmOaPJfc9UM12",
+        "2pXIvOQ6D9caGsaMS05BpE",
+        "7l94dyN2hX9c6wWcZQuOGJ",
+        "3bHhUEOTIbezeZ856R0BX5",
+        "4xkOaSrkexMciUUogZKVTS",
+        "2WyRfGeHo97VC5mP1BBSzr",
+        "2PHQr9JMiepZ1GRh4wWxpg",
+        "0uppYCG86ajpV2hSR3dJJ0"
+      ],
+      "recommendation_count": 10,
+      "retrieval_modes_used": [
+        "lyric_retrieval",
+        "feature_filter"
+      ],
+      "revision_count": 0,
+      "revision_used": false,
+      "scored_count": 10,
+      "scored_track_ids": [
+        "1XT3v8CIGQ1pbbSOhv8sS4",
+        "4pW3aTX3kAmOaPJfc9UM12",
+        "2WyRfGeHo97VC5mP1BBSzr",
+        "2PHQr9JMiepZ1GRh4wWxpg",
+        "0uppYCG86ajpV2hSR3dJJ0",
+        "4KW1lqgSr8TKrvBII0Brf8",
+        "2pXIvOQ6D9caGsaMS05BpE",
+        "7l94dyN2hX9c6wWcZQuOGJ",
+        "3bHhUEOTIbezeZ856R0BX5",
+        "4xkOaSrkexMciUUogZKVTS"
+      ],
+      "tool_error_count": 0,
+      "tool_errors": [],
+      "trace_stages": [
+        "received_query",
+        "extract_preferences",
+        "plan_retrieval",
+        "retrieve_candidates",
+        "retrieve_candidates",
+        "rank_candidates",
+        "verify_candidates",
+        "critique_results",
+        "build_reliability_report",
+        "explain_recommendations",
+        "finished"
+      ],
+      "warning_count": 11,
+      "warnings": [
+        "Returned top 50 of 250 lyric-retrieved candidates.",
+        "Returned top 50 of 18454 feature-matched candidates.",
+        "Returned top 10 of 100 scored candidates.",
+        "Kept 5 candidates with soft verifier concerns; only hard constraint mismatches are rejected.",
+        "4 final candidates have weak final scores.",
+        "5 final candidates failed verifier checks.",
+        "Prior tool warning: Returned top 50 of 250 lyric-retrieved candidates.",
+        "Prior tool warning: Returned top 50 of 18454 feature-matched candidates.",
+        "Prior tool warning: Returned top 10 of 100 scored candidates.",
+        "Verifier warning: Weak lyric evidence for empowerment theme",
+        "Some tracks were included despite lower verification scores to ensure a sufficient list of recommendations."
+      ]
+    },
+    "variant": "no_critic_revision"
+  },
+  "schema": "vibefinder_evaluation_run_v1",
+  "status": "completed",
+  "written_at": "2026-04-24T22:42:42.509120+00:00"
+}

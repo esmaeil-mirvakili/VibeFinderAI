@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "include_state": false,
+    "llm_model": "gemini-3.1-flash-lite-preview",
+    "llm_provider": "gemini",
+    "max_revision_count": 1,
+    "query": "Songs where the lyrics clearly express revenge or payback after betrayal, not just general anger",
+    "query_id": "eval_revenge_not_just_anger",
+    "top_k": 10,
+    "variant": "no_lyric_retriever"
+  },
+  "result": {
+    "elapsed_seconds": 8.7795,
+    "error": null,
+    "group": "lyric_theme",
+    "metrics": {
+      "album_diversity": null,
+      "artist_diversity": null,
+      "automatic_constraint_score": 0.0,
+      "evaluated_candidate_count": 0,
+      "expected_retrieval_mode_recall": 0.0,
+      "feature_exclusion_pass_rate": null,
+      "feature_fit_score": null,
+      "genre_match_rate": null,
+      "language_match_rate": null,
+      "lyric_evidence_rate": null,
+      "lyric_intent_expected": true,
+      "lyric_intent_retrieval_match": false,
+      "lyric_retrieval_used": false,
+      "metadata_text_match_rate": null,
+      "missing_dataset_count": 0,
+      "subgenre_diversity": null,
+      "subgenre_match_rate": null,
+      "unexpected_retrieval_mode_count": 0,
+      "unique_album_count": 0,
+      "unique_artist_count": 0,
+      "unique_subgenre_count": 0
+    },
+    "query": "Songs where the lyrics clearly express revenge or payback after betrayal, not just general anger",
+    "query_id": "eval_revenge_not_just_anger",
+    "state": null,
+    "success": true,
+    "summary": {
+      "candidate_count": 0,
+      "confidence_label": null,
+      "confidence_score": null,
+      "failure_category": "empty_retrieval",
+      "final_candidates": [],
+      "final_explanations": [],
+      "final_track_ids": [],
+      "raw_candidate_track_ids": [],
+      "recommendation_count": 0,
+      "retrieval_modes_used": [],
+      "revision_count": 0,
+      "revision_used": false,
+      "scored_count": 0,
+      "scored_track_ids": [],
+      "tool_error_count": 0,
+      "tool_errors": [],
+      "trace_stages": [
+        "received_query",
+        "extract_preferences",
+        "plan_retrieval",
+        "finished"
+      ],
+      "warning_count": 2,
+      "warnings": [
+        "The request relies entirely on lyric-based retrieval; metadata and audio feature filters are not applicable.",
+        "plan_retrieval failed: Retrieval plan has no enabled modes with valid runtime requests."
+      ]
+    },
+    "variant": "no_lyric_retriever"
+  },
+  "schema": "vibefinder_evaluation_run_v1",
+  "status": "completed",
+  "written_at": "2026-04-24T22:55:05.060114+00:00"
+}

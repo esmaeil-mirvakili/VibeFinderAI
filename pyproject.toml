@@ -15,8 +15,12 @@ dependencies = [
     "loguru",
     "pydantic",
     "langgraph",
+    "langsmith",
     "faiss-cpu",
     "sentence-transformers",
+    "seaborn",
+    "torchvision",
+    "tqdm",
 ]
 
 [tool.setuptools.packages.find]

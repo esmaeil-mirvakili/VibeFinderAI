@@ -6,5 +6,9 @@ loguru
 pydantic
 pytest
 langgraph
+langsmith
 faiss-cpu
 sentence-transformers
+seaborn
+torchvision
+tqdm

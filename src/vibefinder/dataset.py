@@ -139,4 +139,19 @@ def _find_csv_files(root: Path) -> tuple[Path, ...]:
         for filename in filenames:
             if filename.lower().endswith(".csv"):
                 csv_files.append(current_path / filename)
-    return tuple(sorted(csv_files))
+    return tuple(sorted(csv_files, key=lambda path: _csv_priority(root, path)))
+
+
+def _csv_priority(root: Path, path: Path) -> tuple[int, int, str]:
+    """Sort likely dataset files before generated report CSV files."""
+
+    try:
+        relative = path.relative_to(root)
+    except ValueError:
+        relative = path
+    name = path.name.lower()
+    if name == DEFAULT_DATASET_FILENAME:
+        return (0, len(relative.parts), str(relative))
+    if "spotify" in name and "song" in name:
+        return (1, len(relative.parts), str(relative))
+    return (2, len(relative.parts), str(relative))

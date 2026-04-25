@@ -167,3 +167,17 @@ def test_find_csv_files_sorts_and_skips_hidden_and_ignored_dirs(tmp_path):
     csv_files = dataset_module._find_csv_files(tmp_path)
 
     assert csv_files == (first_csv, second_csv)
+
+
+def test_find_csv_files_prefers_project_spotify_dataset_over_generated_csvs(tmp_path):
+    reports = tmp_path / "evaluation" / "judgements" / "reports" / "visualizations"
+    reports.mkdir(parents=True)
+    generated_csv = reports / "component_results.csv"
+    generated_csv.write_text("Component,Tasks\nx,1\n", encoding="utf-8")
+    dataset_csv = tmp_path / DEFAULT_DATASET_FILENAME
+    dataset_csv.write_text("track_id\n1\n", encoding="utf-8")
+
+    csv_files = dataset_module._find_csv_files(tmp_path)
+
+    assert csv_files[0] == dataset_csv
+    assert generated_csv in csv_files

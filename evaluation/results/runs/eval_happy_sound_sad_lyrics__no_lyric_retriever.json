@@ -1,0 +1,369 @@
+{
+  "metadata": {
+    "include_state": false,
+    "llm_model": "gemini-3.1-flash-lite-preview",
+    "llm_provider": "gemini",
+    "max_revision_count": 1,
+    "query": "English songs that sound happy but actually have sad or dark lyrics, with good storytelling",
+    "query_id": "eval_happy_sound_sad_lyrics",
+    "top_k": 10,
+    "variant": "no_lyric_retriever"
+  },
+  "result": {
+    "elapsed_seconds": 23.9605,
+    "error": null,
+    "group": "mixed",
+    "metrics": {
+      "album_diversity": 1.0,
+      "artist_diversity": 1.0,
+      "automatic_constraint_score": 0.556,
+      "evaluated_candidate_count": 10,
+      "expected_retrieval_mode_recall": 0.5,
+      "feature_exclusion_pass_rate": null,
+      "feature_fit_score": 0.7242,
+      "genre_match_rate": null,
+      "language_match_rate": 1.0,
+      "lyric_evidence_rate": 0.0,
+      "lyric_intent_expected": true,
+      "lyric_intent_retrieval_match": false,
+      "lyric_retrieval_used": false,
+      "metadata_text_match_rate": null,
+      "missing_dataset_count": 0,
+      "subgenre_diversity": 0.8,
+      "subgenre_match_rate": null,
+      "unexpected_retrieval_mode_count": 1,
+      "unique_album_count": 10,
+      "unique_artist_count": 10,
+      "unique_subgenre_count": 8
+    },
+    "query": "English songs that sound happy but actually have sad or dark lyrics, with good storytelling",
+    "query_id": "eval_happy_sound_sad_lyrics",
+    "state": null,
+    "success": true,
+    "summary": {
+      "candidate_count": 10,
+      "confidence_label": "medium",
+      "confidence_score": 0.586395,
+      "failure_category": null,
+      "final_candidates": [
+        {
+          "evidence_sources": [
+            "metadata_retrieval",
+            "feature_filter"
+          ],
+          "final_score": 0.6455,
+          "language": "en",
+          "playlist_genre": "r&b",
+          "playlist_subgenre": "urban contemporary",
+          "rank": 1,
+          "track_album_name": "Starboy",
+          "track_artist": "The Weeknd",
+          "track_id": "00NAQYOP4AmWR549nnYJZu",
+          "track_name": "Secrets"
+        },
+        {
+          "evidence_sources": [
+            "metadata_retrieval",
+            "feature_filter"
+          ],
+          "final_score": 0.639,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "indie poptimism",
+          "rank": 2,
+          "track_album_name": "Hippie Castle EP",
+          "track_artist": "Magic City Hippies",
+          "track_id": "00HIh9mVUQQAycsQiciWsh",
+          "track_name": "Limestone"
+        },
+        {
+          "evidence_sources": [
+            "metadata_retrieval",
+            "feature_filter"
+          ],
+          "final_score": 0.638,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "permanent wave",
+          "rank": 3,
+          "track_album_name": "Strangeways, Here We Come",
+          "track_artist": "The Smiths",
+          "track_id": "01q4ccXbvPlCwZ1fPiFaeM",
+          "track_name": "Girlfriend in a Coma - 2011 Remaster"
+        },
+        {
+          "evidence_sources": [
+            "metadata_retrieval",
+            "feature_filter"
+          ],
+          "final_score": 0.6345,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "indie poptimism",
+          "rank": 4,
+          "track_album_name": "On the Back of Your Neck",
+          "track_artist": "Cienfue",
+          "track_id": "027VSEVC8RRjUXLEJAzhH6",
+          "track_name": "On the Back of Your Neck"
+        },
+        {
+          "evidence_sources": [
+            "metadata_retrieval",
+            "feature_filter"
+          ],
+          "final_score": 0.576,
+          "language": "en",
+          "playlist_genre": "rap",
+          "playlist_subgenre": "hip hop",
+          "rank": 5,
+          "track_album_name": "Funky Friday",
+          "track_artist": "Dave",
+          "track_id": "01IQ4aQgOf0Kkq3a273hmO",
+          "track_name": "Funky Friday"
+        },
+        {
+          "evidence_sources": [
+            "metadata_retrieval",
+            "feature_filter"
+          ],
+          "final_score": 0.573,
+          "language": "en",
+          "playlist_genre": "latin",
+          "playlist_subgenre": "tropical",
+          "rank": 6,
+          "track_album_name": "Clandestino",
+          "track_artist": "Manu Chao",
+          "track_id": "00SmB7n85SKROGjybsyq5i",
+          "track_name": "Bongo Bong"
+        },
+        {
+          "evidence_sources": [
+            "metadata_retrieval",
+            "feature_filter"
+          ],
+          "final_score": 0.567,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "classic rock",
+          "rank": 7,
+          "track_album_name": "Look What The Cat Dragged In",
+          "track_artist": "Poison",
+          "track_id": "01R0Xdwje645C6xFCnMRvm",
+          "track_name": "Talk Dirty To Me"
+        },
+        {
+          "evidence_sources": [
+            "metadata_retrieval",
+            "feature_filter"
+          ],
+          "final_score": 0.566,
+          "language": "en",
+          "playlist_genre": "r&b",
+          "playlist_subgenre": "new jack swing",
+          "rank": 8,
+          "track_album_name": "Forever",
+          "track_artist": "Diddy",
+          "track_id": "00FROhC5g4iJdax5US8jRr",
+          "track_name": "Satisfy You"
+        },
+        {
+          "evidence_sources": [
+            "metadata_retrieval",
+            "feature_filter"
+          ],
+          "final_score": 0.5655,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "electropop",
+          "rank": 9,
+          "track_album_name": "Hot",
+          "track_artist": "Confetti",
+          "track_id": "00WIXhVVhswHuS6dlkScuw",
+          "track_name": "Hot"
+        },
+        {
+          "evidence_sources": [
+            "metadata_retrieval",
+            "feature_filter"
+          ],
+          "final_score": 0.5645,
+          "language": "en",
+          "playlist_genre": "r&b",
+          "playlist_subgenre": "urban contemporary",
+          "rank": 10,
+          "track_album_name": "Look Out For #1",
+          "track_artist": "The Brothers Johnson",
+          "track_id": "00PLtXXER1XcTRZvs3LioS",
+          "track_name": "Get The Funk Out Ma Face"
+        }
+      ],
+      "final_explanations": [
+        {
+          "explanation": "This track features high valence for a happy sound while exploring dark lyrical themes of betrayal and secrets.",
+          "rank": 1,
+          "track_id": "00NAQYOP4AmWR549nnYJZu",
+          "warnings": []
+        },
+        {
+          "explanation": "A high-valence track that contrasts its upbeat sound with lyrics centered on themes of death and loss.",
+          "rank": 2,
+          "track_id": "00HIh9mVUQQAycsQiciWsh",
+          "warnings": []
+        },
+        {
+          "explanation": "This song combines a high-valence, upbeat musical arrangement with dark storytelling about a tragic medical condition.",
+          "rank": 3,
+          "track_id": "01q4ccXbvPlCwZ1fPiFaeM",
+          "warnings": []
+        },
+        {
+          "explanation": "Features a high-valence sound paired with dark, evocative imagery in the lyrics.",
+          "rank": 4,
+          "track_id": "027VSEVC8RRjUXLEJAzhH6",
+          "warnings": []
+        },
+        {
+          "explanation": "While the track has high valence, the thematic alignment with dark storytelling is less pronounced.",
+          "rank": 5,
+          "track_id": "01IQ4aQgOf0Kkq3a273hmO",
+          "warnings": [
+            "Thematic match is weak."
+          ]
+        },
+        {
+          "explanation": "This track has high valence but contains non-English lyrics, which deviates from the language constraint.",
+          "rank": 6,
+          "track_id": "00SmB7n85SKROGjybsyq5i",
+          "warnings": [
+            "Lyrics contain non-English segments."
+          ]
+        },
+        {
+          "explanation": "The track maintains a high-valence sound, though the lyrical content is more suggestive than dark or sad.",
+          "rank": 7,
+          "track_id": "01R0Xdwje645C6xFCnMRvm",
+          "warnings": [
+            "Thematic match is weak."
+          ]
+        },
+        {
+          "explanation": "This song features high valence but the lyrics are primarily romantic and positive rather than dark.",
+          "rank": 8,
+          "track_id": "00FROhC5g4iJdax5US8jRr",
+          "warnings": [
+            "Thematic match is weak."
+          ]
+        },
+        {
+          "explanation": "The track has high valence but the lyrics focus on self-confidence rather than the requested dark themes.",
+          "rank": 9,
+          "track_id": "00WIXhVVhswHuS6dlkScuw",
+          "warnings": [
+            "Thematic match is weak."
+          ]
+        },
+        {
+          "explanation": "While the track has high valence, the lyrics are focused on the genre of funk music rather than dark storytelling.",
+          "rank": 10,
+          "track_id": "00PLtXXER1XcTRZvs3LioS",
+          "warnings": [
+            "Thematic match is weak."
+          ]
+        }
+      ],
+      "final_track_ids": [
+        "00NAQYOP4AmWR549nnYJZu",
+        "00HIh9mVUQQAycsQiciWsh",
+        "01q4ccXbvPlCwZ1fPiFaeM",
+        "027VSEVC8RRjUXLEJAzhH6",
+        "01IQ4aQgOf0Kkq3a273hmO",
+        "00SmB7n85SKROGjybsyq5i",
+        "01R0Xdwje645C6xFCnMRvm",
+        "00FROhC5g4iJdax5US8jRr",
+        "00WIXhVVhswHuS6dlkScuw",
+        "00PLtXXER1XcTRZvs3LioS"
+      ],
+      "raw_candidate_track_ids": [
+        "01IQ4aQgOf0Kkq3a273hmO",
+        "00NAQYOP4AmWR549nnYJZu",
+        "00SmB7n85SKROGjybsyq5i",
+        "00HIh9mVUQQAycsQiciWsh",
+        "01q4ccXbvPlCwZ1fPiFaeM",
+        "01R0Xdwje645C6xFCnMRvm",
+        "00FROhC5g4iJdax5US8jRr",
+        "00WIXhVVhswHuS6dlkScuw",
+        "00PLtXXER1XcTRZvs3LioS",
+        "027VSEVC8RRjUXLEJAzhH6"
+      ],
+      "recommendation_count": 10,
+      "retrieval_modes_used": [
+        "metadata_retrieval",
+        "feature_filter"
+      ],
+      "revision_count": 1,
+      "revision_used": true,
+      "scored_count": 10,
+      "scored_track_ids": [
+        "00NAQYOP4AmWR549nnYJZu",
+        "00HIh9mVUQQAycsQiciWsh",
+        "01q4ccXbvPlCwZ1fPiFaeM",
+        "027VSEVC8RRjUXLEJAzhH6",
+        "01IQ4aQgOf0Kkq3a273hmO",
+        "00SmB7n85SKROGjybsyq5i",
+        "01R0Xdwje645C6xFCnMRvm",
+        "00FROhC5g4iJdax5US8jRr",
+        "00WIXhVVhswHuS6dlkScuw",
+        "00PLtXXER1XcTRZvs3LioS"
+      ],
+      "tool_error_count": 0,
+      "tool_errors": [],
+      "trace_stages": [
+        "received_query",
+        "extract_preferences",
+        "plan_retrieval",
+        "retrieve_candidates",
+        "retrieve_candidates",
+        "rank_candidates",
+        "verify_candidates",
+        "critique_results",
+        "revise_plan",
+        "retrieve_candidates",
+        "retrieve_candidates",
+        "rank_candidates",
+        "verify_candidates",
+        "critique_results",
+        "build_reliability_report",
+        "explain_recommendations",
+        "finished"
+      ],
+      "warning_count": 21,
+      "warnings": [
+        "The 'sad or dark lyrics' requirement may not be fully met without the lyric retrieval tool.",
+        "Returned top 50 of 15405 metadata-matched candidates.",
+        "Returned top 50 of 18454 feature-matched candidates.",
+        "Returned top 10 of 82 scored candidates.",
+        "Thematic matching is based on manual review of provided lyrics rather than automated retrieval.",
+        "Kept 2 candidates with soft verifier concerns; only hard constraint mismatches are rejected.",
+        "Lyric retrieval was disabled, limiting the ability to perform automated thematic verification.",
+        "Some candidates were included based on metadata and valence alone, which may not fully align with the 'sad or dark' lyrical requirement.",
+        "Used deterministic revision trigger: low_lyric_evidence.",
+        "Kept 6 candidates with soft verifier concerns; only hard constraint mismatches are rejected.",
+        "Lyric retrieval was disabled, which limited the accuracy of thematic matching.",
+        "Several candidates were included based on metadata and valence alone, failing the thematic constraint.",
+        "6 final candidates failed verifier checks.",
+        "Prior tool warning: The 'sad or dark lyrics' requirement may not be fully met without the lyric retrieval tool.",
+        "Prior tool warning: Returned top 50 of 15405 metadata-matched candidates.",
+        "Prior tool warning: Returned top 50 of 18454 feature-matched candidates.",
+        "Verifier warning: Thematic match is weak.",
+        "Verifier warning: Lyric retrieval was disabled; thematic matching is based on provided lyrics.",
+        "Verifier warning: Lyrics contain non-English segments.",
+        "6 final candidates failed verifier checks for thematic alignment.",
+        "Lyrics contain non-English segments in some candidates."
+      ]
+    },
+    "variant": "no_lyric_retriever"
+  },
+  "schema": "vibefinder_evaluation_run_v1",
+  "status": "completed",
+  "written_at": "2026-04-24T22:49:44.863666+00:00"
+}

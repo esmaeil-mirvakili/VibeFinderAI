@@ -1,0 +1,244 @@
+{
+  "all_complete": true,
+  "completed_count": 30,
+  "expected_total": 30,
+  "failed_count": 0,
+  "failed_runs": [],
+  "generated_at": "2026-04-24T23:05:35.268569+00:00",
+  "metadata": {
+    "config_path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/config/retrieval_prompt_config.json",
+    "data_path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "generated_at": "2026-04-24T23:05:35.265575+00:00",
+    "llm_model": "gemini-3.1-flash-lite-preview",
+    "llm_provider": "gemini",
+    "max_revision_count": 1,
+    "query_cooldown_seconds": 30.0,
+    "query_count": 10,
+    "result_schema": "vibefinder_evaluation_v1",
+    "resume": true,
+    "run_result_schema": "vibefinder_evaluation_run_v1",
+    "run_results_dir": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs",
+    "top_k": 10,
+    "variants": [
+      "full",
+      "no_critic_revision",
+      "no_lyric_retriever"
+    ]
+  },
+  "missing_count": 0,
+  "recorded_total": 30,
+  "run_statuses": [
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_cheating_guilty_perspective__full.json",
+      "query_id": "eval_cheating_guilty_perspective",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "full"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_cheating_guilty_perspective__no_critic_revision.json",
+      "query_id": "eval_cheating_guilty_perspective",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "no_critic_revision"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_cheating_guilty_perspective__no_lyric_retriever.json",
+      "query_id": "eval_cheating_guilty_perspective",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "no_lyric_retriever"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_regret_high_energy__full.json",
+      "query_id": "eval_regret_high_energy",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "full"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_regret_high_energy__no_critic_revision.json",
+      "query_id": "eval_regret_high_energy",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "no_critic_revision"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_regret_high_energy__no_lyric_retriever.json",
+      "query_id": "eval_regret_high_energy",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "no_lyric_retriever"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_revenge_not_just_anger__full.json",
+      "query_id": "eval_revenge_not_just_anger",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "full"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_revenge_not_just_anger__no_critic_revision.json",
+      "query_id": "eval_revenge_not_just_anger",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "no_critic_revision"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_revenge_not_just_anger__no_lyric_retriever.json",
+      "query_id": "eval_revenge_not_just_anger",
+      "status": "completed",
+      "success": true,
+      "variant": "no_lyric_retriever"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_sad_not_acoustic_medium_energy__full.json",
+      "query_id": "eval_sad_not_acoustic_medium_energy",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "full"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_sad_not_acoustic_medium_energy__no_critic_revision.json",
+      "query_id": "eval_sad_not_acoustic_medium_energy",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "no_critic_revision"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_sad_not_acoustic_medium_energy__no_lyric_retriever.json",
+      "query_id": "eval_sad_not_acoustic_medium_energy",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "no_lyric_retriever"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_uplifting_but_bittersweet__full.json",
+      "query_id": "eval_uplifting_but_bittersweet",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "full"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_uplifting_but_bittersweet__no_critic_revision.json",
+      "query_id": "eval_uplifting_but_bittersweet",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "no_critic_revision"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_uplifting_but_bittersweet__no_lyric_retriever.json",
+      "query_id": "eval_uplifting_but_bittersweet",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "no_lyric_retriever"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_late_night_reflective__full.json",
+      "query_id": "eval_late_night_reflective",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "full"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_late_night_reflective__no_critic_revision.json",
+      "query_id": "eval_late_night_reflective",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "no_critic_revision"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_late_night_reflective__no_lyric_retriever.json",
+      "query_id": "eval_late_night_reflective",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "no_lyric_retriever"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_empowerment_high_energy_no_generic__full.json",
+      "query_id": "eval_empowerment_high_energy_no_generic",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "full"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_empowerment_high_energy_no_generic__no_critic_revision.json",
+      "query_id": "eval_empowerment_high_energy_no_generic",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "no_critic_revision"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_empowerment_high_energy_no_generic__no_lyric_retriever.json",
+      "query_id": "eval_empowerment_high_energy_no_generic",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "no_lyric_retriever"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_heartbreak_not_slow_not_generic__full.json",
+      "query_id": "eval_heartbreak_not_slow_not_generic",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "full"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_heartbreak_not_slow_not_generic__no_critic_revision.json",
+      "query_id": "eval_heartbreak_not_slow_not_generic",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "no_critic_revision"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_heartbreak_not_slow_not_generic__no_lyric_retriever.json",
+      "query_id": "eval_heartbreak_not_slow_not_generic",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "no_lyric_retriever"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_betrayal_female_high_energy__full.json",
+      "query_id": "eval_betrayal_female_high_energy",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "full"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_betrayal_female_high_energy__no_critic_revision.json",
+      "query_id": "eval_betrayal_female_high_energy",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "no_critic_revision"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_betrayal_female_high_energy__no_lyric_retriever.json",
+      "query_id": "eval_betrayal_female_high_energy",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "no_lyric_retriever"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_happy_sound_sad_lyrics__full.json",
+      "query_id": "eval_happy_sound_sad_lyrics",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "full"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_happy_sound_sad_lyrics__no_critic_revision.json",
+      "query_id": "eval_happy_sound_sad_lyrics",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "no_critic_revision"
+    },
+    {
+      "path": "/Users/esmaeil/MyData/MyProjects/VibeFinderAI/evaluation/results/runs/eval_happy_sound_sad_lyrics__no_lyric_retriever.json",
+      "query_id": "eval_happy_sound_sad_lyrics",
+      "status": "skipped_completed",
+      "success": true,
+      "variant": "no_lyric_retriever"
+    }
+  ],
+  "schema": "vibefinder_evaluation_status_v1"
+}

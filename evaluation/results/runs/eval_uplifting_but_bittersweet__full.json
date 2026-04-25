@@ -1,0 +1,340 @@
+{
+  "metadata": {
+    "include_state": false,
+    "llm_model": "gemini-3.1-flash-lite-preview",
+    "llm_provider": "gemini",
+    "max_revision_count": 1,
+    "query": "Songs that feel uplifting but have slightly bittersweet lyrics about moving on after a breakup",
+    "query_id": "eval_uplifting_but_bittersweet",
+    "top_k": 10,
+    "variant": "full"
+  },
+  "result": {
+    "elapsed_seconds": 15.3262,
+    "error": null,
+    "group": "mixed",
+    "metrics": {
+      "album_diversity": 1.0,
+      "artist_diversity": 1.0,
+      "automatic_constraint_score": 0.8518,
+      "evaluated_candidate_count": 10,
+      "expected_retrieval_mode_recall": 1.0,
+      "feature_exclusion_pass_rate": null,
+      "feature_fit_score": 0.5554,
+      "genre_match_rate": null,
+      "language_match_rate": null,
+      "lyric_evidence_rate": 1.0,
+      "lyric_intent_expected": true,
+      "lyric_intent_retrieval_match": true,
+      "lyric_retrieval_used": true,
+      "metadata_text_match_rate": null,
+      "missing_dataset_count": 0,
+      "subgenre_diversity": 0.8,
+      "subgenre_match_rate": null,
+      "unexpected_retrieval_mode_count": 0,
+      "unique_album_count": 10,
+      "unique_artist_count": 10,
+      "unique_subgenre_count": 8
+    },
+    "query": "Songs that feel uplifting but have slightly bittersweet lyrics about moving on after a breakup",
+    "query_id": "eval_uplifting_but_bittersweet",
+    "state": null,
+    "success": true,
+    "summary": {
+      "candidate_count": 10,
+      "confidence_label": "medium",
+      "confidence_score": 0.541777,
+      "failure_category": null,
+      "final_candidates": [
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.582496,
+          "language": "en",
+          "playlist_genre": "latin",
+          "playlist_subgenre": "tropical",
+          "rank": 1,
+          "track_album_name": "These Days",
+          "track_artist": "Rudimental",
+          "track_id": "5CLGzJsGqhCEECcpnFQA8x",
+          "track_name": "These Days"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.5761,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "album rock",
+          "rank": 2,
+          "track_album_name": "Collections",
+          "track_artist": "Neil Sedaka",
+          "track_id": "7utoClKnLShFg6u6dZ20gp",
+          "track_name": "Breaking Up Is Hard to Do"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.575154,
+          "language": "en",
+          "playlist_genre": "latin",
+          "playlist_subgenre": "latin hip hop",
+          "rank": 3,
+          "track_album_name": "On Somebody",
+          "track_artist": "Ava Max",
+          "track_id": "6gbLpUQtUU8ojzbE9jKt5A",
+          "track_name": "On Somebody"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.569946,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "post-teen pop",
+          "rank": 4,
+          "track_album_name": "Red (Big Machine Radio Release Special)",
+          "track_artist": "Taylor Swift",
+          "track_id": "0VwNdo84DaVYLIkbVO86ND",
+          "track_name": "We Are Never Ever Getting Back Together"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.569244,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "indie poptimism",
+          "rank": 5,
+          "track_album_name": "Best Friend",
+          "track_artist": "Rex Orange County",
+          "track_id": "47Bg6IrMed1GPbxRgwH2aC",
+          "track_name": "Best Friend"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.569209,
+          "language": "en",
+          "playlist_genre": "edm",
+          "playlist_subgenre": "progressive electro house",
+          "rank": 6,
+          "track_album_name": "Collateral",
+          "track_artist": "NERVO",
+          "track_id": "214tNSr4epshNjQ6W2PTLg",
+          "track_name": "You're Gonna Love Again"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.568552,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "indie poptimism",
+          "rank": 7,
+          "track_album_name": "Youuu",
+          "track_artist": "COIN",
+          "track_id": "0xORFaXxl07BtES8IAJ7OD",
+          "track_name": "Youuu"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.567882,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "post-teen pop",
+          "rank": 8,
+          "track_album_name": "Making Mirrors",
+          "track_artist": "Gotye",
+          "track_id": "1qDrWA6lyx8cLECdZE7TV7",
+          "track_name": "Somebody That I Used To Know"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.567427,
+          "language": "en",
+          "playlist_genre": "latin",
+          "playlist_subgenre": "latin pop",
+          "rank": 9,
+          "track_album_name": "Don't Check On Me (feat. Justin Bieber & Ink)",
+          "track_artist": "Chris Brown",
+          "track_id": "3msKIQc0Yjuz3Zn39g3KLX",
+          "track_name": "Don't Check On Me (feat. Justin Bieber & Ink)"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.567401,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "dance pop",
+          "rank": 10,
+          "track_album_name": "Letting Go",
+          "track_artist": "Hogland",
+          "track_id": "1S7hEPenrIVKVTuEjtXKz9",
+          "track_name": "Letting Go"
+        }
+      ],
+      "final_explanations": [
+        {
+          "explanation": "This track features a high valence score and lyrics that express gratitude and moving on after a relationship, fitting the bittersweet yet uplifting theme.",
+          "rank": 1,
+          "track_id": "5CLGzJsGqhCEECcpnFQA8x",
+          "warnings": []
+        },
+        {
+          "explanation": "With a very high valence, this classic pop song captures the difficulty of breaking up while maintaining an upbeat musical tone.",
+          "rank": 2,
+          "track_id": "7utoClKnLShFg6u6dZ20gp",
+          "warnings": []
+        },
+        {
+          "explanation": "This song balances a high valence with lyrics about the pain of seeing an ex move on, perfectly matching the requested bittersweet sentiment.",
+          "rank": 3,
+          "track_id": "6gbLpUQtUU8ojzbE9jKt5A",
+          "warnings": []
+        },
+        {
+          "explanation": "A high-valence pop anthem that addresses the finality of a breakup with a clear, decisive, and uplifting tone.",
+          "rank": 4,
+          "track_id": "0VwNdo84DaVYLIkbVO86ND",
+          "warnings": []
+        },
+        {
+          "explanation": "Reflects on past relationships with a bittersweet perspective, though the lower valence suggests a more mellow, reflective mood.",
+          "rank": 5,
+          "track_id": "47Bg6IrMed1GPbxRgwH2aC",
+          "warnings": [
+            "Valence is lower than other candidates, may feel less uplifting."
+          ]
+        },
+        {
+          "explanation": "Focuses on finding hope and resilience after a broken heart, providing an uplifting message despite the lower valence.",
+          "rank": 6,
+          "track_id": "214tNSr4epshNjQ6W2PTLg",
+          "warnings": [
+            "Valence is lower (0.275), may feel less uplifting."
+          ]
+        },
+        {
+          "explanation": "Addresses the lingering feelings of a past relationship, though the very low valence makes it less traditionally uplifting.",
+          "rank": 7,
+          "track_id": "0xORFaXxl07BtES8IAJ7OD",
+          "warnings": [
+            "Valence is very low, may not feel uplifting."
+          ]
+        },
+        {
+          "explanation": "A quintessential bittersweet breakup song with a high valence that keeps the energy up while acknowledging the end of a relationship.",
+          "rank": 8,
+          "track_id": "1qDrWA6lyx8cLECdZE7TV7",
+          "warnings": []
+        },
+        {
+          "explanation": "Features lyrics about moving on and maintaining boundaries, supported by a high valence score for an uplifting feel.",
+          "rank": 9,
+          "track_id": "3msKIQc0Yjuz3Zn39g3KLX",
+          "warnings": []
+        },
+        {
+          "explanation": "Addresses the struggle of letting go, providing a relatable bittersweet narrative with a moderate valence.",
+          "rank": 10,
+          "track_id": "1S7hEPenrIVKVTuEjtXKz9",
+          "warnings": [
+            "Valence is lower, may feel less uplifting."
+          ]
+        }
+      ],
+      "final_track_ids": [
+        "5CLGzJsGqhCEECcpnFQA8x",
+        "7utoClKnLShFg6u6dZ20gp",
+        "6gbLpUQtUU8ojzbE9jKt5A",
+        "0VwNdo84DaVYLIkbVO86ND",
+        "47Bg6IrMed1GPbxRgwH2aC",
+        "214tNSr4epshNjQ6W2PTLg",
+        "0xORFaXxl07BtES8IAJ7OD",
+        "1qDrWA6lyx8cLECdZE7TV7",
+        "3msKIQc0Yjuz3Zn39g3KLX",
+        "1S7hEPenrIVKVTuEjtXKz9"
+      ],
+      "raw_candidate_track_ids": [
+        "5CLGzJsGqhCEECcpnFQA8x",
+        "7utoClKnLShFg6u6dZ20gp",
+        "6gbLpUQtUU8ojzbE9jKt5A",
+        "0VwNdo84DaVYLIkbVO86ND",
+        "47Bg6IrMed1GPbxRgwH2aC",
+        "214tNSr4epshNjQ6W2PTLg",
+        "0xORFaXxl07BtES8IAJ7OD",
+        "1qDrWA6lyx8cLECdZE7TV7",
+        "3msKIQc0Yjuz3Zn39g3KLX",
+        "1S7hEPenrIVKVTuEjtXKz9"
+      ],
+      "recommendation_count": 10,
+      "retrieval_modes_used": [
+        "lyric_retrieval",
+        "feature_filter"
+      ],
+      "revision_count": 0,
+      "revision_used": false,
+      "scored_count": 10,
+      "scored_track_ids": [
+        "5CLGzJsGqhCEECcpnFQA8x",
+        "7utoClKnLShFg6u6dZ20gp",
+        "6gbLpUQtUU8ojzbE9jKt5A",
+        "0VwNdo84DaVYLIkbVO86ND",
+        "47Bg6IrMed1GPbxRgwH2aC",
+        "214tNSr4epshNjQ6W2PTLg",
+        "0xORFaXxl07BtES8IAJ7OD",
+        "1qDrWA6lyx8cLECdZE7TV7",
+        "3msKIQc0Yjuz3Zn39g3KLX",
+        "1S7hEPenrIVKVTuEjtXKz9"
+      ],
+      "tool_error_count": 0,
+      "tool_errors": [],
+      "trace_stages": [
+        "received_query",
+        "extract_preferences",
+        "plan_retrieval",
+        "retrieve_candidates",
+        "retrieve_candidates",
+        "rank_candidates",
+        "verify_candidates",
+        "critique_results",
+        "build_reliability_report",
+        "explain_recommendations",
+        "finished"
+      ],
+      "warning_count": 12,
+      "warnings": [
+        "Bittersweet sentiment is subjective and will be handled by the lyric retrieval tool rather than numeric features.",
+        "Returned top 50 of 250 lyric-retrieved candidates.",
+        "Returned top 50 of 18454 feature-matched candidates.",
+        "Returned top 10 of 100 scored candidates.",
+        "Several candidates have low valence scores (e.g., 0.0845, 0.217) which may not meet the user's 'uplifting' requirement.",
+        "Bittersweet sentiment is inherently subjective.",
+        "Prior tool warning: Bittersweet sentiment is subjective and will be handled by the lyric retrieval tool rather than numeric features.",
+        "Prior tool warning: Returned top 50 of 250 lyric-retrieved candidates.",
+        "Prior tool warning: Returned top 50 of 18454 feature-matched candidates.",
+        "Verifier warning: Bittersweet sentiment is subjective.",
+        "Bittersweet sentiment is subjective and was handled via lyric retrieval.",
+        "Some tracks have lower valence scores and may feel less uplifting than others."
+      ]
+    },
+    "variant": "full"
+  },
+  "schema": "vibefinder_evaluation_run_v1",
+  "status": "completed",
+  "written_at": "2026-04-24T22:37:20.311146+00:00"
+}

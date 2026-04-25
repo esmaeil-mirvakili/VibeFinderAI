@@ -1,0 +1,7 @@
+Component,Prompt,Winner,Judge Evidence,Mean Judge Preference Delta,Mean Score Margin,Task ID
+Lyric RAG,"Songs where the lyrics clearly express revenge or payback after betrayal, not just general anger",Full System,Ablated System didn't produce any result.,4.0,4.0,eval_revenge_not_just_anger__full_vs_no_lyric_retriever
+Lyric RAG,"Songs about regret after hurting someone you love, with emotional lyrics and medium to high energy",Full System,"Full System is better, hands down.",2.0,2.5714,eval_regret_high_energy__full_vs_no_lyric_retriever
+Lyric RAG,"Songs about being cheated on, but from the perspective of the person who did the cheating, in English",Full System,Full System provided songs more aligned with the requested lyric theme.,2.0,1.5714,eval_cheating_guilty_perspective__full_vs_no_lyric_retriever
+Critic / Revision,"Songs where the lyrics clearly express revenge or payback after betrayal, not just general anger",Full System,Full System is better,1.0,1.4286,eval_revenge_not_just_anger__full_vs_no_critic_revision
+Critic / Revision,"Songs about betrayal with strong lyrical storytelling, high energy, and preferably from female artists",Full System,Full System provides better ranking with better lyric match at the top.,0.0,0.5714,eval_betrayal_female_high_energy__full_vs_no_critic_revision
+Critic / Revision,"Songs about heartbreak, but avoid overly slow ballads and avoid songs with weak or generic lyrics",Full System,Full System has a little better ranking.,0.0,0.1429,eval_heartbreak_not_slow_not_generic__full_vs_no_critic_revision

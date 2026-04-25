@@ -1,0 +1,326 @@
+{
+  "metadata": {
+    "include_state": false,
+    "llm_model": "gemini-3.1-flash-lite-preview",
+    "llm_provider": "gemini",
+    "max_revision_count": 1,
+    "query": "Sad pop songs in English that are not acoustic, have medium tempo, and are not too low energy",
+    "query_id": "eval_sad_not_acoustic_medium_energy",
+    "top_k": 10,
+    "variant": "no_lyric_retriever"
+  },
+  "result": {
+    "elapsed_seconds": 19.1023,
+    "error": null,
+    "group": "hard_constraints",
+    "metrics": {
+      "album_diversity": 1.0,
+      "artist_diversity": 1.0,
+      "automatic_constraint_score": 0.6617,
+      "evaluated_candidate_count": 9,
+      "expected_retrieval_mode_recall": 0.5,
+      "feature_exclusion_pass_rate": null,
+      "feature_fit_score": 0.8086,
+      "genre_match_rate": 1.0,
+      "language_match_rate": 1.0,
+      "lyric_evidence_rate": 0.0,
+      "lyric_intent_expected": true,
+      "lyric_intent_retrieval_match": false,
+      "lyric_retrieval_used": false,
+      "metadata_text_match_rate": null,
+      "missing_dataset_count": 0,
+      "subgenre_diversity": 0.3333,
+      "subgenre_match_rate": null,
+      "unexpected_retrieval_mode_count": 1,
+      "unique_album_count": 9,
+      "unique_artist_count": 9,
+      "unique_subgenre_count": 3
+    },
+    "query": "Sad pop songs in English that are not acoustic, have medium tempo, and are not too low energy",
+    "query_id": "eval_sad_not_acoustic_medium_energy",
+    "state": null,
+    "success": true,
+    "summary": {
+      "candidate_count": 10,
+      "confidence_label": "medium",
+      "confidence_score": 0.542559,
+      "failure_category": null,
+      "final_candidates": [
+        {
+          "evidence_sources": [
+            "metadata_retrieval",
+            "feature_filter"
+          ],
+          "final_score": 0.767586,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "post-teen pop",
+          "rank": 1,
+          "track_album_name": "Peachy Keen",
+          "track_artist": "L Devine",
+          "track_id": "06ZIzHhJFWf0mDyEylIPf0",
+          "track_name": "Peachy Keen"
+        },
+        {
+          "evidence_sources": [
+            "metadata_retrieval",
+            "feature_filter"
+          ],
+          "final_score": 0.766552,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "dance pop",
+          "rank": 2,
+          "track_album_name": "With You (Frank Walker Remix)",
+          "track_artist": "Tyler Shaw",
+          "track_id": "06Z7Hy2LUzbcSFmWzwkun1",
+          "track_name": "With You - Frank Walker Remix"
+        },
+        {
+          "evidence_sources": [
+            "metadata_retrieval"
+          ],
+          "final_score": 0.402414,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "post-teen pop",
+          "rank": 3,
+          "track_album_name": "Expectations",
+          "track_artist": "Bebe Rexha",
+          "track_id": "04ZTP5KsCypmtCmQg5tH9R",
+          "track_name": "I'm a Mess"
+        },
+        {
+          "evidence_sources": [
+            "metadata_retrieval"
+          ],
+          "final_score": 0.402069,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "electropop",
+          "rank": 4,
+          "track_album_name": "Nine Track Mind",
+          "track_artist": "Charlie Puth",
+          "track_id": "06KyNuuMOX1ROXRhj787tj",
+          "track_name": "We Don't Talk Anymore"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.401724,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "dance pop",
+          "rank": 5,
+          "track_album_name": "Ghost Stories",
+          "track_artist": "Coldplay",
+          "track_id": "0FDzzruyVECATHXKHFs9eJ",
+          "track_name": "A Sky Full of Stars"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.401379,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "post-teen pop",
+          "rank": 6,
+          "track_album_name": "Romance",
+          "track_artist": "Camila Cabello",
+          "track_id": "073ILU1C3APNRGF66VhtyA",
+          "track_name": "Liar"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.333448,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "post-teen pop",
+          "rank": 7,
+          "track_album_name": "Dying to Live",
+          "track_artist": "Kodak Black",
+          "track_id": "0FZ4Dmg8jJJAPJnvBIzD9z",
+          "track_name": "ZEZE"
+        },
+        {
+          "evidence_sources": [
+            "metadata_retrieval"
+          ],
+          "final_score": 0.332069,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "post-teen pop",
+          "rank": 8,
+          "track_album_name": "American Beauty/American Psycho",
+          "track_artist": "Fall Out Boy",
+          "track_id": "04aAxqtGp5pv12UXAg4pkq",
+          "track_name": "Centuries"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.332069,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "post-teen pop",
+          "rank": 9,
+          "track_album_name": "Mail on Sunday",
+          "track_artist": "Flo Rida",
+          "track_id": "0CAfXk7DXMnon4gLudAp7J",
+          "track_name": "Low (feat. T-Pain)"
+        }
+      ],
+      "final_explanations": [
+        {
+          "explanation": "This track is a verified pop song in English with low acousticness, fitting your preference for non-acoustic sad pop.",
+          "rank": 1,
+          "track_id": "06ZIzHhJFWf0mDyEylIPf0",
+          "warnings": []
+        },
+        {
+          "explanation": "A verified pop track that meets your criteria for low acousticness and English language.",
+          "rank": 2,
+          "track_id": "06Z7Hy2LUzbcSFmWzwkun1",
+          "warnings": []
+        },
+        {
+          "explanation": "This song is a verified pop track with low acousticness, aligning with your request for non-acoustic music.",
+          "rank": 3,
+          "track_id": "04ZTP5KsCypmtCmQg5tH9R",
+          "warnings": []
+        },
+        {
+          "explanation": "A verified pop song that satisfies the language and acousticness constraints.",
+          "rank": 4,
+          "track_id": "06KyNuuMOX1ROXRhj787tj",
+          "warnings": []
+        },
+        {
+          "explanation": "This track is a verified pop song that meets the low acousticness requirement.",
+          "rank": 5,
+          "track_id": "0FDzzruyVECATHXKHFs9eJ",
+          "warnings": []
+        },
+        {
+          "explanation": "A verified pop track that adheres to your language and acousticness preferences.",
+          "rank": 6,
+          "track_id": "073ILU1C3APNRGF66VhtyA",
+          "warnings": []
+        },
+        {
+          "explanation": "This track was included as a candidate but did not fully align with the sad pop theme during verification.",
+          "rank": 7,
+          "track_id": "0FZ4Dmg8jJJAPJnvBIzD9z",
+          "warnings": []
+        },
+        {
+          "explanation": "This track was included as a candidate but did not fully align with the sad pop theme during verification.",
+          "rank": 8,
+          "track_id": "04aAxqtGp5pv12UXAg4pkq",
+          "warnings": []
+        },
+        {
+          "explanation": "This track was included as a candidate but did not fully align with the sad pop theme during verification.",
+          "rank": 9,
+          "track_id": "0CAfXk7DXMnon4gLudAp7J",
+          "warnings": []
+        }
+      ],
+      "final_track_ids": [
+        "06ZIzHhJFWf0mDyEylIPf0",
+        "06Z7Hy2LUzbcSFmWzwkun1",
+        "04ZTP5KsCypmtCmQg5tH9R",
+        "06KyNuuMOX1ROXRhj787tj",
+        "0FDzzruyVECATHXKHFs9eJ",
+        "073ILU1C3APNRGF66VhtyA",
+        "0FZ4Dmg8jJJAPJnvBIzD9z",
+        "04aAxqtGp5pv12UXAg4pkq",
+        "0CAfXk7DXMnon4gLudAp7J"
+      ],
+      "raw_candidate_track_ids": [
+        "06ZIzHhJFWf0mDyEylIPf0",
+        "06Z7Hy2LUzbcSFmWzwkun1",
+        "0FZ4Dmg8jJJAPJnvBIzD9z",
+        "04ZTP5KsCypmtCmQg5tH9R",
+        "04aAxqtGp5pv12UXAg4pkq",
+        "06KyNuuMOX1ROXRhj787tj",
+        "0CAfXk7DXMnon4gLudAp7J",
+        "020wG4EHTwBy5h2rbpxqvK",
+        "0FDzzruyVECATHXKHFs9eJ",
+        "073ILU1C3APNRGF66VhtyA"
+      ],
+      "recommendation_count": 9,
+      "retrieval_modes_used": [
+        "metadata_retrieval",
+        "feature_filter"
+      ],
+      "revision_count": 1,
+      "revision_used": true,
+      "scored_count": 9,
+      "scored_track_ids": [
+        "06ZIzHhJFWf0mDyEylIPf0",
+        "06Z7Hy2LUzbcSFmWzwkun1",
+        "04ZTP5KsCypmtCmQg5tH9R",
+        "06KyNuuMOX1ROXRhj787tj",
+        "0FDzzruyVECATHXKHFs9eJ",
+        "073ILU1C3APNRGF66VhtyA",
+        "0FZ4Dmg8jJJAPJnvBIzD9z",
+        "04aAxqtGp5pv12UXAg4pkq",
+        "0CAfXk7DXMnon4gLudAp7J"
+      ],
+      "tool_error_count": 0,
+      "tool_errors": [],
+      "trace_stages": [
+        "received_query",
+        "extract_preferences",
+        "plan_retrieval",
+        "retrieve_candidates",
+        "retrieve_candidates",
+        "rank_candidates",
+        "verify_candidates",
+        "critique_results",
+        "revise_plan",
+        "retrieve_candidates",
+        "retrieve_candidates",
+        "rank_candidates",
+        "verify_candidates",
+        "critique_results",
+        "build_reliability_report",
+        "explain_recommendations",
+        "finished"
+      ],
+      "warning_count": 20,
+      "warnings": [
+        "Lyric retrieval is disabled per variant configuration.",
+        "Returned top 50 of 3739 metadata-matched candidates.",
+        "Returned top 50 of 9984 feature-matched candidates.",
+        "Returned top 10 of 98 scored candidates.",
+        "Rejected 1 candidates with deterministic hard constraint violations.",
+        "Lyric retrieval was disabled, preventing direct verification of the 'sad' lyric intent.",
+        "Several candidates are high-energy party tracks that do not align well with the 'sad' request.",
+        "Used deterministic revision trigger: low_lyric_evidence.",
+        "Kept 3 candidates with soft verifier concerns; only hard constraint mismatches are rejected.",
+        "Lyric retrieval was disabled, limiting the ability to verify the 'sad' theme.",
+        "Several candidates are high-energy party tracks that do not align with the user's request.",
+        "Only 9 final candidates were returned for requested 10.",
+        "7 final candidates have weak final scores.",
+        "3 final candidates failed verifier checks.",
+        "1 hard constraint violations were reported.",
+        "Prior tool warning: Lyric retrieval is disabled per variant configuration.",
+        "Prior tool warning: Returned top 50 of 3739 metadata-matched candidates.",
+        "Prior tool warning: Returned top 50 of 9984 feature-matched candidates.",
+        "Verifier warning: Lyric retrieval was disabled; theme verification is based on provided lyrics.",
+        "Lyric retrieval was disabled, limiting the accuracy of theme-based verification."
+      ]
+    },
+    "variant": "no_lyric_retriever"
+  },
+  "schema": "vibefinder_evaluation_run_v1",
+  "status": "completed",
+  "written_at": "2026-04-24T22:36:34.602139+00:00"
+}

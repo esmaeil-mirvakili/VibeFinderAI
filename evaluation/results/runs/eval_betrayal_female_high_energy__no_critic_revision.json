@@ -1,0 +1,335 @@
+{
+  "metadata": {
+    "include_state": false,
+    "llm_model": "gemini-3.1-flash-lite-preview",
+    "llm_provider": "gemini",
+    "max_revision_count": 1,
+    "query": "Songs about betrayal with strong lyrical storytelling, high energy, and preferably from female artists",
+    "query_id": "eval_betrayal_female_high_energy",
+    "top_k": 10,
+    "variant": "no_critic_revision"
+  },
+  "result": {
+    "elapsed_seconds": 15.5893,
+    "error": null,
+    "group": "mixed",
+    "metrics": {
+      "album_diversity": 1.0,
+      "artist_diversity": 1.0,
+      "automatic_constraint_score": 0.8014,
+      "evaluated_candidate_count": 10,
+      "expected_retrieval_mode_recall": 0.6667,
+      "feature_exclusion_pass_rate": null,
+      "feature_fit_score": 0.7376,
+      "genre_match_rate": null,
+      "language_match_rate": null,
+      "lyric_evidence_rate": 1.0,
+      "lyric_intent_expected": true,
+      "lyric_intent_retrieval_match": true,
+      "lyric_retrieval_used": true,
+      "metadata_text_match_rate": null,
+      "missing_dataset_count": 0,
+      "subgenre_diversity": 0.8,
+      "subgenre_match_rate": null,
+      "unexpected_retrieval_mode_count": 0,
+      "unique_album_count": 10,
+      "unique_artist_count": 10,
+      "unique_subgenre_count": 8
+    },
+    "query": "Songs about betrayal with strong lyrical storytelling, high energy, and preferably from female artists",
+    "query_id": "eval_betrayal_female_high_energy",
+    "state": null,
+    "success": true,
+    "summary": {
+      "candidate_count": 10,
+      "confidence_label": "medium",
+      "confidence_score": 0.608249,
+      "failure_category": null,
+      "final_candidates": [
+        {
+          "evidence_sources": [
+            "lyric_retrieval",
+            "feature_filter"
+          ],
+          "final_score": 0.787573,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "hard rock",
+          "rank": 1,
+          "track_album_name": "Hardwired\u2026To Self-Destruct",
+          "track_artist": "Metallica",
+          "track_id": "01LODLnhlfNphZ366BqKc0",
+          "track_name": "Now That We're Dead"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.556582,
+          "language": "en",
+          "playlist_genre": "latin",
+          "playlist_subgenre": "latin hip hop",
+          "rank": 2,
+          "track_album_name": "Evolve",
+          "track_artist": "Imagine Dragons",
+          "track_id": "0pqnGHJpmpxLKifKRmU6WP",
+          "track_name": "Believer"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.550305,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "permanent wave",
+          "rank": 3,
+          "track_album_name": "Duran Duran",
+          "track_artist": "Duran Duran",
+          "track_id": "0yfNXxlyXdmP0ue1iJijx1",
+          "track_name": "Come Undone"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.548206,
+          "language": "en",
+          "playlist_genre": "rap",
+          "playlist_subgenre": "gangster rap",
+          "rank": 4,
+          "track_album_name": "Loyal To The Game",
+          "track_artist": "2Pac",
+          "track_id": "7jLbTp3qZzah9kMIdW8e5M",
+          "track_name": "Ghetto Gospel"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.546053,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "permanent wave",
+          "rank": 5,
+          "track_album_name": "Movement",
+          "track_artist": "New Order",
+          "track_id": "32TKQVwtSGCHIqmbmaNdFj",
+          "track_name": "Dreams Never End - 2015 Remaster"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.544038,
+          "language": "en",
+          "playlist_genre": "rap",
+          "playlist_subgenre": "southern hip hop",
+          "rank": 6,
+          "track_album_name": "Trouble Is...",
+          "track_artist": "Kenny Wayne Shepherd",
+          "track_id": "7GRq9NUgqhxPGUUksX02fk",
+          "track_name": "Blue on Black"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.542823,
+          "language": "en",
+          "playlist_genre": "rap",
+          "playlist_subgenre": "trap",
+          "rank": 7,
+          "track_album_name": "The Voices",
+          "track_artist": "dreamEater",
+          "track_id": "0WEgOlUCB9nHPsoD8Ae4Zz",
+          "track_name": "The Voices"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.542619,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "hard rock",
+          "rank": 8,
+          "track_album_name": "Blue On Black (feat. Kenny Wayne Shepherd, Brantley Gilbert & Brian May)",
+          "track_artist": "Five Finger Death Punch",
+          "track_id": "3lwpE0SEaQV5DWNjqMtYEk",
+          "track_name": "Blue On Black (feat. Kenny Wayne Shepherd, Brantley Gilbert & Brian May)"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.542365,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "dance pop",
+          "rank": 9,
+          "track_album_name": "Love Is Not Sex",
+          "track_artist": "Captain Hollywood Project",
+          "track_id": "0JXXm3RqxU8EKzX4P8M0n3",
+          "track_name": "More And More - Single Version"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.476526,
+          "language": "en",
+          "playlist_genre": "r&b",
+          "playlist_subgenre": "urban contemporary",
+          "rank": 10,
+          "track_album_name": "I met you when I was 18. (the playlist)",
+          "track_artist": "Lauv",
+          "track_id": "3u5bTqHMM1P34ZkbwzdckV",
+          "track_name": "The Story Never Ends"
+        }
+      ],
+      "final_explanations": [
+        {
+          "explanation": "This high-energy track features intense storytelling about finality and death, aligning well with the requested themes.",
+          "rank": 1,
+          "track_id": "01LODLnhlfNphZ366BqKc0",
+          "warnings": []
+        },
+        {
+          "explanation": "A high-energy anthem that explores themes of struggle and resilience, fitting the storytelling requirement.",
+          "rank": 2,
+          "track_id": "0pqnGHJpmpxLKifKRmU6WP",
+          "warnings": []
+        },
+        {
+          "explanation": "This track provides strong lyrical storytelling regarding emotional turmoil and falling apart.",
+          "rank": 3,
+          "track_id": "0yfNXxlyXdmP0ue1iJijx1",
+          "warnings": []
+        },
+        {
+          "explanation": "Features poignant storytelling about social struggle and betrayal, though it has a more moderate energy level.",
+          "rank": 4,
+          "track_id": "7jLbTp3qZzah9kMIdW8e5M",
+          "warnings": []
+        },
+        {
+          "explanation": "A high-energy track with lyrics that touch on themes of emotional endings and betrayal.",
+          "rank": 5,
+          "track_id": "32TKQVwtSGCHIqmbmaNdFj",
+          "warnings": []
+        },
+        {
+          "explanation": "Contains lyrics focused on betrayal and emotional pain, delivered with moderate to high energy.",
+          "rank": 6,
+          "track_id": "7GRq9NUgqhxPGUUksX02fk",
+          "warnings": []
+        },
+        {
+          "explanation": "A high-energy track that explores internal struggle and betrayal through its lyrics.",
+          "rank": 7,
+          "track_id": "0WEgOlUCB9nHPsoD8Ae4Zz",
+          "warnings": []
+        },
+        {
+          "explanation": "This high-energy collaboration features lyrics centered on betrayal and emotional pain.",
+          "rank": 8,
+          "track_id": "3lwpE0SEaQV5DWNjqMtYEk",
+          "warnings": []
+        },
+        {
+          "explanation": "A high-energy track with lyrics that discuss themes of betrayal and dishonesty.",
+          "rank": 9,
+          "track_id": "0JXXm3RqxU8EKzX4P8M0n3",
+          "warnings": []
+        },
+        {
+          "explanation": "While the lyrics address betrayal, this track has significantly lower energy than the target.",
+          "rank": 10,
+          "track_id": "3u5bTqHMM1P34ZkbwzdckV",
+          "warnings": [
+            "Energy is significantly lower than the high-energy target."
+          ]
+        }
+      ],
+      "final_track_ids": [
+        "01LODLnhlfNphZ366BqKc0",
+        "0pqnGHJpmpxLKifKRmU6WP",
+        "0yfNXxlyXdmP0ue1iJijx1",
+        "7jLbTp3qZzah9kMIdW8e5M",
+        "32TKQVwtSGCHIqmbmaNdFj",
+        "7GRq9NUgqhxPGUUksX02fk",
+        "0WEgOlUCB9nHPsoD8Ae4Zz",
+        "3lwpE0SEaQV5DWNjqMtYEk",
+        "0JXXm3RqxU8EKzX4P8M0n3",
+        "3u5bTqHMM1P34ZkbwzdckV"
+      ],
+      "raw_candidate_track_ids": [
+        "01LODLnhlfNphZ366BqKc0",
+        "0pqnGHJpmpxLKifKRmU6WP",
+        "0yfNXxlyXdmP0ue1iJijx1",
+        "7jLbTp3qZzah9kMIdW8e5M",
+        "3u5bTqHMM1P34ZkbwzdckV",
+        "32TKQVwtSGCHIqmbmaNdFj",
+        "7GRq9NUgqhxPGUUksX02fk",
+        "0WEgOlUCB9nHPsoD8Ae4Zz",
+        "3lwpE0SEaQV5DWNjqMtYEk",
+        "0JXXm3RqxU8EKzX4P8M0n3"
+      ],
+      "recommendation_count": 10,
+      "retrieval_modes_used": [
+        "lyric_retrieval",
+        "feature_filter"
+      ],
+      "revision_count": 0,
+      "revision_used": false,
+      "scored_count": 10,
+      "scored_track_ids": [
+        "01LODLnhlfNphZ366BqKc0",
+        "0pqnGHJpmpxLKifKRmU6WP",
+        "0yfNXxlyXdmP0ue1iJijx1",
+        "7jLbTp3qZzah9kMIdW8e5M",
+        "32TKQVwtSGCHIqmbmaNdFj",
+        "7GRq9NUgqhxPGUUksX02fk",
+        "0WEgOlUCB9nHPsoD8Ae4Zz",
+        "3lwpE0SEaQV5DWNjqMtYEk",
+        "0JXXm3RqxU8EKzX4P8M0n3",
+        "3u5bTqHMM1P34ZkbwzdckV"
+      ],
+      "tool_error_count": 0,
+      "tool_errors": [],
+      "trace_stages": [
+        "received_query",
+        "extract_preferences",
+        "plan_retrieval",
+        "retrieve_candidates",
+        "retrieve_candidates",
+        "rank_candidates",
+        "verify_candidates",
+        "critique_results",
+        "build_reliability_report",
+        "explain_recommendations",
+        "finished"
+      ],
+      "warning_count": 12,
+      "warnings": [
+        "The 'female artist' preference is handled via text search as there is no categorical gender field in the dataset.",
+        "Returned top 50 of 250 lyric-retrieved candidates.",
+        "Returned top 50 of 18454 feature-matched candidates.",
+        "Returned top 10 of 99 scored candidates.",
+        "No candidates identified as female artists due to lack of metadata.",
+        "Kept 1 candidates with soft verifier concerns; only hard constraint mismatches are rejected.",
+        "1 final candidates failed verifier checks.",
+        "Prior tool warning: The 'female artist' preference is handled via text search as there is no categorical gender field in the dataset.",
+        "Prior tool warning: Returned top 50 of 250 lyric-retrieved candidates.",
+        "Prior tool warning: Returned top 50 of 18454 feature-matched candidates.",
+        "Verifier warning: The 'female artist' preference is not met.",
+        "The 'female artist' preference is not met in any of the top candidates."
+      ]
+    },
+    "variant": "no_critic_revision"
+  },
+  "schema": "vibefinder_evaluation_run_v1",
+  "status": "completed",
+  "written_at": "2026-04-24T22:47:27.064041+00:00"
+}

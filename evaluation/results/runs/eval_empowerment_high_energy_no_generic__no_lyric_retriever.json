@@ -1,0 +1,362 @@
+{
+  "metadata": {
+    "include_state": false,
+    "llm_model": "gemini-3.1-flash-lite-preview",
+    "llm_provider": "gemini",
+    "max_revision_count": 1,
+    "query": "High-energy songs about empowerment, but avoid repetitive or generic tracks",
+    "query_id": "eval_empowerment_high_energy_no_generic",
+    "top_k": 10,
+    "variant": "no_lyric_retriever"
+  },
+  "result": {
+    "elapsed_seconds": 19.4745,
+    "error": null,
+    "group": "mixed",
+    "metrics": {
+      "album_diversity": 1.0,
+      "artist_diversity": 1.0,
+      "automatic_constraint_score": 0.4098,
+      "evaluated_candidate_count": 10,
+      "expected_retrieval_mode_recall": 0.5,
+      "feature_exclusion_pass_rate": null,
+      "feature_fit_score": 0.7295,
+      "genre_match_rate": null,
+      "language_match_rate": null,
+      "lyric_evidence_rate": 0.0,
+      "lyric_intent_expected": true,
+      "lyric_intent_retrieval_match": false,
+      "lyric_retrieval_used": false,
+      "metadata_text_match_rate": null,
+      "missing_dataset_count": 0,
+      "subgenre_diversity": 0.7,
+      "subgenre_match_rate": null,
+      "unexpected_retrieval_mode_count": 0,
+      "unique_album_count": 10,
+      "unique_artist_count": 10,
+      "unique_subgenre_count": 7
+    },
+    "query": "High-energy songs about empowerment, but avoid repetitive or generic tracks",
+    "query_id": "eval_empowerment_high_energy_no_generic",
+    "state": null,
+    "success": true,
+    "summary": {
+      "candidate_count": 10,
+      "confidence_label": "low",
+      "confidence_score": 0.38401,
+      "failure_category": null,
+      "final_candidates": [
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.3675,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "post-teen pop",
+          "rank": 1,
+          "track_album_name": "Don't Let It Break Your Heart",
+          "track_artist": "Louis Tomlinson",
+          "track_id": "00Z0GIRi0l7WqQnQJCo5S2",
+          "track_name": "Don't Let It Break Your Heart - Single Edit"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.299,
+          "language": "it",
+          "playlist_genre": "r&b",
+          "playlist_subgenre": "hip pop",
+          "rank": 2,
+          "track_album_name": "Libert\u00e0",
+          "track_artist": "Rocco Hunt",
+          "track_id": "00GxbkrW4m1Tac5xySEJ4M",
+          "track_name": "Ti volevo dedicare (feat. J-AX & Boomdabash)"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.2985,
+          "language": "es",
+          "playlist_genre": "latin",
+          "playlist_subgenre": "latin pop",
+          "rank": 3,
+          "track_album_name": "M\u00e1s Futuro Que Pasado",
+          "track_artist": "Juanes",
+          "track_id": "02lGHA7bFFplYLihnUWTx8",
+          "track_name": "Tequila"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.297,
+          "language": "es",
+          "playlist_genre": "latin",
+          "playlist_subgenre": "latin pop",
+          "rank": 4,
+          "track_album_name": "Latina (feat. Maluma)",
+          "track_artist": "Reykon",
+          "track_id": "00Ia46AgCNfnXjzgH8PIKH",
+          "track_name": "Latina (feat. Maluma)"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.2955,
+          "language": "en",
+          "playlist_genre": "r&b",
+          "playlist_subgenre": "urban contemporary",
+          "rank": 5,
+          "track_album_name": "Starboy",
+          "track_artist": "The Weeknd",
+          "track_id": "00NAQYOP4AmWR549nnYJZu",
+          "track_name": "Secrets"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.2955,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "electropop",
+          "rank": 6,
+          "track_album_name": "BEYONC\u00c9 [Platinum Edition]",
+          "track_artist": "Beyonc\u00e9",
+          "track_id": "02M6vucOvmRfMxTXDUwRXu",
+          "track_name": "7/11"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.2945,
+          "language": "es",
+          "playlist_genre": "latin",
+          "playlist_subgenre": "latin pop",
+          "rank": 7,
+          "track_album_name": "A Quien Quiera Escuchar (Deluxe Edition)",
+          "track_artist": "Ricky Martin",
+          "track_id": "00i0O74dXdaKKdCrqHnfXm",
+          "track_name": "La Mordidita"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.2945,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "post-teen pop",
+          "rank": 8,
+          "track_album_name": "The Fame",
+          "track_artist": "Lady Gaga",
+          "track_id": "02XnQdf7sipaKBBHixz3Zp",
+          "track_name": "Paparazzi"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.294,
+          "language": "es",
+          "playlist_genre": "latin",
+          "playlist_subgenre": "tropical",
+          "rank": 9,
+          "track_album_name": "Sabor a Salsa",
+          "track_artist": "Joe Arroyo",
+          "track_id": "00Ro1lnV3V6i87aY4t8Q43",
+          "track_name": "La rebelion"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.2935,
+          "language": "en",
+          "playlist_genre": "latin",
+          "playlist_subgenre": "latin hip hop",
+          "rank": 10,
+          "track_album_name": "Me 4 U",
+          "track_artist": "OMI",
+          "track_id": "023OVLNzXhX0j7CxswUt6D",
+          "track_name": "Cheerleader - Felix Jaehn Remix Radio Edit"
+        }
+      ],
+      "final_explanations": [
+        {
+          "explanation": "This track is a high-energy song that explicitly encourages resilience and self-worth, aligning perfectly with your empowerment theme.",
+          "rank": 1,
+          "track_id": "00Z0GIRi0l7WqQnQJCo5S2",
+          "warnings": []
+        },
+        {
+          "explanation": "While this track meets the high-energy criteria, the lyrics focus on romantic dedication rather than empowerment.",
+          "rank": 2,
+          "track_id": "00GxbkrW4m1Tac5xySEJ4M",
+          "warnings": [
+            "Lyric theme does not strongly align with empowerment."
+          ]
+        },
+        {
+          "explanation": "This is a high-energy track, but the lyrical content centers on heartbreak and longing instead of empowerment.",
+          "rank": 3,
+          "track_id": "02lGHA7bFFplYLihnUWTx8",
+          "warnings": [
+            "Lyric theme is about heartbreak, not empowerment."
+          ]
+        },
+        {
+          "explanation": "This track provides high energy but is primarily a romantic and dance-oriented song.",
+          "rank": 4,
+          "track_id": "00Ia46AgCNfnXjzgH8PIKH",
+          "warnings": [
+            "Lyric theme is romantic/dance-oriented, not empowerment."
+          ]
+        },
+        {
+          "explanation": "This high-energy track focuses on relationship distrust rather than the requested empowerment theme.",
+          "rank": 5,
+          "track_id": "00NAQYOP4AmWR549nnYJZu",
+          "warnings": [
+            "Lyric theme is about relationship issues, not empowerment."
+          ]
+        },
+        {
+          "explanation": "This track is high-energy but the lyrics are centered on partying.",
+          "rank": 6,
+          "track_id": "02M6vucOvmRfMxTXDUwRXu",
+          "warnings": [
+            "Lyric theme is about partying, not empowerment."
+          ]
+        },
+        {
+          "explanation": "This is a high-energy track, but the lyrics are romantic in nature.",
+          "rank": 7,
+          "track_id": "00i0O74dXdaKKdCrqHnfXm",
+          "warnings": [
+            "Lyric theme is romantic, not empowerment."
+          ]
+        },
+        {
+          "explanation": "This high-energy track focuses on themes of obsession.",
+          "rank": 8,
+          "track_id": "02XnQdf7sipaKBBHixz3Zp",
+          "warnings": [
+            "Lyric theme is about obsession, not empowerment."
+          ]
+        },
+        {
+          "explanation": "This track is high-energy and contains social commentary, but it does not clearly fit the empowerment theme.",
+          "rank": 9,
+          "track_id": "00Ro1lnV3V6i87aY4t8Q43",
+          "warnings": [
+            "Lyric theme is historical/social, but may not fit the 'empowerment' intent as clearly as others."
+          ]
+        },
+        {
+          "explanation": "This is a high-energy track, but the lyrics are romantic.",
+          "rank": 10,
+          "track_id": "023OVLNzXhX0j7CxswUt6D",
+          "warnings": [
+            "Lyric theme is romantic, not empowerment."
+          ]
+        }
+      ],
+      "final_track_ids": [
+        "00Z0GIRi0l7WqQnQJCo5S2",
+        "00GxbkrW4m1Tac5xySEJ4M",
+        "02lGHA7bFFplYLihnUWTx8",
+        "00Ia46AgCNfnXjzgH8PIKH",
+        "00NAQYOP4AmWR549nnYJZu",
+        "02M6vucOvmRfMxTXDUwRXu",
+        "00i0O74dXdaKKdCrqHnfXm",
+        "02XnQdf7sipaKBBHixz3Zp",
+        "00Ro1lnV3V6i87aY4t8Q43",
+        "023OVLNzXhX0j7CxswUt6D"
+      ],
+      "raw_candidate_track_ids": [
+        "00GxbkrW4m1Tac5xySEJ4M",
+        "02lGHA7bFFplYLihnUWTx8",
+        "00Z0GIRi0l7WqQnQJCo5S2",
+        "00Ia46AgCNfnXjzgH8PIKH",
+        "00NAQYOP4AmWR549nnYJZu",
+        "02M6vucOvmRfMxTXDUwRXu",
+        "00i0O74dXdaKKdCrqHnfXm",
+        "02XnQdf7sipaKBBHixz3Zp",
+        "00Ro1lnV3V6i87aY4t8Q43",
+        "023OVLNzXhX0j7CxswUt6D"
+      ],
+      "recommendation_count": 10,
+      "retrieval_modes_used": [
+        "feature_filter"
+      ],
+      "revision_count": 1,
+      "revision_used": true,
+      "scored_count": 10,
+      "scored_track_ids": [
+        "00Z0GIRi0l7WqQnQJCo5S2",
+        "00GxbkrW4m1Tac5xySEJ4M",
+        "02lGHA7bFFplYLihnUWTx8",
+        "00Ia46AgCNfnXjzgH8PIKH",
+        "00NAQYOP4AmWR549nnYJZu",
+        "02M6vucOvmRfMxTXDUwRXu",
+        "00i0O74dXdaKKdCrqHnfXm",
+        "02XnQdf7sipaKBBHixz3Zp",
+        "00Ro1lnV3V6i87aY4t8Q43",
+        "023OVLNzXhX0j7CxswUt6D"
+      ],
+      "tool_error_count": 0,
+      "tool_errors": [],
+      "trace_stages": [
+        "received_query",
+        "extract_preferences",
+        "plan_retrieval",
+        "retrieve_candidates",
+        "rank_candidates",
+        "verify_candidates",
+        "critique_results",
+        "revise_plan",
+        "retrieve_candidates",
+        "rank_candidates",
+        "verify_candidates",
+        "critique_results",
+        "build_reliability_report",
+        "explain_recommendations",
+        "finished"
+      ],
+      "warning_count": 21,
+      "warnings": [
+        "The request for empowerment-themed songs cannot be fully satisfied without the lyric retrieval tool.",
+        "Returned top 50 of 18454 feature-matched candidates.",
+        "Returned top 10 of 50 scored candidates.",
+        "Kept 9 candidates with soft verifier concerns; only hard constraint mismatches are rejected.",
+        "Lyric retrieval is disabled, preventing accurate filtering for empowerment themes.",
+        "Most candidates are misaligned with the requested thematic constraint.",
+        "Used deterministic revision trigger: low_lyric_evidence.",
+        "Lyric retrieval is disabled, preventing accurate thematic filtering.",
+        "Most candidates are misaligned with the requested empowerment theme.",
+        "Top final score 0.37 is below the minimum acceptable score 0.45.",
+        "Average final score 0.30 is below the minimum acceptable score 0.45.",
+        "10 final candidates have weak final scores.",
+        "9 final candidates failed verifier checks.",
+        "Prior tool warning: The request for empowerment-themed songs cannot be fully satisfied without the lyric retrieval tool.",
+        "Prior tool warning: Returned top 50 of 18454 feature-matched candidates.",
+        "Prior tool warning: Returned top 10 of 50 scored candidates.",
+        "Verifier warning: Lyric theme does not strongly align with empowerment.",
+        "Verifier warning: Lyric theme is about heartbreak, not empowerment.",
+        "Verifier warning: Lyric theme is romantic/dance-oriented, not empowerment.",
+        "Most candidates failed verification for the empowerment lyric theme.",
+        "Top final scores are below the preferred threshold."
+      ]
+    },
+    "variant": "no_lyric_retriever"
+  },
+  "schema": "vibefinder_evaluation_run_v1",
+  "status": "completed",
+  "written_at": "2026-04-24T22:43:32.606684+00:00"
+}

@@ -1,0 +1,7 @@
+Component,component,Failure Reason,failure_reason,Count,Global Count
+Lyric RAG,lyric_retrieval,Missing Lyric Theme,missing_lyric_theme,8,8
+Lyric RAG,lyric_retrieval,Weak Explanation,weak_explanation,1,2
+Critic / Revision,critic_revision,Weak Explanation,weak_explanation,1,2
+Lyric RAG,lyric_retrieval,Empty / Too Few Results,empty_or_too_few_results,1,1
+Critic / Revision,critic_revision,Poor Ranking,poor_ranking,1,1
+Lyric RAG,lyric_retrieval,Weak Audio Feature Fit,weak_audio_feature_fit,1,1

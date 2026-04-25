@@ -1,0 +1,147 @@
+[
+  {
+    "id": "eval_cheating_guilty_perspective",
+    "group": "lyric_theme",
+    "query": "Songs about being cheated on, but from the perspective of the person who did the cheating, in English",
+    "expected": {
+      "language": "en",
+      "lyric_intent": "cheating guilty perspective",
+      "retrieval_modes": ["lyric_retrieval", "metadata_retrieval"],
+      "feature_targets": [
+        { "feature": "valence", "direction": "low", "weight": 0.8 }
+      ]
+    },
+    "notes": "Strong test for lyric RAG with narrative perspective understanding."
+  },
+  {
+    "id": "eval_regret_high_energy",
+    "group": "lyric_theme",
+    "query": "Songs about regret after hurting someone you love, with emotional lyrics and medium to high energy",
+    "expected": {
+      "lyric_intent": "regret hurting someone",
+      "retrieval_modes": ["lyric_retrieval", "feature_filter"],
+      "feature_targets": [
+        { "feature": "energy", "direction": "high", "weight": 0.7 },
+        { "feature": "valence", "direction": "low", "weight": 1.0 }
+      ]
+    },
+    "notes": "Tests balancing emotional lyrics with higher energy."
+  },
+  {
+    "id": "eval_revenge_not_just_anger",
+    "group": "lyric_theme",
+    "query": "Songs where the lyrics clearly express revenge or payback after betrayal, not just general anger",
+    "expected": {
+      "lyric_intent": "revenge after betrayal",
+      "retrieval_modes": ["lyric_retrieval"],
+      "feature_targets": [
+        { "feature": "energy", "direction": "high", "weight": 0.8 }
+      ]
+    },
+    "notes": "Distinguishes revenge vs generic anger."
+  },
+  {
+    "id": "eval_sad_not_acoustic_medium_energy",
+    "group": "hard_constraints",
+    "query": "Sad pop songs in English that are not acoustic, have medium tempo, and are not too low energy",
+    "expected": {
+      "language": "en",
+      "genres": ["pop"],
+      "lyric_intent": "sad",
+      "retrieval_modes": ["lyric_retrieval", "feature_filter"],
+      "feature_targets": [
+        { "feature": "tempo", "direction": "medium", "weight": 1.0 },
+        { "feature": "energy", "direction": "medium", "weight": 0.8 },
+        { "feature": "acousticness", "direction": "low", "weight": 1.0 }
+      ]
+    },
+    "notes": "Strong multi-step reasoning test with conflicting constraints."
+  },
+  {
+    "id": "eval_uplifting_but_bittersweet",
+    "group": "mixed",
+    "query": "Songs that feel uplifting but have slightly bittersweet lyrics about moving on after a breakup",
+    "expected": {
+      "lyric_intent": "moving on bittersweet",
+      "retrieval_modes": ["lyric_retrieval", "feature_filter"],
+      "feature_targets": [
+        { "feature": "valence", "direction": "medium", "weight": 0.7 },
+        { "feature": "energy", "direction": "medium", "weight": 0.7 }
+      ]
+    },
+    "notes": "Tests contradiction between sound and lyrics."
+  },
+  {
+    "id": "eval_late_night_reflective",
+    "group": "mixed",
+    "query": "Songs similar to a late-night reflective mood, calm but not sleepy, with meaningful lyrics",
+    "expected": {
+      "lyric_intent": "reflection introspection",
+      "retrieval_modes": ["lyric_retrieval", "feature_filter"],
+      "feature_targets": [
+        { "feature": "energy", "direction": "low", "weight": 0.8 },
+        { "feature": "acousticness", "direction": "medium", "weight": 0.6 }
+      ]
+    },
+    "notes": "Tests vague interpretation and reasoning."
+  },
+  {
+    "id": "eval_empowerment_high_energy_no_generic",
+    "group": "mixed",
+    "query": "High-energy songs about empowerment, but avoid repetitive or generic tracks",
+    "expected": {
+      "lyric_intent": "empowerment",
+      "retrieval_modes": ["lyric_retrieval", "feature_filter"],
+      "feature_targets": [
+        { "feature": "energy", "direction": "high", "weight": 1.0 }
+      ]
+    },
+    "notes": "Tests critic agent ability to avoid low-quality generic results."
+  },
+  {
+    "id": "eval_heartbreak_not_slow_not_generic",
+    "group": "hard_constraints",
+    "query": "Songs about heartbreak, but avoid overly slow ballads and avoid songs with weak or generic lyrics",
+    "expected": {
+      "lyric_intent": "heartbreak",
+      "retrieval_modes": ["lyric_retrieval", "feature_filter"],
+      "feature_targets": [
+        { "feature": "tempo", "direction": "medium", "weight": 0.8 },
+        { "feature": "energy", "direction": "medium", "weight": 0.7 }
+      ]
+    },
+    "notes": "Tests critic + revision and constraint enforcement."
+  },
+  {
+    "id": "eval_betrayal_female_high_energy",
+    "group": "mixed",
+    "query": "Songs about betrayal with strong lyrical storytelling, high energy, and preferably from female artists",
+    "expected": {
+      "lyric_intent": "betrayal storytelling",
+      "retrieval_modes": [
+        "lyric_retrieval",
+        "metadata_retrieval",
+        "feature_filter"
+      ],
+      "feature_targets": [
+        { "feature": "energy", "direction": "high", "weight": 1.0 }
+      ]
+    },
+    "notes": "Tests metadata + lyrics + ranking tradeoffs."
+  },
+  {
+    "id": "eval_happy_sound_sad_lyrics",
+    "group": "mixed",
+    "query": "English songs that sound happy but actually have sad or dark lyrics, with good storytelling",
+    "expected": {
+      "language": "en",
+      "lyric_intent": "sad hidden in happy tone",
+      "retrieval_modes": ["lyric_retrieval", "feature_filter"],
+      "feature_targets": [
+        { "feature": "valence", "direction": "high", "weight": 0.7 },
+        { "feature": "energy", "direction": "medium", "weight": 0.6 }
+      ]
+    },
+    "notes": "Classic mismatch test. Strong signal for reasoning + lyric retrieval."
+  }
+]

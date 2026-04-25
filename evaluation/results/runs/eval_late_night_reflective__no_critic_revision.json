@@ -1,0 +1,358 @@
+{
+  "metadata": {
+    "include_state": false,
+    "llm_model": "gemini-3.1-flash-lite-preview",
+    "llm_provider": "gemini",
+    "max_revision_count": 1,
+    "query": "Songs similar to a late-night reflective mood, calm but not sleepy, with meaningful lyrics",
+    "query_id": "eval_late_night_reflective",
+    "top_k": 10,
+    "variant": "no_critic_revision"
+  },
+  "result": {
+    "elapsed_seconds": 13.0818,
+    "error": null,
+    "group": "mixed",
+    "metrics": {
+      "album_diversity": 1.0,
+      "artist_diversity": 1.0,
+      "automatic_constraint_score": 0.765,
+      "evaluated_candidate_count": 10,
+      "expected_retrieval_mode_recall": 1.0,
+      "feature_exclusion_pass_rate": null,
+      "feature_fit_score": 0.2951,
+      "genre_match_rate": null,
+      "language_match_rate": null,
+      "lyric_evidence_rate": 1.0,
+      "lyric_intent_expected": true,
+      "lyric_intent_retrieval_match": true,
+      "lyric_retrieval_used": true,
+      "metadata_text_match_rate": null,
+      "missing_dataset_count": 0,
+      "subgenre_diversity": 0.7,
+      "subgenre_match_rate": null,
+      "unexpected_retrieval_mode_count": 0,
+      "unique_album_count": 10,
+      "unique_artist_count": 10,
+      "unique_subgenre_count": 7
+    },
+    "query": "Songs similar to a late-night reflective mood, calm but not sleepy, with meaningful lyrics",
+    "query_id": "eval_late_night_reflective",
+    "state": null,
+    "success": true,
+    "summary": {
+      "candidate_count": 10,
+      "confidence_label": "medium",
+      "confidence_score": 0.485155,
+      "failure_category": null,
+      "final_candidates": [
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.552322,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "classic rock",
+          "rank": 1,
+          "track_album_name": "Breakfast In America (Deluxe Edition)",
+          "track_artist": "Supertramp",
+          "track_id": "67oyFnjJnn78fZP9KjeZx0",
+          "track_name": "Goodbye Stranger - 2010 Remastered"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.550294,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "indie poptimism",
+          "rank": 2,
+          "track_album_name": "Inside the Lines",
+          "track_artist": "Mike Perry",
+          "track_id": "5GzExVEv1JDsYyPFjMdXsA",
+          "track_name": "Inside the Lines"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.549914,
+          "language": "en",
+          "playlist_genre": "r&b",
+          "playlist_subgenre": "urban contemporary",
+          "rank": 3,
+          "track_album_name": "The Spice Of Life",
+          "track_artist": "Marlena Shaw",
+          "track_id": "0OwvrdjaJOypNsNQHyBWE5",
+          "track_name": "California Soul"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.54911,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "indie poptimism",
+          "rank": 4,
+          "track_album_name": "Honey",
+          "track_artist": "Johnny Balik",
+          "track_id": "3p7byaSR5J1he8vvDkxirp",
+          "track_name": "Honey"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.547126,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "electropop",
+          "rank": 5,
+          "track_album_name": "Sing Me to Sleep",
+          "track_artist": "Alan Walker",
+          "track_id": "2Fjz5ZC5BvFdCqcnTZ3ilH",
+          "track_name": "Sing Me to Sleep"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.487874,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "classic rock",
+          "rank": 6,
+          "track_album_name": "Permanent Waves",
+          "track_artist": "Rush",
+          "track_id": "4e9hUiLsN4mx61ARosFi7p",
+          "track_name": "The Spirit Of Radio"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.483679,
+          "language": "en",
+          "playlist_genre": "edm",
+          "playlist_subgenre": "electro house",
+          "rank": 7,
+          "track_album_name": "Delight",
+          "track_artist": "Jamie Berry",
+          "track_id": "36kaImsnzRzsU6L4cvWP6s",
+          "track_name": "Delight - Original Mix"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.480005,
+          "language": "en",
+          "playlist_genre": "r&b",
+          "playlist_subgenre": "urban contemporary",
+          "rank": 8,
+          "track_album_name": "Rhythm Of The Night",
+          "track_artist": "DeBarge",
+          "track_id": "5yGTQzYbEdY6B9RFZJypgt",
+          "track_name": "Rhythm Of The Night"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.36728,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "post-teen pop",
+          "rank": 9,
+          "track_album_name": "Red (Big Machine Radio Release Special)",
+          "track_artist": "Taylor Swift",
+          "track_id": "6ce41JVa6KFaryfmC2bu2W",
+          "track_name": "22"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.3593,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "permanent wave",
+          "rank": 10,
+          "track_album_name": "Supernatural (Legacy Edition)",
+          "track_artist": "Santana",
+          "track_id": "2pX4FpOgwItRVPPUFdRcxA",
+          "track_name": "Smooth (feat. Rob Thomas)"
+        }
+      ],
+      "final_explanations": [
+        {
+          "explanation": "This track features meaningful lyrics and a moderate energy level that aligns well with a reflective, late-night mood.",
+          "rank": 1,
+          "track_id": "67oyFnjJnn78fZP9KjeZx0",
+          "warnings": [
+            "Energy level is moderate rather than low."
+          ]
+        },
+        {
+          "explanation": "Selected for its reflective lyrical content, providing a calm atmosphere suitable for late-night listening.",
+          "rank": 2,
+          "track_id": "5GzExVEv1JDsYyPFjMdXsA",
+          "warnings": [
+            "Acousticness is lower than preferred."
+          ]
+        },
+        {
+          "explanation": "Offers a reflective quality with meaningful lyrics that fit the requested mood.",
+          "rank": 3,
+          "track_id": "0OwvrdjaJOypNsNQHyBWE5",
+          "warnings": [
+            "Acousticness is moderate."
+          ]
+        },
+        {
+          "explanation": "Matches the reflective theme with meaningful lyrics and a balanced energy profile.",
+          "rank": 4,
+          "track_id": "3p7byaSR5J1he8vvDkxirp",
+          "warnings": [
+            "Energy level is moderate."
+          ]
+        },
+        {
+          "explanation": "Provides a reflective lyrical experience, though the energy is slightly higher than the ideal calm target.",
+          "rank": 5,
+          "track_id": "2Fjz5ZC5BvFdCqcnTZ3ilH",
+          "warnings": [
+            "Energy is higher than preferred."
+          ]
+        },
+        {
+          "explanation": "Includes meaningful lyrics, though the high energy and low acousticness deviate from the preferred calm mood.",
+          "rank": 6,
+          "track_id": "4e9hUiLsN4mx61ARosFi7p",
+          "warnings": [
+            "Energy is too high.",
+            "Acousticness is too low."
+          ]
+        },
+        {
+          "explanation": "Features engaging lyrics, but the high energy level makes it less suitable for a strictly calm, reflective mood.",
+          "rank": 7,
+          "track_id": "36kaImsnzRzsU6L4cvWP6s",
+          "warnings": [
+            "Energy is too high.",
+            "Acousticness is too low."
+          ]
+        },
+        {
+          "explanation": "Contains reflective lyrics, but the high energy and low acousticness are not ideal for the requested mood.",
+          "rank": 8,
+          "track_id": "5yGTQzYbEdY6B9RFZJypgt",
+          "warnings": [
+            "Energy is too high.",
+            "Acousticness is too low."
+          ]
+        },
+        {
+          "explanation": "While lyrically relevant, the high energy and low acousticness do not align with the calm, reflective requirement.",
+          "rank": 9,
+          "track_id": "6ce41JVa6KFaryfmC2bu2W",
+          "warnings": [
+            "Energy is too high.",
+            "Acousticness is too low."
+          ]
+        },
+        {
+          "explanation": "Selected for lyrical depth, though the high energy and low acousticness are contrary to the calm mood preference.",
+          "rank": 10,
+          "track_id": "2pX4FpOgwItRVPPUFdRcxA",
+          "warnings": [
+            "Energy is too high.",
+            "Acousticness is too low."
+          ]
+        }
+      ],
+      "final_track_ids": [
+        "67oyFnjJnn78fZP9KjeZx0",
+        "5GzExVEv1JDsYyPFjMdXsA",
+        "0OwvrdjaJOypNsNQHyBWE5",
+        "3p7byaSR5J1he8vvDkxirp",
+        "2Fjz5ZC5BvFdCqcnTZ3ilH",
+        "4e9hUiLsN4mx61ARosFi7p",
+        "36kaImsnzRzsU6L4cvWP6s",
+        "5yGTQzYbEdY6B9RFZJypgt",
+        "6ce41JVa6KFaryfmC2bu2W",
+        "2pX4FpOgwItRVPPUFdRcxA"
+      ],
+      "raw_candidate_track_ids": [
+        "4e9hUiLsN4mx61ARosFi7p",
+        "6ce41JVa6KFaryfmC2bu2W",
+        "36kaImsnzRzsU6L4cvWP6s",
+        "67oyFnjJnn78fZP9KjeZx0",
+        "5GzExVEv1JDsYyPFjMdXsA",
+        "5yGTQzYbEdY6B9RFZJypgt",
+        "0OwvrdjaJOypNsNQHyBWE5",
+        "2pX4FpOgwItRVPPUFdRcxA",
+        "3p7byaSR5J1he8vvDkxirp",
+        "2Fjz5ZC5BvFdCqcnTZ3ilH"
+      ],
+      "recommendation_count": 10,
+      "retrieval_modes_used": [
+        "lyric_retrieval",
+        "feature_filter"
+      ],
+      "revision_count": 0,
+      "revision_used": false,
+      "scored_count": 10,
+      "scored_track_ids": [
+        "67oyFnjJnn78fZP9KjeZx0",
+        "5GzExVEv1JDsYyPFjMdXsA",
+        "0OwvrdjaJOypNsNQHyBWE5",
+        "3p7byaSR5J1he8vvDkxirp",
+        "2Fjz5ZC5BvFdCqcnTZ3ilH",
+        "4e9hUiLsN4mx61ARosFi7p",
+        "36kaImsnzRzsU6L4cvWP6s",
+        "5yGTQzYbEdY6B9RFZJypgt",
+        "6ce41JVa6KFaryfmC2bu2W",
+        "2pX4FpOgwItRVPPUFdRcxA"
+      ],
+      "tool_error_count": 0,
+      "tool_errors": [],
+      "trace_stages": [
+        "received_query",
+        "extract_preferences",
+        "plan_retrieval",
+        "retrieve_candidates",
+        "retrieve_candidates",
+        "rank_candidates",
+        "verify_candidates",
+        "critique_results",
+        "build_reliability_report",
+        "explain_recommendations",
+        "finished"
+      ],
+      "warning_count": 13,
+      "warnings": [
+        "The term 'sleepy' is subjective; energy levels are used as a proxy for calmness.",
+        "Returned top 50 of 250 lyric-retrieved candidates.",
+        "Returned top 50 of 18454 feature-matched candidates.",
+        "Returned top 10 of 100 scored candidates.",
+        "Kept 5 candidates with soft verifier concerns; only hard constraint mismatches are rejected.",
+        "2 final candidates have weak final scores.",
+        "5 final candidates failed verifier checks.",
+        "Prior tool warning: The term 'sleepy' is subjective; energy levels are used as a proxy for calmness.",
+        "Prior tool warning: Returned top 50 of 250 lyric-retrieved candidates.",
+        "Prior tool warning: Returned top 50 of 18454 feature-matched candidates.",
+        "Verifier warning: Energy level is moderate rather than low.",
+        "Verifier warning: Energy level is moderate.",
+        "Verifier warning: Acousticness is moderate."
+      ]
+    },
+    "variant": "no_critic_revision"
+  },
+  "schema": "vibefinder_evaluation_run_v1",
+  "status": "completed",
+  "written_at": "2026-04-24T22:40:24.195764+00:00"
+}

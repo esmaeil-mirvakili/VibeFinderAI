@@ -1,0 +1,344 @@
+{
+  "metadata": {
+    "include_state": false,
+    "llm_model": "gemini-3.1-flash-lite-preview",
+    "llm_provider": "gemini",
+    "max_revision_count": 1,
+    "query": "English songs that sound happy but actually have sad or dark lyrics, with good storytelling",
+    "query_id": "eval_happy_sound_sad_lyrics",
+    "top_k": 10,
+    "variant": "no_critic_revision"
+  },
+  "result": {
+    "elapsed_seconds": 15.7934,
+    "error": null,
+    "group": "mixed",
+    "metrics": {
+      "album_diversity": 1.0,
+      "artist_diversity": 1.0,
+      "automatic_constraint_score": 0.8931,
+      "evaluated_candidate_count": 10,
+      "expected_retrieval_mode_recall": 1.0,
+      "feature_exclusion_pass_rate": null,
+      "feature_fit_score": 0.5723,
+      "genre_match_rate": null,
+      "language_match_rate": 1.0,
+      "lyric_evidence_rate": 1.0,
+      "lyric_intent_expected": true,
+      "lyric_intent_retrieval_match": true,
+      "lyric_retrieval_used": true,
+      "metadata_text_match_rate": null,
+      "missing_dataset_count": 0,
+      "subgenre_diversity": 0.7,
+      "subgenre_match_rate": null,
+      "unexpected_retrieval_mode_count": 1,
+      "unique_album_count": 10,
+      "unique_artist_count": 10,
+      "unique_subgenre_count": 7
+    },
+    "query": "English songs that sound happy but actually have sad or dark lyrics, with good storytelling",
+    "query_id": "eval_happy_sound_sad_lyrics",
+    "state": null,
+    "success": true,
+    "summary": {
+      "candidate_count": 10,
+      "confidence_label": "medium",
+      "confidence_score": 0.497537,
+      "failure_category": null,
+      "final_candidates": [
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.562296,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "permanent wave",
+          "rank": 1,
+          "track_album_name": "Garbage (20th Anniversary Deluxe Edition/Remastered)",
+          "track_artist": "Garbage",
+          "track_id": "1IsGA5ceSC4a5nxgAEYnQd",
+          "track_name": "Only Happy When It Rains"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.561462,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "electropop",
+          "rank": 2,
+          "track_album_name": "21",
+          "track_artist": "Adele",
+          "track_id": "1eq1wUnLVLg4pdEfx9kajC",
+          "track_name": "Rolling in the Deep"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.558974,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "permanent wave",
+          "rank": 3,
+          "track_album_name": "Duran Duran",
+          "track_artist": "Duran Duran",
+          "track_id": "0yfNXxlyXdmP0ue1iJijx1",
+          "track_name": "Come Undone"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.555894,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "album rock",
+          "rank": 4,
+          "track_album_name": "Toulouse Street",
+          "track_artist": "The Doobie Brothers",
+          "track_id": "7Ar4G7Ci11gpt6sfH9Cgz5",
+          "track_name": "Listen to the Music"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.55025,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "dance pop",
+          "rank": 5,
+          "track_album_name": "Sad Song (feat. TINI)",
+          "track_artist": "Alesso",
+          "track_id": "2JoIjuzRplpYGvvLpSW2on",
+          "track_name": "Sad Song (feat. TINI)"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.489041,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "classic rock",
+          "rank": 6,
+          "track_album_name": "American Pie",
+          "track_artist": "Don McLean",
+          "track_id": "1fDsrQ23eTAVFElUMaf38X",
+          "track_name": "American Pie"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.483472,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "classic rock",
+          "rank": 7,
+          "track_album_name": "Anthology",
+          "track_artist": "Eraserheads",
+          "track_id": "3pGeMszs8vgG4osWUTMEk9",
+          "track_name": "With A Smile"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.48297,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "indie poptimism",
+          "rank": 8,
+          "track_album_name": "Citizen of Glass",
+          "track_artist": "Agnes Obel",
+          "track_id": "2gSm4u0pOEqHFyBNormMVz",
+          "track_name": "Stretch Your Eyes"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.481323,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "classic rock",
+          "rank": 9,
+          "track_album_name": "Breakfast In America (Deluxe Edition)",
+          "track_artist": "Supertramp",
+          "track_id": "67oyFnjJnn78fZP9KjeZx0",
+          "track_name": "Goodbye Stranger - 2010 Remastered"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.480734,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "hard rock",
+          "rank": 10,
+          "track_album_name": "Clayman (Reissue 2014)",
+          "track_artist": "In Flames",
+          "track_id": "03zYFtluA21jFWQVPMbUYO",
+          "track_name": "Only for the Weak"
+        }
+      ],
+      "final_explanations": [
+        {
+          "explanation": "This track features an upbeat, energetic sound that contrasts with lyrics explicitly about finding happiness in misery, perfectly matching the requested thematic contrast.",
+          "rank": 1,
+          "track_id": "1IsGA5ceSC4a5nxgAEYnQd",
+          "warnings": []
+        },
+        {
+          "explanation": "Known for its driving, upbeat sound, this song pairs a high-energy tempo with dark, storytelling lyrics about heartbreak and despair.",
+          "rank": 2,
+          "track_id": "1eq1wUnLVLg4pdEfx9kajC",
+          "warnings": []
+        },
+        {
+          "explanation": "This song provides a happy, high-valence sound while exploring themes of emotional turmoil and falling apart, meeting the storytelling criteria.",
+          "rank": 3,
+          "track_id": "0yfNXxlyXdmP0ue1iJijx1",
+          "warnings": []
+        },
+        {
+          "explanation": "With a very high valence, this track sounds bright and happy, while the lyrics offer a reflective narrative about the role of music in life's ups and downs.",
+          "rank": 4,
+          "track_id": "7Ar4G7Ci11gpt6sfH9Cgz5",
+          "warnings": []
+        },
+        {
+          "explanation": "The lyrics explicitly describe a 'sad song' that is presented with a happy, danceable sound, directly addressing the user's request for thematic contrast.",
+          "rank": 5,
+          "track_id": "2JoIjuzRplpYGvvLpSW2on",
+          "warnings": []
+        },
+        {
+          "explanation": "While iconic, this track has a moderate valence and a more melancholic tone, which may not fully satisfy the 'happy sounding' requirement.",
+          "rank": 6,
+          "track_id": "1fDsrQ23eTAVFElUMaf38X",
+          "warnings": [
+            "Valence is moderate, potentially failing the 'high valence' requirement."
+          ]
+        },
+        {
+          "explanation": "This track has a relatively low valence, which may not meet the 'happy sounding' criteria requested.",
+          "rank": 7,
+          "track_id": "3pGeMszs8vgG4osWUTMEk9",
+          "warnings": [
+            "Valence is below 0.5, which may not meet the 'high valence' requirement."
+          ]
+        },
+        {
+          "explanation": "The song's sound is dark and atmospheric rather than happy, failing to meet the primary feature constraint.",
+          "rank": 8,
+          "track_id": "2gSm4u0pOEqHFyBNormMVz",
+          "warnings": [
+            "Song sound is dark/atmospheric, failing the 'happy sounding' requirement."
+          ]
+        },
+        {
+          "explanation": "The low valence of this track contradicts the requirement for a happy-sounding song.",
+          "rank": 9,
+          "track_id": "67oyFnjJnn78fZP9KjeZx0",
+          "warnings": [
+            "Valence is low, which contradicts the 'happy sounding' requirement."
+          ]
+        },
+        {
+          "explanation": "As a heavy metal track, the aggressive sound does not align with the 'happy sounding' requirement.",
+          "rank": 10,
+          "track_id": "03zYFtluA21jFWQVPMbUYO",
+          "warnings": [
+            "Song genre and sound are aggressive/heavy, failing the 'happy sounding' requirement."
+          ]
+        }
+      ],
+      "final_track_ids": [
+        "1IsGA5ceSC4a5nxgAEYnQd",
+        "1eq1wUnLVLg4pdEfx9kajC",
+        "0yfNXxlyXdmP0ue1iJijx1",
+        "7Ar4G7Ci11gpt6sfH9Cgz5",
+        "2JoIjuzRplpYGvvLpSW2on",
+        "1fDsrQ23eTAVFElUMaf38X",
+        "3pGeMszs8vgG4osWUTMEk9",
+        "2gSm4u0pOEqHFyBNormMVz",
+        "67oyFnjJnn78fZP9KjeZx0",
+        "03zYFtluA21jFWQVPMbUYO"
+      ],
+      "raw_candidate_track_ids": [
+        "1IsGA5ceSC4a5nxgAEYnQd",
+        "1eq1wUnLVLg4pdEfx9kajC",
+        "1fDsrQ23eTAVFElUMaf38X",
+        "0yfNXxlyXdmP0ue1iJijx1",
+        "7Ar4G7Ci11gpt6sfH9Cgz5",
+        "3pGeMszs8vgG4osWUTMEk9",
+        "2gSm4u0pOEqHFyBNormMVz",
+        "67oyFnjJnn78fZP9KjeZx0",
+        "03zYFtluA21jFWQVPMbUYO",
+        "2JoIjuzRplpYGvvLpSW2on"
+      ],
+      "recommendation_count": 10,
+      "retrieval_modes_used": [
+        "lyric_retrieval",
+        "metadata_retrieval",
+        "feature_filter"
+      ],
+      "revision_count": 0,
+      "revision_used": false,
+      "scored_count": 10,
+      "scored_track_ids": [
+        "1IsGA5ceSC4a5nxgAEYnQd",
+        "1eq1wUnLVLg4pdEfx9kajC",
+        "0yfNXxlyXdmP0ue1iJijx1",
+        "7Ar4G7Ci11gpt6sfH9Cgz5",
+        "2JoIjuzRplpYGvvLpSW2on",
+        "1fDsrQ23eTAVFElUMaf38X",
+        "3pGeMszs8vgG4osWUTMEk9",
+        "2gSm4u0pOEqHFyBNormMVz",
+        "67oyFnjJnn78fZP9KjeZx0",
+        "03zYFtluA21jFWQVPMbUYO"
+      ],
+      "tool_error_count": 0,
+      "tool_errors": [],
+      "trace_stages": [
+        "received_query",
+        "extract_preferences",
+        "plan_retrieval",
+        "retrieve_candidates",
+        "retrieve_candidates",
+        "retrieve_candidates",
+        "rank_candidates",
+        "verify_candidates",
+        "critique_results",
+        "build_reliability_report",
+        "explain_recommendations",
+        "finished"
+      ],
+      "warning_count": 12,
+      "warnings": [
+        "Returned top 50 of 15405 lyric-retrieved candidates.",
+        "Returned top 50 of 15405 metadata-matched candidates.",
+        "Returned top 50 of 18454 feature-matched candidates.",
+        "Returned top 10 of 132 scored candidates.",
+        "Kept 5 candidates with soft verifier concerns; only hard constraint mismatches are rejected.",
+        "5 final candidates failed verifier checks.",
+        "Prior tool warning: Returned top 50 of 15405 lyric-retrieved candidates.",
+        "Prior tool warning: Returned top 50 of 15405 metadata-matched candidates.",
+        "Prior tool warning: Returned top 50 of 18454 feature-matched candidates.",
+        "Verifier warning: Valence is below 0.5, which may not meet the 'high valence' requirement.",
+        "Verifier warning: Valence is low, which contradicts the 'happy sounding' requirement.",
+        "Verifier warning: Valence is moderate, potentially failing the 'high valence' requirement."
+      ]
+    },
+    "variant": "no_critic_revision"
+  },
+  "schema": "vibefinder_evaluation_run_v1",
+  "status": "completed",
+  "written_at": "2026-04-24T22:49:20.514613+00:00"
+}

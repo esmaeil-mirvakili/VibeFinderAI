@@ -1,0 +1,356 @@
+{
+  "metadata": {
+    "include_state": false,
+    "llm_model": "gemini-3.1-flash-lite-preview",
+    "llm_provider": "gemini",
+    "max_revision_count": 1,
+    "query": "Songs about being cheated on, but from the perspective of the person who did the cheating, in English",
+    "query_id": "eval_cheating_guilty_perspective",
+    "top_k": 10,
+    "variant": "no_lyric_retriever"
+  },
+  "result": {
+    "elapsed_seconds": 23.1482,
+    "error": null,
+    "group": "lyric_theme",
+    "metrics": {
+      "album_diversity": 1.0,
+      "artist_diversity": 1.0,
+      "automatic_constraint_score": 0.4886,
+      "evaluated_candidate_count": 10,
+      "expected_retrieval_mode_recall": 0.5,
+      "feature_exclusion_pass_rate": null,
+      "feature_fit_score": 0.4544,
+      "genre_match_rate": null,
+      "language_match_rate": 1.0,
+      "lyric_evidence_rate": 0.0,
+      "lyric_intent_expected": true,
+      "lyric_intent_retrieval_match": false,
+      "lyric_retrieval_used": false,
+      "metadata_text_match_rate": null,
+      "missing_dataset_count": 0,
+      "subgenre_diversity": 0.8,
+      "subgenre_match_rate": null,
+      "unexpected_retrieval_mode_count": 0,
+      "unique_album_count": 10,
+      "unique_artist_count": 10,
+      "unique_subgenre_count": 8
+    },
+    "query": "Songs about being cheated on, but from the perspective of the person who did the cheating, in English",
+    "query_id": "eval_cheating_guilty_perspective",
+    "state": null,
+    "success": true,
+    "summary": {
+      "candidate_count": 10,
+      "confidence_label": "low",
+      "confidence_score": 0.16145,
+      "failure_category": "validation_failure",
+      "final_candidates": [
+        {
+          "evidence_sources": [
+            "metadata_retrieval"
+          ],
+          "final_score": 0.3155,
+          "language": "en",
+          "playlist_genre": "r&b",
+          "playlist_subgenre": "urban contemporary",
+          "rank": 1,
+          "track_album_name": "Starboy",
+          "track_artist": "The Weeknd",
+          "track_id": "00NAQYOP4AmWR549nnYJZu",
+          "track_name": "Secrets"
+        },
+        {
+          "evidence_sources": [
+            "metadata_retrieval"
+          ],
+          "final_score": 0.1275,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "post-teen pop",
+          "rank": 2,
+          "track_album_name": "Don't Let It Break Your Heart",
+          "track_artist": "Louis Tomlinson",
+          "track_id": "00Z0GIRi0l7WqQnQJCo5S2",
+          "track_name": "Don't Let It Break Your Heart - Single Edit"
+        },
+        {
+          "evidence_sources": [
+            "metadata_retrieval"
+          ],
+          "final_score": 0.126,
+          "language": "en",
+          "playlist_genre": "rap",
+          "playlist_subgenre": "gangster rap",
+          "rank": 3,
+          "track_album_name": "The Best of 2Pac - Pt. 1: Thug",
+          "track_artist": "2Pac",
+          "track_id": "00i2HU7TEzzftShjRrDSEF",
+          "track_name": "Changes"
+        },
+        {
+          "evidence_sources": [
+            "metadata_retrieval"
+          ],
+          "final_score": 0.126,
+          "language": "en",
+          "playlist_genre": "rap",
+          "playlist_subgenre": "hip hop",
+          "rank": 4,
+          "track_album_name": "Funky Friday",
+          "track_artist": "Dave",
+          "track_id": "01IQ4aQgOf0Kkq3a273hmO",
+          "track_name": "Funky Friday"
+        },
+        {
+          "evidence_sources": [
+            "metadata_retrieval"
+          ],
+          "final_score": 0.125,
+          "language": "en",
+          "playlist_genre": "r&b",
+          "playlist_subgenre": "urban contemporary",
+          "rank": 5,
+          "track_album_name": "Chapters",
+          "track_artist": "James TW",
+          "track_id": "00f9VGHfQhAHMCQ2bSjg3D",
+          "track_name": "Soldier"
+        },
+        {
+          "evidence_sources": [
+            "metadata_retrieval"
+          ],
+          "final_score": 0.125,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "electropop",
+          "rank": 6,
+          "track_album_name": "Trench",
+          "track_artist": "Twenty One Pilots",
+          "track_id": "01vv2AjxgP4uUyb8waYO5Y",
+          "track_name": "Morph"
+        },
+        {
+          "evidence_sources": [
+            "metadata_retrieval"
+          ],
+          "final_score": 0.1235,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "post-teen pop",
+          "rank": 7,
+          "track_album_name": "4 (Expanded)",
+          "track_artist": "Foreigner",
+          "track_id": "00qOE7OjRl0BpYiCiweZB2",
+          "track_name": "Juke Box Hero"
+        },
+        {
+          "evidence_sources": [
+            "metadata_retrieval"
+          ],
+          "final_score": 0.1235,
+          "language": "en",
+          "playlist_genre": "latin",
+          "playlist_subgenre": "latin hip hop",
+          "rank": 8,
+          "track_album_name": "Me 4 U",
+          "track_artist": "OMI",
+          "track_id": "023OVLNzXhX0j7CxswUt6D",
+          "track_name": "Cheerleader - Felix Jaehn Remix Radio Edit"
+        },
+        {
+          "evidence_sources": [
+            "metadata_retrieval"
+          ],
+          "final_score": 0.123,
+          "language": "en",
+          "playlist_genre": "latin",
+          "playlist_subgenre": "tropical",
+          "rank": 9,
+          "track_album_name": "Clandestino",
+          "track_artist": "Manu Chao",
+          "track_id": "00SmB7n85SKROGjybsyq5i",
+          "track_name": "Bongo Bong"
+        },
+        {
+          "evidence_sources": [
+            "metadata_retrieval"
+          ],
+          "final_score": 0.1225,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "dance pop",
+          "rank": 10,
+          "track_album_name": "KARD 2nd Digital Single \u2018Dumb Litty\u2019",
+          "track_artist": "KARD",
+          "track_id": "00emjlCv9azBN0fzuuyLqy",
+          "track_name": "Dumb Litty"
+        }
+      ],
+      "final_explanations": [
+        {
+          "explanation": "This track addresses infidelity directly, though it is from the perspective of the person being cheated on rather than the cheater.",
+          "rank": 1,
+          "track_id": "00NAQYOP4AmWR549nnYJZu",
+          "warnings": [
+            "The perspective is primarily that of the person being cheated on, rather than the cheater, though it addresses the infidelity directly."
+          ]
+        },
+        {
+          "explanation": "This song focuses on heartbreak and recovery rather than the perspective of someone who cheated.",
+          "rank": 2,
+          "track_id": "00Z0GIRi0l7WqQnQJCo5S2",
+          "warnings": [
+            "Thematic mismatch: the song is about heartbreak and recovery, not infidelity from the cheater's perspective."
+          ]
+        },
+        {
+          "explanation": "This track does not address the theme of infidelity.",
+          "rank": 3,
+          "track_id": "00i2HU7TEzzftShjRrDSEF",
+          "warnings": [
+            "Thematic mismatch: the song does not address infidelity."
+          ]
+        },
+        {
+          "explanation": "This track does not address the theme of infidelity.",
+          "rank": 4,
+          "track_id": "01IQ4aQgOf0Kkq3a273hmO",
+          "warnings": [
+            "Thematic mismatch: the song does not address infidelity."
+          ]
+        },
+        {
+          "explanation": "This track focuses on loyalty and commitment rather than infidelity.",
+          "rank": 5,
+          "track_id": "00f9VGHfQhAHMCQ2bSjg3D",
+          "warnings": [
+            "Thematic mismatch: the song is about loyalty and commitment."
+          ]
+        },
+        {
+          "explanation": "This track does not address the theme of infidelity.",
+          "rank": 6,
+          "track_id": "01vv2AjxgP4uUyb8waYO5Y",
+          "warnings": [
+            "Thematic mismatch: the song does not address infidelity."
+          ]
+        },
+        {
+          "explanation": "This track does not address the theme of infidelity.",
+          "rank": 7,
+          "track_id": "00qOE7OjRl0BpYiCiweZB2",
+          "warnings": [
+            "Thematic mismatch: the song does not address infidelity."
+          ]
+        },
+        {
+          "explanation": "This track focuses on loyalty rather than cheating.",
+          "rank": 8,
+          "track_id": "023OVLNzXhX0j7CxswUt6D",
+          "warnings": [
+            "Thematic mismatch: the song is about loyalty, not cheating."
+          ]
+        },
+        {
+          "explanation": "This track does not address the theme of infidelity.",
+          "rank": 9,
+          "track_id": "00SmB7n85SKROGjybsyq5i",
+          "warnings": [
+            "Thematic mismatch: the song does not address infidelity."
+          ]
+        },
+        {
+          "explanation": "This track does not address the theme of infidelity.",
+          "rank": 10,
+          "track_id": "00emjlCv9azBN0fzuuyLqy",
+          "warnings": [
+            "Thematic mismatch: the song does not address infidelity."
+          ]
+        }
+      ],
+      "final_track_ids": [
+        "00NAQYOP4AmWR549nnYJZu",
+        "00Z0GIRi0l7WqQnQJCo5S2",
+        "00i2HU7TEzzftShjRrDSEF",
+        "01IQ4aQgOf0Kkq3a273hmO",
+        "00f9VGHfQhAHMCQ2bSjg3D",
+        "01vv2AjxgP4uUyb8waYO5Y",
+        "00qOE7OjRl0BpYiCiweZB2",
+        "023OVLNzXhX0j7CxswUt6D",
+        "00SmB7n85SKROGjybsyq5i",
+        "00emjlCv9azBN0fzuuyLqy"
+      ],
+      "raw_candidate_track_ids": [
+        "00Z0GIRi0l7WqQnQJCo5S2",
+        "00i2HU7TEzzftShjRrDSEF",
+        "01IQ4aQgOf0Kkq3a273hmO",
+        "00NAQYOP4AmWR549nnYJZu",
+        "00f9VGHfQhAHMCQ2bSjg3D",
+        "01vv2AjxgP4uUyb8waYO5Y",
+        "00qOE7OjRl0BpYiCiweZB2",
+        "023OVLNzXhX0j7CxswUt6D",
+        "00SmB7n85SKROGjybsyq5i",
+        "00emjlCv9azBN0fzuuyLqy"
+      ],
+      "recommendation_count": 10,
+      "retrieval_modes_used": [
+        "metadata_retrieval"
+      ],
+      "revision_count": 0,
+      "revision_used": false,
+      "scored_count": 10,
+      "scored_track_ids": [
+        "00NAQYOP4AmWR549nnYJZu",
+        "00Z0GIRi0l7WqQnQJCo5S2",
+        "00i2HU7TEzzftShjRrDSEF",
+        "01IQ4aQgOf0Kkq3a273hmO",
+        "00f9VGHfQhAHMCQ2bSjg3D",
+        "01vv2AjxgP4uUyb8waYO5Y",
+        "00qOE7OjRl0BpYiCiweZB2",
+        "023OVLNzXhX0j7CxswUt6D",
+        "00SmB7n85SKROGjybsyq5i",
+        "00emjlCv9azBN0fzuuyLqy"
+      ],
+      "tool_error_count": 0,
+      "tool_errors": [],
+      "trace_stages": [
+        "received_query",
+        "extract_preferences",
+        "plan_retrieval",
+        "retrieve_candidates",
+        "rank_candidates",
+        "verify_candidates",
+        "critique_results",
+        "revise_plan",
+        "build_reliability_report",
+        "explain_recommendations",
+        "finished"
+      ],
+      "warning_count": 17,
+      "warnings": [
+        "Returned top 50 of 15405 metadata-matched candidates.",
+        "Returned top 10 of 50 scored candidates.",
+        "Kept 9 candidates with soft verifier concerns; only hard constraint mismatches are rejected.",
+        "revise_plan failed: 1 validation error for RevisionOutput\n  Value error, revised_retrieval_plan is required when should_retry is true. [type=value_error, input_value={'should_retry': True, 'r...or thematic accuracy.']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+        "Top final score 0.32 is below the minimum acceptable score 0.45.",
+        "Average final score 0.14 is below the minimum acceptable score 0.45.",
+        "10 final candidates have weak final scores.",
+        "9 final candidates failed verifier checks.",
+        "Prior tool warning: Returned top 50 of 15405 metadata-matched candidates.",
+        "Prior tool warning: Returned top 10 of 50 scored candidates.",
+        "Prior tool warning: Kept 9 candidates with soft verifier concerns; only hard constraint mismatches are rejected.",
+        "Verifier warning: The perspective is primarily that of the person being cheated on, rather than the cheater, though it addresses the infidelity directly.",
+        "Verifier warning: Thematic mismatch: the song is about heartbreak and recovery, not infidelity from the cheater's perspective.",
+        "Verifier warning: Thematic mismatch: the song does not address infidelity.",
+        "Critic issue: The retrieval process failed to identify songs matching the specific thematic requirement of infidelity from the cheater's perspective.",
+        "Critic issue: Only one candidate was even partially relevant, and it was from the perspective of the victim, not the perpetrator.",
+        "Critic issue: The majority of the retrieved candidates are completely unrelated to the theme of infidelity."
+      ]
+    },
+    "variant": "no_lyric_retriever"
+  },
+  "schema": "vibefinder_evaluation_run_v1",
+  "status": "completed",
+  "written_at": "2026-04-24T22:29:58.252226+00:00"
+}

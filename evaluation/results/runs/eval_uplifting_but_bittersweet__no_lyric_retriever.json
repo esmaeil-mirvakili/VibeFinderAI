@@ -1,0 +1,361 @@
+{
+  "metadata": {
+    "include_state": false,
+    "llm_model": "gemini-3.1-flash-lite-preview",
+    "llm_provider": "gemini",
+    "max_revision_count": 1,
+    "query": "Songs that feel uplifting but have slightly bittersweet lyrics about moving on after a breakup",
+    "query_id": "eval_uplifting_but_bittersweet",
+    "top_k": 10,
+    "variant": "no_lyric_retriever"
+  },
+  "result": {
+    "elapsed_seconds": 18.5134,
+    "error": null,
+    "group": "mixed",
+    "metrics": {
+      "album_diversity": 1.0,
+      "artist_diversity": 1.0,
+      "automatic_constraint_score": 0.3184,
+      "evaluated_candidate_count": 10,
+      "expected_retrieval_mode_recall": 0.5,
+      "feature_exclusion_pass_rate": null,
+      "feature_fit_score": 0.4553,
+      "genre_match_rate": null,
+      "language_match_rate": null,
+      "lyric_evidence_rate": 0.0,
+      "lyric_intent_expected": true,
+      "lyric_intent_retrieval_match": false,
+      "lyric_retrieval_used": false,
+      "metadata_text_match_rate": null,
+      "missing_dataset_count": 0,
+      "subgenre_diversity": 0.6,
+      "subgenre_match_rate": null,
+      "unexpected_retrieval_mode_count": 0,
+      "unique_album_count": 10,
+      "unique_artist_count": 10,
+      "unique_subgenre_count": 6
+    },
+    "query": "Songs that feel uplifting but have slightly bittersweet lyrics about moving on after a breakup",
+    "query_id": "eval_uplifting_but_bittersweet",
+    "state": null,
+    "success": true,
+    "summary": {
+      "candidate_count": 10,
+      "confidence_label": "low",
+      "confidence_score": 0.24062,
+      "failure_category": "validation_failure",
+      "final_candidates": [
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.3685,
+          "language": "es",
+          "playlist_genre": "latin",
+          "playlist_subgenre": "latin pop",
+          "rank": 1,
+          "track_album_name": "M\u00e1s Futuro Que Pasado",
+          "track_artist": "Juanes",
+          "track_id": "02lGHA7bFFplYLihnUWTx8",
+          "track_name": "Tequila"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.3655,
+          "language": "en",
+          "playlist_genre": "r&b",
+          "playlist_subgenre": "urban contemporary",
+          "rank": 2,
+          "track_album_name": "Starboy",
+          "track_artist": "The Weeknd",
+          "track_id": "00NAQYOP4AmWR549nnYJZu",
+          "track_name": "Secrets"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.363,
+          "language": "en",
+          "playlist_genre": "latin",
+          "playlist_subgenre": "tropical",
+          "rank": 3,
+          "track_album_name": "Clandestino",
+          "track_artist": "Manu Chao",
+          "track_id": "00SmB7n85SKROGjybsyq5i",
+          "track_name": "Bongo Bong"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.297,
+          "language": "es",
+          "playlist_genre": "latin",
+          "playlist_subgenre": "latin pop",
+          "rank": 4,
+          "track_album_name": "Latina (feat. Maluma)",
+          "track_artist": "Reykon",
+          "track_id": "00Ia46AgCNfnXjzgH8PIKH",
+          "track_name": "Latina (feat. Maluma)"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.296,
+          "language": "en",
+          "playlist_genre": "rap",
+          "playlist_subgenre": "hip hop",
+          "rank": 5,
+          "track_album_name": "Funky Friday",
+          "track_artist": "Dave",
+          "track_id": "01IQ4aQgOf0Kkq3a273hmO",
+          "track_name": "Funky Friday"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.2955,
+          "language": "en",
+          "playlist_genre": "rap",
+          "playlist_subgenre": "southern hip hop",
+          "rank": 6,
+          "track_album_name": "Nellyville",
+          "track_artist": "Nelly",
+          "track_id": "04KTF78FFg8sOHC1BADqbY",
+          "track_name": "Hot In Herre"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.2945,
+          "language": "es",
+          "playlist_genre": "latin",
+          "playlist_subgenre": "latin pop",
+          "rank": 7,
+          "track_album_name": "A Quien Quiera Escuchar (Deluxe Edition)",
+          "track_artist": "Ricky Martin",
+          "track_id": "00i0O74dXdaKKdCrqHnfXm",
+          "track_name": "La Mordidita"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.2945,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "post-teen pop",
+          "rank": 8,
+          "track_album_name": "My Krazy Life (Deluxe)",
+          "track_artist": "YG",
+          "track_id": "02pf9lLM8Nb8l4u4ts1GWb",
+          "track_name": "My Nigga"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.294,
+          "language": "es",
+          "playlist_genre": "latin",
+          "playlist_subgenre": "tropical",
+          "rank": 9,
+          "track_album_name": "Sabor a Salsa",
+          "track_artist": "Joe Arroyo",
+          "track_id": "00Ro1lnV3V6i87aY4t8Q43",
+          "track_name": "La rebelion"
+        },
+        {
+          "evidence_sources": [
+            "feature_filter"
+          ],
+          "final_score": 0.293,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "post-teen pop",
+          "rank": 10,
+          "track_album_name": "M!ssundaztood (Expanded Edition)",
+          "track_artist": "P!nk",
+          "track_id": "02jcEwywffn3Tsb48fXmlW",
+          "track_name": "Get the Party Started"
+        }
+      ],
+      "final_explanations": [
+        {
+          "explanation": "This track features high valence and lyrics that capture the bittersweet difficulty of moving on after a breakup.",
+          "rank": 1,
+          "track_id": "02lGHA7bFFplYLihnUWTx8",
+          "warnings": [
+            "Lyric retrieval was disabled, so thematic verification was performed manually based on provided lyrics."
+          ]
+        },
+        {
+          "explanation": "This song combines high valence with lyrics about betrayal and relationship secrets, fitting the bittersweet theme.",
+          "rank": 2,
+          "track_id": "00NAQYOP4AmWR549nnYJZu",
+          "warnings": [
+            "Thematic content is more about betrayal than moving on, but fits the bittersweet requirement."
+          ]
+        },
+        {
+          "explanation": "This track offers an upbeat rhythm paired with bittersweet sentiments about a relationship ending.",
+          "rank": 3,
+          "track_id": "00SmB7n85SKROGjybsyq5i",
+          "warnings": [
+            "Thematic content is bittersweet and fits the request well."
+          ]
+        },
+        {
+          "explanation": "While this track has high valence, its lyrics focus on attraction and partying rather than a breakup narrative.",
+          "rank": 4,
+          "track_id": "00Ia46AgCNfnXjzgH8PIKH",
+          "warnings": [
+            "Thematic content does not align well with the requested bittersweet breakup narrative."
+          ]
+        },
+        {
+          "explanation": "This track features high energy and valence but lacks the requested bittersweet breakup theme.",
+          "rank": 5,
+          "track_id": "01IQ4aQgOf0Kkq3a273hmO",
+          "warnings": [
+            "Thematic content does not align with the requested bittersweet breakup narrative."
+          ]
+        },
+        {
+          "explanation": "This is a high-energy party song that does not contain the requested bittersweet breakup themes.",
+          "rank": 6,
+          "track_id": "04KTF78FFg8sOHC1BADqbY",
+          "warnings": [
+            "Thematic content is purely celebratory/party-oriented."
+          ]
+        },
+        {
+          "explanation": "This track is a dance-focused song about attraction and does not address the requested breakup theme.",
+          "rank": 7,
+          "track_id": "00i0O74dXdaKKdCrqHnfXm",
+          "warnings": [
+            "Thematic content is focused on dance and attraction."
+          ]
+        },
+        {
+          "explanation": "The lyrics of this track focus on lifestyle and friendship rather than the requested bittersweet breakup narrative.",
+          "rank": 8,
+          "track_id": "02pf9lLM8Nb8l4u4ts1GWb",
+          "warnings": [
+            "Thematic content is unrelated to the requested theme."
+          ]
+        },
+        {
+          "explanation": "This track provides a historical and social narrative rather than the personal, bittersweet breakup theme requested.",
+          "rank": 9,
+          "track_id": "00Ro1lnV3V6i87aY4t8Q43",
+          "warnings": [
+            "Thematic content is historical/social, not personal/breakup-related."
+          ]
+        },
+        {
+          "explanation": "This is a high-energy party anthem that lacks the requested bittersweet breakup thematic content.",
+          "rank": 10,
+          "track_id": "02jcEwywffn3Tsb48fXmlW",
+          "warnings": [
+            "Thematic content is purely celebratory/party-oriented."
+          ]
+        }
+      ],
+      "final_track_ids": [
+        "02lGHA7bFFplYLihnUWTx8",
+        "00NAQYOP4AmWR549nnYJZu",
+        "00SmB7n85SKROGjybsyq5i",
+        "00Ia46AgCNfnXjzgH8PIKH",
+        "01IQ4aQgOf0Kkq3a273hmO",
+        "04KTF78FFg8sOHC1BADqbY",
+        "00i0O74dXdaKKdCrqHnfXm",
+        "02pf9lLM8Nb8l4u4ts1GWb",
+        "00Ro1lnV3V6i87aY4t8Q43",
+        "02jcEwywffn3Tsb48fXmlW"
+      ],
+      "raw_candidate_track_ids": [
+        "02lGHA7bFFplYLihnUWTx8",
+        "00Ia46AgCNfnXjzgH8PIKH",
+        "01IQ4aQgOf0Kkq3a273hmO",
+        "00NAQYOP4AmWR549nnYJZu",
+        "04KTF78FFg8sOHC1BADqbY",
+        "00i0O74dXdaKKdCrqHnfXm",
+        "02pf9lLM8Nb8l4u4ts1GWb",
+        "00Ro1lnV3V6i87aY4t8Q43",
+        "00SmB7n85SKROGjybsyq5i",
+        "02jcEwywffn3Tsb48fXmlW"
+      ],
+      "recommendation_count": 10,
+      "retrieval_modes_used": [
+        "feature_filter"
+      ],
+      "revision_count": 0,
+      "revision_used": false,
+      "scored_count": 10,
+      "scored_track_ids": [
+        "02lGHA7bFFplYLihnUWTx8",
+        "00NAQYOP4AmWR549nnYJZu",
+        "00SmB7n85SKROGjybsyq5i",
+        "00Ia46AgCNfnXjzgH8PIKH",
+        "01IQ4aQgOf0Kkq3a273hmO",
+        "04KTF78FFg8sOHC1BADqbY",
+        "00i0O74dXdaKKdCrqHnfXm",
+        "02pf9lLM8Nb8l4u4ts1GWb",
+        "00Ro1lnV3V6i87aY4t8Q43",
+        "02jcEwywffn3Tsb48fXmlW"
+      ],
+      "tool_error_count": 0,
+      "tool_errors": [],
+      "trace_stages": [
+        "received_query",
+        "extract_preferences",
+        "plan_retrieval",
+        "retrieve_candidates",
+        "rank_candidates",
+        "verify_candidates",
+        "critique_results",
+        "revise_plan",
+        "build_reliability_report",
+        "explain_recommendations",
+        "finished"
+      ],
+      "warning_count": 22,
+      "warnings": [
+        "Bittersweet sentiment is subjective and will be handled by the lyric retrieval tool rather than numeric features.",
+        "Lyric retrieval is disabled by the current variant; thematic content regarding breakups and moving on cannot be directly retrieved.",
+        "Bittersweet sentiment is subjective and cannot be captured by numeric feature filtering.",
+        "Returned top 50 of 18454 feature-matched candidates.",
+        "Returned top 10 of 50 scored candidates.",
+        "Kept 7 candidates with soft verifier concerns; only hard constraint mismatches are rejected.",
+        "Thematic verification was performed manually due to the lack of automated lyric retrieval in the current variant.",
+        "The current candidate pool contains several tracks that are purely celebratory, which contradicts the user's request for bittersweet content.",
+        "revise_plan failed: 1 validation error for RevisionOutput\n  Value error, revised_retrieval_plan is required when should_retry is true. [type=value_error, input_value={'should_retry': True, 'r... feature constraints.']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+        "Top final score 0.37 is below the minimum acceptable score 0.45.",
+        "Average final score 0.32 is below the minimum acceptable score 0.45.",
+        "10 final candidates have weak final scores.",
+        "7 final candidates failed verifier checks.",
+        "Prior tool warning: Bittersweet sentiment is subjective and will be handled by the lyric retrieval tool rather than numeric features.",
+        "Prior tool warning: Lyric retrieval is disabled by the current variant; thematic content regarding breakups and moving on cannot be directly retrieved.",
+        "Prior tool warning: Bittersweet sentiment is subjective and cannot be captured by numeric feature filtering.",
+        "Verifier warning: Lyric retrieval was disabled, so thematic verification was performed manually based on provided lyrics.",
+        "Verifier warning: Thematic content does not align well with the requested bittersweet breakup narrative.",
+        "Verifier warning: Thematic content does not align with the requested bittersweet breakup narrative.",
+        "Critic issue: Majority of candidates failed thematic verification for bittersweet breakup lyrics.",
+        "Critic issue: High valence feature filtering alone is insufficient to capture the specific emotional nuance requested.",
+        "Critic issue: Only 3 out of 10 candidates met the thematic criteria."
+      ]
+    },
+    "variant": "no_lyric_retriever"
+  },
+  "schema": "vibefinder_evaluation_run_v1",
+  "status": "completed",
+  "written_at": "2026-04-24T22:38:55.795194+00:00"
+}

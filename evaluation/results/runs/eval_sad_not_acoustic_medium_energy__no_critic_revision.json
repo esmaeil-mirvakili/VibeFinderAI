@@ -1,0 +1,213 @@
+{
+  "metadata": {
+    "include_state": false,
+    "llm_model": "gemini-3.1-flash-lite-preview",
+    "llm_provider": "gemini",
+    "max_revision_count": 1,
+    "query": "Sad pop songs in English that are not acoustic, have medium tempo, and are not too low energy",
+    "query_id": "eval_sad_not_acoustic_medium_energy",
+    "top_k": 10,
+    "variant": "no_critic_revision"
+  },
+  "result": {
+    "elapsed_seconds": 11.6959,
+    "error": null,
+    "group": "hard_constraints",
+    "metrics": {
+      "album_diversity": 1.0,
+      "artist_diversity": 1.0,
+      "automatic_constraint_score": 0.9556,
+      "evaluated_candidate_count": 4,
+      "expected_retrieval_mode_recall": 1.0,
+      "feature_exclusion_pass_rate": null,
+      "feature_fit_score": 0.7782,
+      "genre_match_rate": 1.0,
+      "language_match_rate": 1.0,
+      "lyric_evidence_rate": 1.0,
+      "lyric_intent_expected": true,
+      "lyric_intent_retrieval_match": true,
+      "lyric_retrieval_used": true,
+      "metadata_text_match_rate": null,
+      "missing_dataset_count": 0,
+      "subgenre_diversity": 0.5,
+      "subgenre_match_rate": null,
+      "unexpected_retrieval_mode_count": 1,
+      "unique_album_count": 4,
+      "unique_artist_count": 4,
+      "unique_subgenre_count": 2
+    },
+    "query": "Sad pop songs in English that are not acoustic, have medium tempo, and are not too low energy",
+    "query_id": "eval_sad_not_acoustic_medium_energy",
+    "state": null,
+    "success": true,
+    "summary": {
+      "candidate_count": 10,
+      "confidence_label": "low",
+      "confidence_score": 0.36944,
+      "failure_category": null,
+      "final_candidates": [
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.484493,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "electropop",
+          "rank": 1,
+          "track_album_name": "X&Y",
+          "track_artist": "Coldplay",
+          "track_id": "7LVHVU3tWfcxj5aiPFEW4Q",
+          "track_name": "Fix You"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.48339,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "electropop",
+          "rank": 2,
+          "track_album_name": "Layers",
+          "track_artist": "Kungs",
+          "track_id": "6SqX9J8tXk7rXaspk7GWX1",
+          "track_name": "I Feel So Bad"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.477431,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "indie poptimism",
+          "rank": 3,
+          "track_album_name": "Soy Pablo",
+          "track_artist": "boy pablo",
+          "track_id": "5uIRujGRZv5t4fGKkUTv4n",
+          "track_name": "Feeling Lonely"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.411562,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "indie poptimism",
+          "rank": 4,
+          "track_album_name": "This Old Dog",
+          "track_artist": "Mac DeMarco",
+          "track_id": "2N4idqj9TT3HnH2OFT9j0v",
+          "track_name": "Still Beating"
+        }
+      ],
+      "final_explanations": [
+        {
+          "explanation": "This track is a highly popular pop song that meets all language and acousticness constraints, with lyrics that align with the requested sad theme.",
+          "rank": 1,
+          "track_id": "7LVHVU3tWfcxj5aiPFEW4Q",
+          "warnings": [
+            "Energy level is on the lower side of medium."
+          ]
+        },
+        {
+          "explanation": "This electropop track satisfies all hard constraints and features a tempo and energy profile well-suited to the medium target.",
+          "rank": 2,
+          "track_id": "6SqX9J8tXk7rXaspk7GWX1",
+          "warnings": [
+            "Lyrics are moderately sad."
+          ]
+        },
+        {
+          "explanation": "This indie pop track meets all hard constraints, including low acousticness, and provides a sad lyrical theme.",
+          "rank": 3,
+          "track_id": "5uIRujGRZv5t4fGKkUTv4n",
+          "warnings": [
+            "Lyrics are upbeat in tone despite the theme."
+          ]
+        },
+        {
+          "explanation": "While this track matches the sad lyrical intent, it fails the hard constraint for low acousticness.",
+          "rank": 4,
+          "track_id": "2N4idqj9TT3HnH2OFT9j0v",
+          "warnings": [
+            "Acousticness exceeds the threshold of 0.1."
+          ]
+        }
+      ],
+      "final_track_ids": [
+        "7LVHVU3tWfcxj5aiPFEW4Q",
+        "6SqX9J8tXk7rXaspk7GWX1",
+        "5uIRujGRZv5t4fGKkUTv4n",
+        "2N4idqj9TT3HnH2OFT9j0v"
+      ],
+      "raw_candidate_track_ids": [
+        "7LVHVU3tWfcxj5aiPFEW4Q",
+        "6SqX9J8tXk7rXaspk7GWX1",
+        "2qdpQrNXOuGGGvFmbKGpZM",
+        "14sVnTYvfzo9sQM4RkQTaq",
+        "2N4idqj9TT3HnH2OFT9j0v",
+        "1AfYo6cKm3yHsJHdmNoGO1",
+        "3KfbEIOC7YIv90FIfNSZpo",
+        "2QG7VdagyaOCbfWn39xzAm",
+        "5wTM2Bm8phDwHAuOsfBwhU",
+        "5uIRujGRZv5t4fGKkUTv4n"
+      ],
+      "recommendation_count": 4,
+      "retrieval_modes_used": [
+        "lyric_retrieval",
+        "metadata_retrieval",
+        "feature_filter"
+      ],
+      "revision_count": 0,
+      "revision_used": false,
+      "scored_count": 4,
+      "scored_track_ids": [
+        "7LVHVU3tWfcxj5aiPFEW4Q",
+        "6SqX9J8tXk7rXaspk7GWX1",
+        "5uIRujGRZv5t4fGKkUTv4n",
+        "2N4idqj9TT3HnH2OFT9j0v"
+      ],
+      "tool_error_count": 0,
+      "tool_errors": [],
+      "trace_stages": [
+        "received_query",
+        "extract_preferences",
+        "plan_retrieval",
+        "retrieve_candidates",
+        "retrieve_candidates",
+        "retrieve_candidates",
+        "rank_candidates",
+        "verify_candidates",
+        "critique_results",
+        "build_reliability_report",
+        "explain_recommendations",
+        "finished"
+      ],
+      "warning_count": 15,
+      "warnings": [
+        "Returned top 50 of 15405 lyric-retrieved candidates.",
+        "Returned top 50 of 3739 metadata-matched candidates.",
+        "Returned top 50 of 9984 feature-matched candidates.",
+        "Returned top 10 of 148 scored candidates.",
+        "Rejected 6 candidates with deterministic hard constraint violations.",
+        "Kept 1 candidates with soft verifier concerns; only hard constraint mismatches are rejected.",
+        "Only 4 final candidates were returned for requested 10.",
+        "1 final candidates have weak final scores.",
+        "1 final candidates failed verifier checks.",
+        "Prior tool warning: Returned top 50 of 15405 lyric-retrieved candidates.",
+        "Prior tool warning: Returned top 50 of 3739 metadata-matched candidates.",
+        "Prior tool warning: Returned top 50 of 9984 feature-matched candidates.",
+        "Verifier warning: Energy level is on the lower side of medium.",
+        "Verifier warning: Lyrics are moderately sad.",
+        "Verifier warning: Lyrics are upbeat in tone despite the theme."
+      ]
+    },
+    "variant": "no_critic_revision"
+  },
+  "schema": "vibefinder_evaluation_run_v1",
+  "status": "completed",
+  "written_at": "2026-04-24T22:35:45.095392+00:00"
+}

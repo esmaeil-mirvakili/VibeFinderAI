@@ -1,0 +1,341 @@
+{
+  "metadata": {
+    "include_state": false,
+    "llm_model": "gemini-3.1-flash-lite-preview",
+    "llm_provider": "gemini",
+    "max_revision_count": 1,
+    "query": "Songs about heartbreak, but avoid overly slow ballads and avoid songs with weak or generic lyrics",
+    "query_id": "eval_heartbreak_not_slow_not_generic",
+    "top_k": 10,
+    "variant": "full"
+  },
+  "result": {
+    "elapsed_seconds": 17.8469,
+    "error": null,
+    "group": "hard_constraints",
+    "metrics": {
+      "album_diversity": 1.0,
+      "artist_diversity": 1.0,
+      "automatic_constraint_score": 0.8866,
+      "evaluated_candidate_count": 10,
+      "expected_retrieval_mode_recall": 1.0,
+      "feature_exclusion_pass_rate": null,
+      "feature_fit_score": 0.6598,
+      "genre_match_rate": null,
+      "language_match_rate": null,
+      "lyric_evidence_rate": 1.0,
+      "lyric_intent_expected": true,
+      "lyric_intent_retrieval_match": true,
+      "lyric_retrieval_used": true,
+      "metadata_text_match_rate": null,
+      "missing_dataset_count": 0,
+      "subgenre_diversity": 1.0,
+      "subgenre_match_rate": null,
+      "unexpected_retrieval_mode_count": 0,
+      "unique_album_count": 10,
+      "unique_artist_count": 10,
+      "unique_subgenre_count": 10
+    },
+    "query": "Songs about heartbreak, but avoid overly slow ballads and avoid songs with weak or generic lyrics",
+    "query_id": "eval_heartbreak_not_slow_not_generic",
+    "state": null,
+    "success": true,
+    "summary": {
+      "candidate_count": 10,
+      "confidence_label": "medium",
+      "confidence_score": 0.593839,
+      "failure_category": null,
+      "final_candidates": [
+        {
+          "evidence_sources": [
+            "lyric_retrieval",
+            "feature_filter"
+          ],
+          "final_score": 0.762058,
+          "language": "en",
+          "playlist_genre": "r&b",
+          "playlist_subgenre": "new jack swing",
+          "rank": 1,
+          "track_album_name": "Tender Lover",
+          "track_artist": "Babyface",
+          "track_id": "00GfGwzlSB8DoA0cDP2Eit",
+          "track_name": "Tender Lover"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.560677,
+          "language": "en",
+          "playlist_genre": "latin",
+          "playlist_subgenre": "latin hip hop",
+          "rank": 2,
+          "track_album_name": "On Somebody",
+          "track_artist": "Ava Max",
+          "track_id": "6gbLpUQtUU8ojzbE9jKt5A",
+          "track_name": "On Somebody"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.52845,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "indie poptimism",
+          "rank": 3,
+          "track_album_name": "Disappear Here",
+          "track_artist": "Bad Suns",
+          "track_id": "0N4RL8OFtthWHPY7QuRywo",
+          "track_name": "Heartbreaker"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.527855,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "album rock",
+          "rank": 4,
+          "track_album_name": "In the End",
+          "track_artist": "The Cranberries",
+          "track_id": "1WwAVSB0J8faKs2UWRDVjf",
+          "track_name": "Crazy Heart"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.525697,
+          "language": "en",
+          "playlist_genre": "latin",
+          "playlist_subgenre": "tropical",
+          "rank": 5,
+          "track_album_name": "I'm Going Like",
+          "track_artist": "Hallman",
+          "track_id": "4o7zeDjEoPALOH9ZN483Oj",
+          "track_name": "I'm Going Like"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.517588,
+          "language": "en",
+          "playlist_genre": "edm",
+          "playlist_subgenre": "big room",
+          "rank": 6,
+          "track_album_name": "No More Promises EP",
+          "track_artist": "Deorro",
+          "track_id": "0ycpLQhbAdpRXKBhrXEYm0",
+          "track_name": "Without Love (feat. Miss Palmer)"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.51183,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "hard rock",
+          "rank": 7,
+          "track_album_name": "All Right Now: The Collection",
+          "track_artist": "Free",
+          "track_id": "49Z4NzrNVES5qz9i4hRguT",
+          "track_name": "Heartbreaker"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.445467,
+          "language": "en",
+          "playlist_genre": "latin",
+          "playlist_subgenre": "latin pop",
+          "rank": 8,
+          "track_album_name": "This City",
+          "track_artist": "Sam Fischer",
+          "track_id": "3H3r2nKWa3Yk5gt8xgmsEt",
+          "track_name": "This City"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.445377,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "classic rock",
+          "rank": 9,
+          "track_album_name": "Western Stars",
+          "track_artist": "Bruce Springsteen",
+          "track_id": "5bpaHLJ08GNBKW35ZfCYJy",
+          "track_name": "Hello Sunshine"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.442683,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "post-teen pop",
+          "rank": 10,
+          "track_album_name": "x (Deluxe Edition)",
+          "track_artist": "Ed Sheeran",
+          "track_id": "1HNkqx9Ahdgi1Ixy2xkKkL",
+          "track_name": "Photograph"
+        }
+      ],
+      "final_explanations": [
+        {
+          "explanation": "This track features high energy and explicit heartbreak themes, perfectly aligning with your request for upbeat songs about heartbreak.",
+          "rank": 1,
+          "track_id": "00GfGwzlSB8DoA0cDP2Eit",
+          "warnings": []
+        },
+        {
+          "explanation": "A high-energy track that directly addresses the experience of heartbreak in its lyrics.",
+          "rank": 2,
+          "track_id": "6gbLpUQtUU8ojzbE9jKt5A",
+          "warnings": []
+        },
+        {
+          "explanation": "This song maintains a high energy level while exploring the theme of heartbreak.",
+          "rank": 3,
+          "track_id": "0N4RL8OFtthWHPY7QuRywo",
+          "warnings": []
+        },
+        {
+          "explanation": "An energetic rock track that incorporates heartbreak-related lyrical content.",
+          "rank": 4,
+          "track_id": "1WwAVSB0J8faKs2UWRDVjf",
+          "warnings": []
+        },
+        {
+          "explanation": "Features a high-energy tempo and lyrics centered on heartbreak.",
+          "rank": 5,
+          "track_id": "4o7zeDjEoPALOH9ZN483Oj",
+          "warnings": []
+        },
+        {
+          "explanation": "A high-energy EDM track that explores themes of heartbreak and loss.",
+          "rank": 6,
+          "track_id": "0ycpLQhbAdpRXKBhrXEYm0",
+          "warnings": []
+        },
+        {
+          "explanation": "A classic rock track with high energy that fits the requested heartbreak theme.",
+          "rank": 7,
+          "track_id": "49Z4NzrNVES5qz9i4hRguT",
+          "warnings": []
+        },
+        {
+          "explanation": "While it addresses heartbreak, this track has a lower energy profile which may feel closer to a ballad.",
+          "rank": 8,
+          "track_id": "3H3r2nKWa3Yk5gt8xgmsEt",
+          "warnings": [
+            "Energy level is low, which may conflict with the 'avoid slow ballads' constraint."
+          ]
+        },
+        {
+          "explanation": "This track touches on heartbreak but has a lower energy level that might not meet your preference for upbeat music.",
+          "rank": 9,
+          "track_id": "5bpaHLJ08GNBKW35ZfCYJy",
+          "warnings": [
+            "Energy level is low, which may conflict with the 'avoid slow ballads' constraint."
+          ]
+        },
+        {
+          "explanation": "A popular track about heartbreak, though its lower energy level may conflict with your preference for avoiding slow ballads.",
+          "rank": 10,
+          "track_id": "1HNkqx9Ahdgi1Ixy2xkKkL",
+          "warnings": [
+            "Energy level is low, which may conflict with the 'avoid slow ballads' constraint."
+          ]
+        }
+      ],
+      "final_track_ids": [
+        "00GfGwzlSB8DoA0cDP2Eit",
+        "6gbLpUQtUU8ojzbE9jKt5A",
+        "0N4RL8OFtthWHPY7QuRywo",
+        "1WwAVSB0J8faKs2UWRDVjf",
+        "4o7zeDjEoPALOH9ZN483Oj",
+        "0ycpLQhbAdpRXKBhrXEYm0",
+        "49Z4NzrNVES5qz9i4hRguT",
+        "3H3r2nKWa3Yk5gt8xgmsEt",
+        "5bpaHLJ08GNBKW35ZfCYJy",
+        "1HNkqx9Ahdgi1Ixy2xkKkL"
+      ],
+      "raw_candidate_track_ids": [
+        "00GfGwzlSB8DoA0cDP2Eit",
+        "6gbLpUQtUU8ojzbE9jKt5A",
+        "0N4RL8OFtthWHPY7QuRywo",
+        "1WwAVSB0J8faKs2UWRDVjf",
+        "4o7zeDjEoPALOH9ZN483Oj",
+        "0ycpLQhbAdpRXKBhrXEYm0",
+        "3H3r2nKWa3Yk5gt8xgmsEt",
+        "5bpaHLJ08GNBKW35ZfCYJy",
+        "1HNkqx9Ahdgi1Ixy2xkKkL",
+        "49Z4NzrNVES5qz9i4hRguT"
+      ],
+      "recommendation_count": 10,
+      "retrieval_modes_used": [
+        "lyric_retrieval",
+        "feature_filter"
+      ],
+      "revision_count": 0,
+      "revision_used": false,
+      "scored_count": 10,
+      "scored_track_ids": [
+        "00GfGwzlSB8DoA0cDP2Eit",
+        "6gbLpUQtUU8ojzbE9jKt5A",
+        "0N4RL8OFtthWHPY7QuRywo",
+        "1WwAVSB0J8faKs2UWRDVjf",
+        "4o7zeDjEoPALOH9ZN483Oj",
+        "0ycpLQhbAdpRXKBhrXEYm0",
+        "49Z4NzrNVES5qz9i4hRguT",
+        "3H3r2nKWa3Yk5gt8xgmsEt",
+        "5bpaHLJ08GNBKW35ZfCYJy",
+        "1HNkqx9Ahdgi1Ixy2xkKkL"
+      ],
+      "tool_error_count": 0,
+      "tool_errors": [],
+      "trace_stages": [
+        "received_query",
+        "extract_preferences",
+        "plan_retrieval",
+        "retrieve_candidates",
+        "retrieve_candidates",
+        "rank_candidates",
+        "verify_candidates",
+        "critique_results",
+        "build_reliability_report",
+        "explain_recommendations",
+        "finished"
+      ],
+      "warning_count": 14,
+      "warnings": [
+        "Lyric quality is subjective and cannot be strictly filtered by metadata; this will rely on the Lyric RAG tool's retrieval performance.",
+        "Returned top 50 of 250 lyric-retrieved candidates.",
+        "Returned top 50 of 18454 feature-matched candidates.",
+        "Returned top 10 of 99 scored candidates.",
+        "Kept 3 candidates with soft verifier concerns; only hard constraint mismatches are rejected.",
+        "Three candidates (Sam Fischer, Bruce Springsteen, Ed Sheeran) were flagged for low energy levels, which may violate the user's constraint against slow ballads.",
+        "Lyric quality is subjective and relies on retrieval performance.",
+        "3 final candidates have weak final scores.",
+        "3 final candidates failed verifier checks.",
+        "Prior tool warning: Lyric quality is subjective and cannot be strictly filtered by metadata; this will rely on the Lyric RAG tool's retrieval performance.",
+        "Prior tool warning: Returned top 50 of 250 lyric-retrieved candidates.",
+        "Prior tool warning: Returned top 50 of 18454 feature-matched candidates.",
+        "Verifier warning: Energy level is low, which may conflict with the 'avoid slow ballads' constraint.",
+        "Lyric quality is subjective and cannot be strictly filtered by metadata; this relies on the Lyric RAG tool's performance."
+      ]
+    },
+    "variant": "full"
+  },
+  "schema": "vibefinder_evaluation_run_v1",
+  "status": "completed",
+  "written_at": "2026-04-24T22:44:20.848460+00:00"
+}

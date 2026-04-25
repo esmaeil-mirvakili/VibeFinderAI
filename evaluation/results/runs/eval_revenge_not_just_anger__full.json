@@ -1,0 +1,339 @@
+{
+  "metadata": {
+    "include_state": false,
+    "llm_model": "gemini-3.1-flash-lite-preview",
+    "llm_provider": "gemini",
+    "max_revision_count": 1,
+    "query": "Songs where the lyrics clearly express revenge or payback after betrayal, not just general anger",
+    "query_id": "eval_revenge_not_just_anger",
+    "top_k": 10,
+    "variant": "full"
+  },
+  "result": {
+    "elapsed_seconds": 12.7714,
+    "error": null,
+    "group": "lyric_theme",
+    "metrics": {
+      "album_diversity": 1.0,
+      "artist_diversity": 1.0,
+      "automatic_constraint_score": 0.9226,
+      "evaluated_candidate_count": 10,
+      "expected_retrieval_mode_recall": 1.0,
+      "feature_exclusion_pass_rate": null,
+      "feature_fit_score": 0.7678,
+      "genre_match_rate": null,
+      "language_match_rate": null,
+      "lyric_evidence_rate": 1.0,
+      "lyric_intent_expected": true,
+      "lyric_intent_retrieval_match": true,
+      "lyric_retrieval_used": true,
+      "metadata_text_match_rate": null,
+      "missing_dataset_count": 0,
+      "subgenre_diversity": 0.7,
+      "subgenre_match_rate": null,
+      "unexpected_retrieval_mode_count": 0,
+      "unique_album_count": 10,
+      "unique_artist_count": 10,
+      "unique_subgenre_count": 7
+    },
+    "query": "Songs where the lyrics clearly express revenge or payback after betrayal, not just general anger",
+    "query_id": "eval_revenge_not_just_anger",
+    "state": null,
+    "success": true,
+    "summary": {
+      "candidate_count": 10,
+      "confidence_label": "medium",
+      "confidence_score": 0.507874,
+      "failure_category": null,
+      "final_candidates": [
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.523111,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "indie poptimism",
+          "rank": 1,
+          "track_album_name": "Hold My Home",
+          "track_artist": "Cold War Kids",
+          "track_id": "3omXshBamrREltcf24gYDC",
+          "track_name": "First"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.51494,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "post-teen pop",
+          "rank": 2,
+          "track_album_name": "Tell Me You Love Me (Deluxe)",
+          "track_artist": "Demi Lovato",
+          "track_id": "7gvd8xj4QgPqbQSsn5pV7d",
+          "track_name": "Sorry Not Sorry"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.511529,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "permanent wave",
+          "rank": 3,
+          "track_album_name": "Absolution",
+          "track_artist": "Muse",
+          "track_id": "0xJLcjd0gaZct43xG1UlXS",
+          "track_name": "Butterflies and Hurricanes"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.507168,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "hard rock",
+          "rank": 4,
+          "track_album_name": "Heaven Upside Down",
+          "track_artist": "Marilyn Manson",
+          "track_id": "6UIo6YbaXihIZ72MWUpcGb",
+          "track_name": "KILL4ME"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.505497,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "hard rock",
+          "rank": 5,
+          "track_album_name": "Don't You Fake It",
+          "track_artist": "The Red Jumpsuit Apparatus",
+          "track_id": "2ZICF8SFI5tHttaLJKMY1X",
+          "track_name": "False Pretense"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.503988,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "post-teen pop",
+          "rank": 6,
+          "track_album_name": "Hold Me Down",
+          "track_artist": "You Me At Six",
+          "track_id": "4GMCZUi6cVQJ5wPWwJ36rW",
+          "track_name": "Underdog"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.503531,
+          "language": "en",
+          "playlist_genre": "r&b",
+          "playlist_subgenre": "urban contemporary",
+          "rank": 7,
+          "track_album_name": "Soul Of A Woman",
+          "track_artist": "Kelly Price",
+          "track_id": "35irxCsC8QXJ1IN0eioD3H",
+          "track_name": "Friend Of Mine - Remix"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.497588,
+          "language": "en",
+          "playlist_genre": "r&b",
+          "playlist_subgenre": "new jack swing",
+          "rank": 8,
+          "track_album_name": "Greatest Hits",
+          "track_artist": "Milli Vanilli",
+          "track_id": "2dPpQv8sCPeEaA4oz7ZjQC",
+          "track_name": "Blame It on the Rain"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.49689,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "hard rock",
+          "rank": 9,
+          "track_album_name": "UNDEN!ABLE",
+          "track_artist": "HELLYEAH",
+          "track_id": "2Q7nzt6BXtuDdroqKOag3D",
+          "track_name": "Human"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.432672,
+          "language": "en",
+          "playlist_genre": "edm",
+          "playlist_subgenre": "progressive electro house",
+          "rank": 10,
+          "track_album_name": "If You Were",
+          "track_artist": "Danny Howard",
+          "track_id": "2FMPIU8FdP9kCi5kUCSGnE",
+          "track_name": "If You Were"
+        }
+      ],
+      "final_explanations": [
+        {
+          "explanation": "This track features lyrics that explicitly discuss betrayal, broken trust, and the desire for revenge.",
+          "rank": 1,
+          "track_id": "3omXshBamrREltcf24gYDC",
+          "warnings": [
+            "The song also touches on general relationship frustration."
+          ]
+        },
+        {
+          "explanation": "The lyrics clearly focus on themes of payback and revenge following a breakup.",
+          "rank": 2,
+          "track_id": "7gvd8xj4QgPqbQSsn5pV7d",
+          "warnings": []
+        },
+        {
+          "explanation": "The lyrics mention revenge and battles as a response to betrayal.",
+          "rank": 3,
+          "track_id": "0xJLcjd0gaZct43xG1UlXS",
+          "warnings": [
+            "The theme is somewhat abstract."
+          ]
+        },
+        {
+          "explanation": "The lyrics describe a scenario of betrayal and the desire for revenge.",
+          "rank": 4,
+          "track_id": "6UIo6YbaXihIZ72MWUpcGb",
+          "warnings": []
+        },
+        {
+          "explanation": "The lyrics explicitly address betrayal by a friend and the resulting desire for payback.",
+          "rank": 5,
+          "track_id": "2ZICF8SFI5tHttaLJKMY1X",
+          "warnings": []
+        },
+        {
+          "explanation": "The lyrics mention revenge and the aftermath of a betrayal.",
+          "rank": 6,
+          "track_id": "4GMCZUi6cVQJ5wPWwJ36rW",
+          "warnings": []
+        },
+        {
+          "explanation": "This track provides a direct narrative about betrayal by a best friend and the resulting anger and desire for payback.",
+          "rank": 7,
+          "track_id": "35irxCsC8QXJ1IN0eioD3H",
+          "warnings": []
+        },
+        {
+          "explanation": "The lyrics discuss blaming a partner for a failed relationship after a betrayal of trust.",
+          "rank": 8,
+          "track_id": "2dPpQv8sCPeEaA4oz7ZjQC",
+          "warnings": [
+            "The focus is more on blame than active revenge."
+          ]
+        },
+        {
+          "explanation": "The lyrics explicitly mention defying betrayal and seeking payback.",
+          "rank": 9,
+          "track_id": "2Q7nzt6BXtuDdroqKOag3D",
+          "warnings": []
+        },
+        {
+          "explanation": "While the lyrics discuss personal struggle, they are less focused on explicit revenge compared to other candidates.",
+          "rank": 10,
+          "track_id": "2FMPIU8FdP9kCi5kUCSGnE",
+          "warnings": [
+            "The theme is primarily about personal struggle rather than revenge."
+          ]
+        }
+      ],
+      "final_track_ids": [
+        "3omXshBamrREltcf24gYDC",
+        "7gvd8xj4QgPqbQSsn5pV7d",
+        "0xJLcjd0gaZct43xG1UlXS",
+        "6UIo6YbaXihIZ72MWUpcGb",
+        "2ZICF8SFI5tHttaLJKMY1X",
+        "4GMCZUi6cVQJ5wPWwJ36rW",
+        "35irxCsC8QXJ1IN0eioD3H",
+        "2dPpQv8sCPeEaA4oz7ZjQC",
+        "2Q7nzt6BXtuDdroqKOag3D",
+        "2FMPIU8FdP9kCi5kUCSGnE"
+      ],
+      "raw_candidate_track_ids": [
+        "3omXshBamrREltcf24gYDC",
+        "7gvd8xj4QgPqbQSsn5pV7d",
+        "0xJLcjd0gaZct43xG1UlXS",
+        "6UIo6YbaXihIZ72MWUpcGb",
+        "2ZICF8SFI5tHttaLJKMY1X",
+        "4GMCZUi6cVQJ5wPWwJ36rW",
+        "35irxCsC8QXJ1IN0eioD3H",
+        "2FMPIU8FdP9kCi5kUCSGnE",
+        "2dPpQv8sCPeEaA4oz7ZjQC",
+        "2Q7nzt6BXtuDdroqKOag3D"
+      ],
+      "recommendation_count": 10,
+      "retrieval_modes_used": [
+        "lyric_retrieval"
+      ],
+      "revision_count": 0,
+      "revision_used": false,
+      "scored_count": 10,
+      "scored_track_ids": [
+        "3omXshBamrREltcf24gYDC",
+        "7gvd8xj4QgPqbQSsn5pV7d",
+        "0xJLcjd0gaZct43xG1UlXS",
+        "6UIo6YbaXihIZ72MWUpcGb",
+        "2ZICF8SFI5tHttaLJKMY1X",
+        "4GMCZUi6cVQJ5wPWwJ36rW",
+        "35irxCsC8QXJ1IN0eioD3H",
+        "2dPpQv8sCPeEaA4oz7ZjQC",
+        "2Q7nzt6BXtuDdroqKOag3D",
+        "2FMPIU8FdP9kCi5kUCSGnE"
+      ],
+      "tool_error_count": 0,
+      "tool_errors": [],
+      "trace_stages": [
+        "received_query",
+        "extract_preferences",
+        "plan_retrieval",
+        "retrieve_candidates",
+        "rank_candidates",
+        "verify_candidates",
+        "critique_results",
+        "build_reliability_report",
+        "explain_recommendations",
+        "finished"
+      ],
+      "warning_count": 13,
+      "warnings": [
+        "The request relies entirely on lyric-based retrieval; metadata and audio feature filters are not applicable.",
+        "Returned top 20 of 100 lyric-retrieved candidates.",
+        "Returned top 10 of 20 scored candidates.",
+        "Kept 1 candidates with soft verifier concerns; only hard constraint mismatches are rejected.",
+        "One candidate (Danny Howard - If You Were) was flagged for a weak thematic match but remains in the list as it was part of the top-ranked retrieval results.",
+        "1 final candidates have weak final scores.",
+        "1 final candidates failed verifier checks.",
+        "Prior tool warning: The request relies entirely on lyric-based retrieval; metadata and audio feature filters are not applicable.",
+        "Prior tool warning: Returned top 20 of 100 lyric-retrieved candidates.",
+        "Prior tool warning: Returned top 10 of 20 scored candidates.",
+        "Verifier warning: The song also touches on general relationship frustration.",
+        "Verifier warning: The theme is somewhat abstract.",
+        "Verifier warning: The theme is primarily about personal struggle rather than revenge."
+      ]
+    },
+    "variant": "full"
+  },
+  "schema": "vibefinder_evaluation_run_v1",
+  "status": "completed",
+  "written_at": "2026-04-24T22:33:02.253098+00:00"
+}

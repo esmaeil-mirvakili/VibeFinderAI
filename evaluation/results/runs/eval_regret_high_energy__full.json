@@ -1,0 +1,344 @@
+{
+  "metadata": {
+    "include_state": false,
+    "llm_model": "gemini-3.1-flash-lite-preview",
+    "llm_provider": "gemini",
+    "max_revision_count": 1,
+    "query": "Songs about regret after hurting someone you love, with emotional lyrics and medium to high energy",
+    "query_id": "eval_regret_high_energy",
+    "top_k": 10,
+    "variant": "full"
+  },
+  "result": {
+    "elapsed_seconds": 14.9381,
+    "error": null,
+    "group": "lyric_theme",
+    "metrics": {
+      "album_diversity": 1.0,
+      "artist_diversity": 1.0,
+      "automatic_constraint_score": 0.8756,
+      "evaluated_candidate_count": 10,
+      "expected_retrieval_mode_recall": 1.0,
+      "feature_exclusion_pass_rate": null,
+      "feature_fit_score": 0.6269,
+      "genre_match_rate": null,
+      "language_match_rate": null,
+      "lyric_evidence_rate": 1.0,
+      "lyric_intent_expected": true,
+      "lyric_intent_retrieval_match": true,
+      "lyric_retrieval_used": true,
+      "metadata_text_match_rate": null,
+      "missing_dataset_count": 0,
+      "subgenre_diversity": 0.6,
+      "subgenre_match_rate": null,
+      "unexpected_retrieval_mode_count": 0,
+      "unique_album_count": 10,
+      "unique_artist_count": 10,
+      "unique_subgenre_count": 6
+    },
+    "query": "Songs about regret after hurting someone you love, with emotional lyrics and medium to high energy",
+    "query_id": "eval_regret_high_energy",
+    "state": null,
+    "success": true,
+    "summary": {
+      "candidate_count": 10,
+      "confidence_label": "medium",
+      "confidence_score": 0.537775,
+      "failure_category": null,
+      "final_candidates": [
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.576031,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "dance pop",
+          "rank": 1,
+          "track_album_name": "James Arthur (Deluxe)",
+          "track_artist": "James Arthur",
+          "track_id": "5yVIlYEHZxQVLyInCdldoS",
+          "track_name": "Impossible"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.574929,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "post-teen pop",
+          "rank": 2,
+          "track_album_name": "Breakaway",
+          "track_artist": "Kelly Clarkson",
+          "track_id": "0gJvqi9QyASOCtJu99tytc",
+          "track_name": "Because of You"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.574628,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "dance pop",
+          "rank": 3,
+          "track_album_name": "21",
+          "track_artist": "Adele",
+          "track_id": "6QPKYGnAW9QozVz2dSWqRg",
+          "track_name": "Someone Like You"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.572178,
+          "language": "en",
+          "playlist_genre": "r&b",
+          "playlist_subgenre": "urban contemporary",
+          "rank": 4,
+          "track_album_name": "Songs For You, Truths For Me (International Exclusive Bundle)",
+          "track_artist": "James Morrison",
+          "track_id": "6jBUP2KCe821yqf1hiBqPR",
+          "track_name": "Broken Strings"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.571956,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "post-teen pop",
+          "rank": 5,
+          "track_album_name": "x (Deluxe Edition)",
+          "track_artist": "Ed Sheeran",
+          "track_id": "1HNkqx9Ahdgi1Ixy2xkKkL",
+          "track_name": "Photograph"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.570187,
+          "language": "en",
+          "playlist_genre": "rock",
+          "playlist_subgenre": "classic rock",
+          "rank": 6,
+          "track_album_name": "Rubber Soul (Remastered)",
+          "track_artist": "The Beatles",
+          "track_id": "3KfbEIOC7YIv90FIfNSZpo",
+          "track_name": "In My Life - Remastered 2009"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.568922,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "indie poptimism",
+          "rank": 7,
+          "track_album_name": "This Old Dog",
+          "track_artist": "Mac DeMarco",
+          "track_id": "2N4idqj9TT3HnH2OFT9j0v",
+          "track_name": "Still Beating"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.568579,
+          "language": "en",
+          "playlist_genre": "r&b",
+          "playlist_subgenre": "urban contemporary",
+          "rank": 8,
+          "track_album_name": "Take Care (Deluxe)",
+          "track_artist": "Drake",
+          "track_id": "124NFj84ppZ5pAxTuVQYCQ",
+          "track_name": "Take Care"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.56841,
+          "language": "en",
+          "playlist_genre": "pop",
+          "playlist_subgenre": "post-teen pop",
+          "rank": 9,
+          "track_album_name": "Down Low",
+          "track_artist": "Astrid S",
+          "track_id": "5WEAZtjEufELtaxqYcqCJg",
+          "track_name": "Years"
+        },
+        {
+          "evidence_sources": [
+            "lyric_retrieval"
+          ],
+          "final_score": 0.566541,
+          "language": "en",
+          "playlist_genre": "edm",
+          "playlist_subgenre": "big room",
+          "rank": 10,
+          "track_album_name": "Never Never (feat. Indiiana)",
+          "track_artist": "Drenchill",
+          "track_id": "40NKYSkaTC4F62QbIVJ8S6",
+          "track_name": "Never Never (feat. Indiiana)"
+        }
+      ],
+      "final_explanations": [
+        {
+          "explanation": "This track features lyrics about regret and broken trust, matching the requested emotional theme with a medium-high energy level.",
+          "rank": 1,
+          "track_id": "5yVIlYEHZxQVLyInCdldoS",
+          "warnings": [
+            "Energy is on the higher end of medium."
+          ]
+        },
+        {
+          "explanation": "A powerful song conveying deep emotional regret and personal pain, fitting the requested mood and energy profile.",
+          "rank": 2,
+          "track_id": "0gJvqi9QyASOCtJu99tytc",
+          "warnings": []
+        },
+        {
+          "explanation": "Reflects on past relationships and regret, providing an emotional narrative with a balanced energy level.",
+          "rank": 3,
+          "track_id": "6QPKYGnAW9QozVz2dSWqRg",
+          "warnings": [
+            "Energy level is on the lower side of medium."
+          ]
+        },
+        {
+          "explanation": "Focuses on the pain of a failing relationship and regret, aligning with the requested emotional themes.",
+          "rank": 4,
+          "track_id": "6jBUP2KCe821yqf1hiBqPR",
+          "warnings": []
+        },
+        {
+          "explanation": "Deals with emotional memories and loss, capturing the requested regretful tone.",
+          "rank": 5,
+          "track_id": "1HNkqx9Ahdgi1Ixy2xkKkL",
+          "warnings": [
+            "Energy level is lower than the target medium range."
+          ]
+        },
+        {
+          "explanation": "A classic reflection on past life and love, fitting the emotional criteria.",
+          "rank": 6,
+          "track_id": "3KfbEIOC7YIv90FIfNSZpo",
+          "warnings": [
+            "Energy level is lower than the target medium range."
+          ]
+        },
+        {
+          "explanation": "Expresses regret over hurting someone, matching the requested emotional intent.",
+          "rank": 7,
+          "track_id": "2N4idqj9TT3HnH2OFT9j0v",
+          "warnings": []
+        },
+        {
+          "explanation": "Addresses regret and the desire to care for someone hurt by others, fitting the emotional theme.",
+          "rank": 8,
+          "track_id": "124NFj84ppZ5pAxTuVQYCQ",
+          "warnings": []
+        },
+        {
+          "explanation": "Discusses the pain of falling for someone already taken, aligning with the requested emotional context.",
+          "rank": 9,
+          "track_id": "5WEAZtjEufELtaxqYcqCJg",
+          "warnings": [
+            "Energy level is lower than the target medium range."
+          ]
+        },
+        {
+          "explanation": "Focuses on regret and betrayal, providing a high-energy emotional track.",
+          "rank": 10,
+          "track_id": "40NKYSkaTC4F62QbIVJ8S6",
+          "warnings": [
+            "Energy level is on the higher end of medium."
+          ]
+        }
+      ],
+      "final_track_ids": [
+        "5yVIlYEHZxQVLyInCdldoS",
+        "0gJvqi9QyASOCtJu99tytc",
+        "6QPKYGnAW9QozVz2dSWqRg",
+        "6jBUP2KCe821yqf1hiBqPR",
+        "1HNkqx9Ahdgi1Ixy2xkKkL",
+        "3KfbEIOC7YIv90FIfNSZpo",
+        "2N4idqj9TT3HnH2OFT9j0v",
+        "124NFj84ppZ5pAxTuVQYCQ",
+        "5WEAZtjEufELtaxqYcqCJg",
+        "40NKYSkaTC4F62QbIVJ8S6"
+      ],
+      "raw_candidate_track_ids": [
+        "5yVIlYEHZxQVLyInCdldoS",
+        "0gJvqi9QyASOCtJu99tytc",
+        "6QPKYGnAW9QozVz2dSWqRg",
+        "6jBUP2KCe821yqf1hiBqPR",
+        "1HNkqx9Ahdgi1Ixy2xkKkL",
+        "3KfbEIOC7YIv90FIfNSZpo",
+        "2N4idqj9TT3HnH2OFT9j0v",
+        "124NFj84ppZ5pAxTuVQYCQ",
+        "5WEAZtjEufELtaxqYcqCJg",
+        "40NKYSkaTC4F62QbIVJ8S6"
+      ],
+      "recommendation_count": 10,
+      "retrieval_modes_used": [
+        "lyric_retrieval",
+        "feature_filter"
+      ],
+      "revision_count": 0,
+      "revision_used": false,
+      "scored_count": 10,
+      "scored_track_ids": [
+        "5yVIlYEHZxQVLyInCdldoS",
+        "0gJvqi9QyASOCtJu99tytc",
+        "6QPKYGnAW9QozVz2dSWqRg",
+        "6jBUP2KCe821yqf1hiBqPR",
+        "1HNkqx9Ahdgi1Ixy2xkKkL",
+        "3KfbEIOC7YIv90FIfNSZpo",
+        "2N4idqj9TT3HnH2OFT9j0v",
+        "124NFj84ppZ5pAxTuVQYCQ",
+        "5WEAZtjEufELtaxqYcqCJg",
+        "40NKYSkaTC4F62QbIVJ8S6"
+      ],
+      "tool_error_count": 0,
+      "tool_errors": [],
+      "trace_stages": [
+        "received_query",
+        "extract_preferences",
+        "plan_retrieval",
+        "retrieve_candidates",
+        "retrieve_candidates",
+        "rank_candidates",
+        "verify_candidates",
+        "critique_results",
+        "build_reliability_report",
+        "explain_recommendations",
+        "finished"
+      ],
+      "warning_count": 12,
+      "warnings": [
+        "Returned top 50 of 250 lyric-retrieved candidates.",
+        "Returned top 50 of 18454 feature-matched candidates.",
+        "Returned top 10 of 100 scored candidates.",
+        "Several tracks exhibit energy levels below the target medium range.",
+        "The diversity of genres is acceptable but could be improved.",
+        "Prior tool warning: Returned top 50 of 250 lyric-retrieved candidates.",
+        "Prior tool warning: Returned top 50 of 18454 feature-matched candidates.",
+        "Prior tool warning: Returned top 10 of 100 scored candidates.",
+        "Verifier warning: Energy is on the higher end of medium.",
+        "Verifier warning: Energy level is on the lower side of medium.",
+        "Verifier warning: Energy level is lower than the target medium range.",
+        "Some tracks have energy levels slightly outside the ideal medium range but were included for their strong thematic relevance."
+      ]
+    },
+    "variant": "full"
+  },
+  "schema": "vibefinder_evaluation_run_v1",
+  "status": "completed",
+  "written_at": "2026-04-24T22:30:43.566939+00:00"
+}

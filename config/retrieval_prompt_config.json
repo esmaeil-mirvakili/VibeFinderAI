@@ -1,0 +1,547 @@
+{
+  "metadata": {
+    "generated_at_utc": "2026-04-17T18:17:05.049208+00:00",
+    "dataset_path": ".",
+    "row_count": 18454,
+    "retrieval_prompt_column_count": 17,
+    "source": "design.md retrieval columns excluding lyrics"
+  },
+  "retrieval_columns": {
+    "metadata": {
+      "categorical": [
+        "playlist_genre",
+        "playlist_subgenre",
+        "language"
+      ],
+      "full_text": [
+        "playlist_name",
+        "track_artist",
+        "track_album_name"
+      ]
+    },
+    "feature": [
+      "energy",
+      "danceability",
+      "acousticness",
+      "instrumentalness",
+      "valence",
+      "tempo",
+      "speechiness",
+      "liveness",
+      "duration_ms",
+      "loudness",
+      "track_popularity"
+    ],
+    "excluded": [
+      "lyrics"
+    ]
+  },
+  "columns": {
+    "playlist_genre": {
+      "type": "categorical",
+      "unique_count": 6,
+      "values": [
+        "edm",
+        "latin",
+        "pop",
+        "r&b",
+        "rap",
+        "rock"
+      ]
+    },
+    "playlist_subgenre": {
+      "type": "categorical",
+      "unique_count": 24,
+      "values": [
+        "album rock",
+        "big room",
+        "classic rock",
+        "dance pop",
+        "electro house",
+        "electropop",
+        "gangster rap",
+        "hard rock",
+        "hip hop",
+        "hip pop",
+        "indie poptimism",
+        "latin hip hop",
+        "latin pop",
+        "neo soul",
+        "new jack swing",
+        "permanent wave",
+        "pop edm",
+        "post-teen pop",
+        "progressive electro house",
+        "reggaeton",
+        "southern hip hop",
+        "trap",
+        "tropical",
+        "urban contemporary"
+      ]
+    },
+    "language": {
+      "type": "categorical",
+      "unique_count": 34,
+      "values": [
+        "af",
+        "ar",
+        "ca",
+        "cs",
+        "cy",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fi",
+        "fr",
+        "hi",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ko",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "so",
+        "sq",
+        "sv",
+        "sw",
+        "tl",
+        "tr",
+        "vi"
+      ]
+    },
+    "playlist_name": {
+      "type": "full_text",
+      "search_method": "full_text_search",
+      "unique_count": 442,
+      "null_count": 0,
+      "values_included": false,
+      "values": [],
+      "note": "Free-form text field. Do not ask the LLM to choose from an enum list."
+    },
+    "track_artist": {
+      "type": "full_text",
+      "search_method": "full_text_search",
+      "unique_count": 6031,
+      "null_count": 0,
+      "values_included": false,
+      "values": [],
+      "note": "Free-form text field. Do not ask the LLM to choose from an enum list."
+    },
+    "track_album_name": {
+      "type": "full_text",
+      "search_method": "full_text_search",
+      "unique_count": 12671,
+      "null_count": 0,
+      "values_included": false,
+      "values": [],
+      "note": "Free-form text field. Do not ask the LLM to choose from an enum list."
+    },
+    "energy": {
+      "type": "numeric",
+      "min": 0.0167,
+      "max": 1,
+      "null_count": 0
+    },
+    "danceability": {
+      "type": "numeric",
+      "min": 0.0985,
+      "max": 0.979,
+      "null_count": 0
+    },
+    "acousticness": {
+      "type": "numeric",
+      "min": 1.4e-06,
+      "max": 0.992,
+      "null_count": 0
+    },
+    "instrumentalness": {
+      "type": "numeric",
+      "min": 0,
+      "max": 0.987,
+      "null_count": 0
+    },
+    "valence": {
+      "type": "numeric",
+      "min": 1e-05,
+      "max": 0.991,
+      "null_count": 0
+    },
+    "tempo": {
+      "type": "numeric",
+      "min": 37.114,
+      "max": 214.047,
+      "null_count": 0
+    },
+    "speechiness": {
+      "type": "numeric",
+      "min": 0.0224,
+      "max": 0.918,
+      "null_count": 0
+    },
+    "liveness": {
+      "type": "numeric",
+      "min": 0.00936,
+      "max": 0.996,
+      "null_count": 0
+    },
+    "duration_ms": {
+      "type": "numeric",
+      "min": 31893,
+      "max": 517810,
+      "null_count": 0
+    },
+    "loudness": {
+      "type": "numeric",
+      "min": -34.283,
+      "max": 1.275,
+      "null_count": 0
+    },
+    "track_popularity": {
+      "type": "numeric",
+      "min": 0,
+      "max": 100,
+      "null_count": 0
+    }
+  },
+  "llm_prompt_constraints": {
+    "retrieval_columns": [
+      "playlist_genre",
+      "playlist_subgenre",
+      "language",
+      "playlist_name",
+      "track_artist",
+      "track_album_name",
+      "energy",
+      "danceability",
+      "acousticness",
+      "instrumentalness",
+      "valence",
+      "tempo",
+      "speechiness",
+      "liveness",
+      "duration_ms",
+      "loudness",
+      "track_popularity"
+    ],
+    "numeric_ranges": {
+      "energy": {
+        "min": 0.0167,
+        "max": 1
+      },
+      "danceability": {
+        "min": 0.0985,
+        "max": 0.979
+      },
+      "acousticness": {
+        "min": 1.4e-06,
+        "max": 0.992
+      },
+      "instrumentalness": {
+        "min": 0,
+        "max": 0.987
+      },
+      "valence": {
+        "min": 1e-05,
+        "max": 0.991
+      },
+      "tempo": {
+        "min": 37.114,
+        "max": 214.047
+      },
+      "speechiness": {
+        "min": 0.0224,
+        "max": 0.918
+      },
+      "liveness": {
+        "min": 0.00936,
+        "max": 0.996
+      },
+      "duration_ms": {
+        "min": 31893,
+        "max": 517810
+      },
+      "loudness": {
+        "min": -34.283,
+        "max": 1.275
+      },
+      "track_popularity": {
+        "min": 0,
+        "max": 100
+      }
+    },
+    "categorical_values": {
+      "playlist_genre": [
+        "edm",
+        "latin",
+        "pop",
+        "r&b",
+        "rap",
+        "rock"
+      ],
+      "playlist_subgenre": [
+        "album rock",
+        "big room",
+        "classic rock",
+        "dance pop",
+        "electro house",
+        "electropop",
+        "gangster rap",
+        "hard rock",
+        "hip hop",
+        "hip pop",
+        "indie poptimism",
+        "latin hip hop",
+        "latin pop",
+        "neo soul",
+        "new jack swing",
+        "permanent wave",
+        "pop edm",
+        "post-teen pop",
+        "progressive electro house",
+        "reggaeton",
+        "southern hip hop",
+        "trap",
+        "tropical",
+        "urban contemporary"
+      ],
+      "language": [
+        "af",
+        "ar",
+        "ca",
+        "cs",
+        "cy",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fi",
+        "fr",
+        "hi",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ko",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "so",
+        "sq",
+        "sv",
+        "sw",
+        "tl",
+        "tr",
+        "vi"
+      ]
+    },
+    "full_text_search_columns": {
+      "playlist_name": {
+        "search_method": "full_text_search",
+        "unique_count": 442
+      },
+      "track_artist": {
+        "search_method": "full_text_search",
+        "unique_count": 6031
+      },
+      "track_album_name": {
+        "search_method": "full_text_search",
+        "unique_count": 12671
+      }
+    },
+    "preference_fields": {
+      "lyric_concepts": {
+        "type": "free_text_terms",
+        "source_columns": [
+          "lyrics"
+        ],
+        "note": "lyrics are retrieved by the Lyric RAG tool and are intentionally excluded from this prompt config"
+      },
+      "genre_terms": {
+        "type": "categorical_terms",
+        "source_columns": [
+          "playlist_genre",
+          "playlist_subgenre"
+        ]
+      },
+      "metadata_text_terms": {
+        "type": "free_text_terms",
+        "source_columns": [
+          "playlist_name",
+          "track_artist",
+          "track_album_name"
+        ],
+        "search_method": "full_text_search"
+      },
+      "language": {
+        "type": "categorical_value",
+        "source_column": "language"
+      },
+      "energy": {
+        "type": "feature_direction",
+        "valid_values": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "source_column": "energy"
+      },
+      "valence": {
+        "type": "feature_direction",
+        "valid_values": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "source_column": "valence"
+      },
+      "tempo": {
+        "type": "feature_direction",
+        "valid_values": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "source_column": "tempo"
+      },
+      "danceability": {
+        "type": "feature_direction",
+        "valid_values": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "source_column": "danceability"
+      },
+      "acousticness": {
+        "type": "feature_direction",
+        "valid_values": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "source_column": "acousticness"
+      },
+      "speechiness": {
+        "type": "feature_direction",
+        "valid_values": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "source_column": "speechiness"
+      },
+      "instrumentalness": {
+        "type": "feature_direction",
+        "valid_values": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "source_column": "instrumentalness"
+      },
+      "liveness": {
+        "type": "feature_direction",
+        "valid_values": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "source_column": "liveness"
+      },
+      "duration_ms": {
+        "type": "feature_direction",
+        "valid_values": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "source_column": "duration_ms"
+      },
+      "loudness": {
+        "type": "feature_direction",
+        "valid_values": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "source_column": "loudness"
+      },
+      "track_popularity": {
+        "type": "feature_direction",
+        "valid_values": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "source_column": "track_popularity"
+      },
+      "exclusions": {
+        "type": "free_text_terms",
+        "source_columns": [
+          "playlist_genre",
+          "playlist_subgenre",
+          "language",
+          "playlist_name",
+          "track_artist",
+          "track_album_name",
+          "energy",
+          "danceability",
+          "acousticness",
+          "instrumentalness",
+          "valence",
+          "tempo",
+          "speechiness",
+          "liveness",
+          "duration_ms",
+          "loudness",
+          "track_popularity"
+        ]
+      }
+    },
+    "retrieval_strategy_fields": {
+      "modes": {
+        "type": "enum_list",
+        "valid_values": [
+          "lyric",
+          "metadata",
+          "feature",
+          "hybrid"
+        ]
+      },
+      "primary_mode": {
+        "type": "enum",
+        "valid_values": [
+          "lyric",
+          "metadata",
+          "feature",
+          "hybrid"
+        ]
+      },
+      "strictness": {
+        "type": "enum",
+        "valid_values": [
+          "strict",
+          "balanced",
+          "broad"
+        ]
+      }
+    }
+  }
+}

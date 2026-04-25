@@ -1,0 +1,11 @@
+Component,component,Failure Reason,failure_reason,Count,Global Count
+Lyric RAG,lyric_retrieval,Missing Lyric Theme,missing_lyric_theme,8,8
+Lyric RAG,lyric_retrieval,Poor Ranking,poor_ranking,4,5
+Critic / Revision,critic_revision,Poor Ranking,poor_ranking,1,5
+Critic / Revision,critic_revision,Weak Audio Feature Fit,weak_audio_feature_fit,2,2
+Lyric RAG,lyric_retrieval,Weak Lyric Evidence,weak_lyric_evidence,2,2
+Lyric RAG,lyric_retrieval,Weak Explanation,weak_explanation,1,2
+Critic / Revision,critic_revision,Weak Explanation,weak_explanation,1,2
+Lyric RAG,lyric_retrieval,Empty / Too Few Results,empty_or_too_few_results,1,1
+Critic / Revision,critic_revision,Too Many Warnings,too_many_warnings,1,1
+Lyric RAG,lyric_retrieval,Wrong Artist / Album,wrong_artist_or_album,1,1
