@@ -1,6 +1,6 @@
 # VibeFinder AI
 
-VibeFinder AI is an agentic music recommendation system built on top of the Kaggle **Audio features and lyrics of Spotify songs** dataset. A user describes the kind of music they want in plain English, and the system converts that request into structured preferences, retrieves candidate tracks with grounded tools, critiques weak results, ranks the final songs, explains each recommendation, and reports confidence and warnings.
+VibeFinder AI is an agentic music recommendation system built on top of the Kaggle [**Audio features and lyrics of Spotify songs**](https://www.kaggle.com/datasets/imuhammad/audio-features-and-lyrics-of-spotify-songs) dataset. A user describes the kind of music they want in plain English, and the system converts that request into structured preferences, retrieves candidate tracks with grounded tools, critiques weak results, ranks the final songs, explains each recommendation, and reports confidence and warnings.
 
 ## Base Project
 
@@ -86,13 +86,13 @@ cp .env.example .env
 Important settings:
 
 - `VIBEFINDER_LLM_PROVIDER=gemini`
-- `VIBEFINDER_LLM_MODEL=gemini-3.1-flash-lite-preview` in the current `.env.example`
+- `VIBEFINDER_LLM_MODEL=gemini-2.5-flash`
 - `GEMINI_API_KEY=...`
 - `VIBEFINDER_DATA_PATH=.`
 
 `app.py` auto-loads `.env` from the project root without overwriting variables already exported in the shell.
 
-If `VIBEFINDER_LLM_MODEL` is left unset, the code-level fallback in `src/vibefinder/llm.py` is `gemini-2.5-flash`.
+If `VIBEFINDER_LLM_MODEL` is left unset, the code-level fallback in `src/vibefinder/llm.py` is also `gemini-2.5-flash`.
 
 ### 4. Download the dataset and build the lyric index
 
@@ -360,4 +360,4 @@ This system can be misleading if its outputs are treated as authoritative interp
 
 ## Demo / Walkthrough
 
-Loom link:
+Loom link: https://www.loom.com/share/796076cf00834195b62403e6b505cdeb
