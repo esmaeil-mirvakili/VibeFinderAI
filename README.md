@@ -141,6 +141,15 @@ The app:
 
 ### Human evaluation app
 
+Before running the human-evaluation app, first run the benchmark so the system outputs exist:
+
+```bash
+.venv/bin/python scripts/run_evaluation.py
+.venv/bin/python scripts/build_judge_tasks.py
+```
+
+The human-evaluation app reads the blinded side-by-side tasks generated from those saved benchmark outputs.
+
 ```bash
 .venv/bin/streamlit run human_eval_app.py
 ```
