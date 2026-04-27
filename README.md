@@ -156,6 +156,31 @@ The human-evaluation app reads the blinded side-by-side tasks generated from tho
 
 This app supports blinded side-by-side judging of `System A` versus `System B` outputs and writes draft or final labels to `evaluation/judgements/human/`.
 
+Current committed human-judge report:
+
+- [evaluation/judgements/human/reports/latest_judge_report.md](evaluation/judgements/human/reports/latest_judge_report.md)
+
+### LLM-as-judge
+
+Before running LLM-as-judge, first run the benchmark so the system outputs exist:
+
+```bash
+.venv/bin/python scripts/run_evaluation.py
+.venv/bin/python scripts/build_judge_tasks.py
+```
+
+LLM-as-judge reads the blinded side-by-side tasks generated from those saved benchmark outputs.
+
+```bash
+.venv/bin/python scripts/run_llm_judge.py
+```
+
+By default, the judge script applies a cooldown between LLM calls and writes labels under `evaluation/judgements/llm/`.
+
+Current committed LLM-judge report:
+
+- [evaluation/judgements/llm/reports/latest_judge_report.md](evaluation/judgements/llm/reports/latest_judge_report.md)
+
 ## Testing
 
 Run the test suite with:
@@ -327,6 +352,13 @@ Aggregate the report and visualizations:
 ```
 
 The aggregation script writes one combined Markdown report, one JSON report, and the visualization artifacts into the output directory.
+
+Look for the aggregated results here:
+
+- human judge: `evaluation/judgements/human/reports/`
+- LLM judge: `evaluation/judgements/llm/reports/`
+- combined Markdown report: `latest_judge_report.md`
+- charts and CSV summaries: same report directory
 
 ### Current judged results
 
