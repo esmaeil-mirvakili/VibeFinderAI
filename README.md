@@ -94,6 +94,15 @@ Important settings:
 
 If `VIBEFINDER_LLM_MODEL` is left unset, the code-level fallback in `src/vibefinder/llm.py` is also `gemini-2.5-flash`.
 
+Optional LangSmith tracing:
+
+- open `.env`
+- set `LANGSMITH_API_KEY=...`
+- set `LANGSMITH_PROJECT=vibefinder-ai`
+- keep `LANGSMITH_TRACING=true` and `LANGSMITH_TRACING_V2=true`
+
+If you do not want tracing, change both tracing flags to `false` in `.env`.
+
 ### 4. Download the dataset and build the lyric index
 
 ```bash
@@ -339,6 +348,8 @@ The code logs:
 LangSmith tracing is optional. When enabled, it traces graph runs, agent nodes, tool calls, retries, and final outputs.
 
 Note that the current `.env.example` includes LangSmith tracing flags set to `true`. If you do not want remote tracing, set `LANGSMITH_TRACING=false` and `LANGSMITH_TRACING_V2=false` in your local `.env`.
+
+For a basic setup, edit `.env`, add `LANGSMITH_API_KEY` and `LANGSMITH_PROJECT`, then run the app or evaluation scripts normally. Traces will appear in the selected LangSmith project.
 
 ## Limitations
 
