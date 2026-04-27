@@ -625,13 +625,10 @@ def render_chat_panel(is_searching: bool = False) -> None:
 def render_variant_controls() -> VariantConfig:
     with st.container(height=590, border=True, key="component_panel"):
         st.markdown('<div class="vf-component-panel-title">System Components:</div>', unsafe_allow_html=True)
-        use_multi_step_reasoning = _component_toggle("Multi-step Reasoning", value=True, key="use_multi_step_reasoning")
         use_lyric_retriever = _component_toggle("Lyric RAG", value=True, key="use_lyric_retriever")
         use_critic_revision = _component_toggle("Critic and Revision Agents", value=True, key="use_critic_revision")
 
     disabled = []
-    if not use_multi_step_reasoning:
-        disabled.append("no_multi_step")
     if not use_critic_revision:
         disabled.append("no_critic_revision")
     if not use_lyric_retriever:
@@ -639,7 +636,7 @@ def render_variant_controls() -> VariantConfig:
 
     return VariantConfig(
         name="full" if not disabled else "+".join(disabled),
-        use_multi_step_reasoning=use_multi_step_reasoning,
+        use_multi_step_reasoning=True,
         use_critic_revision=use_critic_revision,
         use_lyric_retriever=use_lyric_retriever,
     )
@@ -657,7 +654,6 @@ def _component_toggle(label: str, *, value: bool, key: str) -> bool:
 def _variant_to_session_dict(variant_config: VariantConfig) -> dict[str, Any]:
     return {
         "name": variant_config.name,
-        "use_multi_step_reasoning": variant_config.use_multi_step_reasoning,
         "use_critic_revision": variant_config.use_critic_revision,
         "use_lyric_retriever": variant_config.use_lyric_retriever,
     }
@@ -668,7 +664,7 @@ def _variant_from_session_dict(value: dict[str, Any] | None, fallback: VariantCo
         return fallback
     return VariantConfig(
         name=str(value.get("name") or fallback.name),
-        use_multi_step_reasoning=bool(value.get("use_multi_step_reasoning", fallback.use_multi_step_reasoning)),
+        use_multi_step_reasoning=True,
         use_critic_revision=bool(value.get("use_critic_revision", fallback.use_critic_revision)),
         use_lyric_retriever=bool(value.get("use_lyric_retriever", fallback.use_lyric_retriever)),
     )
