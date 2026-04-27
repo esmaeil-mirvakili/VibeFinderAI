@@ -28,7 +28,7 @@ def test_ensure_dataset_downloaded_returns_configured_csv_without_download(tmp_p
     assert location.source == "configured"
 
 
-def test_ensure_dataset_downloaded_finds_csv_in_configured_directory(tmp_path, monkeypatch):
+def test_ensure_dataset_downloaded_finds_direct_csv_in_configured_directory(tmp_path, monkeypatch):
     nested = tmp_path / "data"
     nested.mkdir()
     csv_path = nested / "songs.csv"
@@ -47,6 +47,39 @@ def test_ensure_dataset_downloaded_finds_csv_in_configured_directory(tmp_path, m
     assert location.path == nested
     assert location.csv_files == (csv_path,)
     assert location.source == "configured"
+
+
+def test_ensure_dataset_downloaded_prefers_default_dataset_filename_in_configured_directory(tmp_path, monkeypatch):
+    csv_path = tmp_path / DEFAULT_DATASET_FILENAME
+    csv_path.write_text("track_id\n1\n", encoding="utf-8")
+    other_csv = tmp_path / "component_results.csv"
+    other_csv.write_text("x,y\n1,2\n", encoding="utf-8")
+
+    def fail_download(_: str) -> str:
+        raise AssertionError("download should not be called")
+
+    monkeypatch.setattr(dataset_module.kagglehub, "dataset_download", fail_download)
+
+    location = ensure_dataset_downloaded(path=tmp_path)
+
+    assert location.path == tmp_path
+    assert location.csv_files == (csv_path,)
+    assert location.source == "configured"
+
+
+def test_ensure_dataset_downloaded_does_not_scan_nested_csvs_for_configured_directory(tmp_path, monkeypatch):
+    nested = tmp_path / "nested"
+    nested.mkdir()
+    csv_path = nested / DEFAULT_DATASET_FILENAME
+    csv_path.write_text("track_id\n1\n", encoding="utf-8")
+
+    def fake_download(_: str) -> str:
+        raise RuntimeError("downloaded instead of using nested csv")
+
+    monkeypatch.setattr(dataset_module.kagglehub, "dataset_download", fake_download)
+
+    with pytest.raises(RuntimeError, match="downloaded instead of using nested csv"):
+        ensure_dataset_downloaded(path=tmp_path)
 
 
 def test_ensure_dataset_downloaded_uses_environment_path(tmp_path, monkeypatch):

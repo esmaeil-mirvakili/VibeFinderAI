@@ -96,10 +96,32 @@ def _resolve_existing_dataset(
     if resolved.is_file() and resolved.suffix.lower() == ".csv":
         return DatasetLocation(path=resolved, csv_files=(resolved,), source=source)
     if resolved.is_dir():
-        csv_files = _find_csv_files(resolved)
+        csv_files = _resolve_directory_csvs(resolved, source=source)
         if csv_files:
             return DatasetLocation(path=resolved, csv_files=csv_files, source=source)
     return None
+
+
+def _resolve_directory_csvs(
+    root: Path,
+    source: Literal["configured", "kagglehub", "project_copy"],
+) -> tuple[Path, ...]:
+    """Resolve dataset CSVs for a directory.
+
+    Configured paths are strict: only a CSV directly inside the configured
+    directory is accepted, preferring `spotify_songs.csv`. This avoids scanning
+    unrelated generated CSV files elsewhere in the project tree when
+    `VIBEFINDER_DATA_PATH=.`. Downloaded kaggle paths can still be searched
+    recursively because their internal layout is not controlled by this repo.
+    """
+
+    if source == "configured":
+        default_csv = root / DEFAULT_DATASET_FILENAME
+        if default_csv.exists() and default_csv.is_file():
+            return (default_csv,)
+        direct_csvs = tuple(sorted(path for path in root.iterdir() if path.is_file() and path.suffix.lower() == ".csv"))
+        return direct_csvs
+    return _find_csv_files(root)
 
 
 def _copy_dataset_to_configured_path(
