@@ -139,45 +139,6 @@ The app:
 - runs the LangGraph recommendation pipeline
 - renders ranked recommendations, explanations, Spotify iframes, confidence, and warnings
 
-### Prepare judged evaluation tasks
-
-Before running human evaluation or LLM-as-judge, first generate the saved benchmark outputs and blinded comparison tasks:
-
-```bash
-.venv/bin/python scripts/run_evaluation.py
-.venv/bin/python scripts/build_judge_tasks.py
-```
-
-This creates the benchmark outputs under `evaluation/results/` and the blinded comparison tasks used by both judging flows.
-
-### Human evaluation app
-
-The human-evaluation app reads the blinded side-by-side tasks generated from those saved benchmark outputs.
-
-```bash
-.venv/bin/streamlit run human_eval_app.py
-```
-
-This app supports blinded side-by-side judging of `System A` versus `System B` outputs and writes draft or final labels to `evaluation/judgements/human/`.
-
-Current committed human-judge report:
-
-- [evaluation/judgements/human/reports/latest_judge_report.md](evaluation/judgements/human/reports/latest_judge_report.md)
-
-### LLM-as-judge
-
-LLM-as-judge reads the blinded side-by-side tasks generated from those saved benchmark outputs.
-
-```bash
-.venv/bin/python scripts/run_llm_judge.py
-```
-
-By default, the judge script applies a cooldown between LLM calls and writes labels under `evaluation/judgements/llm/`.
-
-Current committed LLM-judge report:
-
-- [evaluation/judgements/llm/reports/latest_judge_report.md](evaluation/judgements/llm/reports/latest_judge_report.md)
-
 ## Testing
 
 Run the test suite with:
@@ -326,17 +287,42 @@ The strongest measurable drop is when Lyric RAG is removed.
 
 ### Blinded judged evaluation
 
-Build judge tasks:
+First generate the benchmark outputs and blinded comparison tasks:
 
 ```bash
+.venv/bin/python scripts/run_evaluation.py
 .venv/bin/python scripts/build_judge_tasks.py
 ```
+
+This creates the saved benchmark outputs under `evaluation/results/` and the blinded comparison tasks used by both judging flows.
+
+#### Human evaluation app
+
+Run the human-evaluation app:
+
+```bash
+.venv/bin/streamlit run human_eval_app.py
+```
+
+This app supports blinded side-by-side judging of `System A` versus `System B` outputs and writes draft or final labels to `evaluation/judgements/human/`.
+
+Current committed human-judge report:
+
+- [evaluation/judgements/human/reports/latest_judge_report.md](evaluation/judgements/human/reports/latest_judge_report.md)
+
+#### LLM-as-judge
 
 Run LLM-as-judge:
 
 ```bash
 .venv/bin/python scripts/run_llm_judge.py
 ```
+
+By default, the judge script applies a cooldown between LLM calls and writes labels under `evaluation/judgements/llm/`.
+
+Current committed LLM-judge report:
+
+- [evaluation/judgements/llm/reports/latest_judge_report.md](evaluation/judgements/llm/reports/latest_judge_report.md)
 
 Aggregate the report and visualizations:
 
