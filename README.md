@@ -139,14 +139,18 @@ The app:
 - runs the LangGraph recommendation pipeline
 - renders ranked recommendations, explanations, Spotify iframes, confidence, and warnings
 
-### Human evaluation app
+### Prepare judged evaluation tasks
 
-Before running the human-evaluation app, first run the benchmark so the system outputs exist:
+Before running human evaluation or LLM-as-judge, first generate the saved benchmark outputs and blinded comparison tasks:
 
 ```bash
 .venv/bin/python scripts/run_evaluation.py
 .venv/bin/python scripts/build_judge_tasks.py
 ```
+
+This creates the benchmark outputs under `evaluation/results/` and the blinded comparison tasks used by both judging flows.
+
+### Human evaluation app
 
 The human-evaluation app reads the blinded side-by-side tasks generated from those saved benchmark outputs.
 
@@ -161,13 +165,6 @@ Current committed human-judge report:
 - [evaluation/judgements/human/reports/latest_judge_report.md](evaluation/judgements/human/reports/latest_judge_report.md)
 
 ### LLM-as-judge
-
-Before running LLM-as-judge, first run the benchmark so the system outputs exist:
-
-```bash
-.venv/bin/python scripts/run_evaluation.py
-.venv/bin/python scripts/build_judge_tasks.py
-```
 
 LLM-as-judge reads the blinded side-by-side tasks generated from those saved benchmark outputs.
 
